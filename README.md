@@ -20,5 +20,8 @@ https://maui-youth-sports.mauiyouthsports.workers.dev (test address).
 Today the site is uploaded by hand in the Cloudflare dashboard. Later, Cloudflare can be connected to this repo so every
 change merged into `main` publishes automatically (or run `npx wrangler deploy` from this folder).
 
+## Deployment
+The site auto-deploys to Cloudflare Workers on every push to main.
+
 ## Never commit
 Passwords, API keys, tokens or a `.dev.vars` / `.env` file. This repo is public.
