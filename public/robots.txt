@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maui-youth-sports.mauiyouthsports.workers.dev/sitemap.xml

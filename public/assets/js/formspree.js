@@ -1,0 +1,8 @@
+(function(){'use strict';const endpoint='https://formspree.io/f/xnpjbwjz';
+const submissionSubjects={score:'MYS Score',schedule:'MYS Schedule',highlight:'MYS Highlight',news:'MYS News',organization:'MYS Organization'};
+const contactSubjects={general:'MYS General inquiry',correction:'MYS Correction',removal:'MYS Removal',organization:'MYS Organization suggestion',other:'MYS Contact'};
+async function send(form,kind){if(!form.reportValidity())throw Error('Complete the required fields.');const fd=new FormData(form);if(String(fd.get('website')||'').trim())throw Error('Message could not be accepted.');fd.delete('website');fd.set('_gotcha','');for(const [name,value] of fd){if(typeof value!=='string'&&value.size)throw Error('Photo and video uploads are not available yet.');}fd.delete('media');fd.delete('attachment');fd.set('mys_form',kind);fd.set('review_status','pending');
+const category=kind==='contact'?String(fd.get('topic')||'general'):String(form.dataset.submissionType||fd.get('type')||'');
+const subject=(kind==='contact'?contactSubjects:submissionSubjects)[category];if(!subject)throw Error('Choose a valid submission type.');
+if(kind==='submission')fd.set('type',category);fd.set('submission_category',category);fd.delete('_subject');fd.set('subject',subject);
+const r=await fetch(endpoint,{method:'POST',headers:{Accept:'application/json'},body:fd});const out=await r.json().catch(()=>null);if(!r.ok)throw Error(out?.errors?.map(x=>x.message).join(' ')||out?.error||'Message could not be sent. Your information has been retained.');if(!out||out.ok!==true)throw Error('Receipt could not be confirmed. Your information has been retained; check before retrying to avoid a duplicate.');return out;}window.MYSForms={send,endpoint};})();

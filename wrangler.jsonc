@@ -1,0 +1,16 @@
+// Mirrors the live Cloudflare settings for "maui-youth-sports" (read 2026-10-13).
+// The live Worker has NO script code, NO bindings, NO env vars or secrets, NO cron, NO custom domains.
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "maui-youth-sports",
+  "compatibility_date": "2026-10-12",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+  // Later, when /api/submit is added: "main": "src/index.js", plus
+  // "assets": { ..., "binding": "ASSETS", "run_worker_first": ["/api/*"] }
+  // and the Formspree endpoint as a var/secret (set with `wrangler secret put`, never committed).
+}
