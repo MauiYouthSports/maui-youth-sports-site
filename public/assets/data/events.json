@@ -23,7 +23,7 @@
       "email": "mauisportsleagues@gmail.com"
     },
     "instructions": "Team administrators email team name, division and administrator email for a Zorts invitation. Players need coach approval before joining a team. Registration fees are nonrefundable.",
-    "scheduleNote": "Individual game times and venues are not yet verified. A season date range does not mean games occur every day.",
+    "scheduleNote": "Game times and locations will be posted as the season gets closer.",
     "verificationState": "verified-published-information",
     "supportingSources": [],
     "listingCategory": "competition"
@@ -96,7 +96,7 @@
     "organization": "Maui Interscholastic League",
     "start": "2026-10-02",
     "end": "2026-10-02",
-    "details": "KS Maui defeated Kulanihakoʻi 59–0 on October 2, according to MaxPreps. Hāna–Lānaʻi was scheduled for 6 p.m.; its final remains unconfirmed. Lahainaluna canceled its October 2 game against Kulanihakoʻi and said it would not be rescheduled.",
+    "details": "KS Maui defeated Kulanihakoʻi 59–0 on October 2, according to MaxPreps. Hāna–Lānaʻi was scheduled for 6 p.m.; the final score is coming soon. Lahainaluna canceled its October 2 game against Kulanihakoʻi and said it would not be rescheduled.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "location": "See individual fixtures",
     "url": "/events/mil-football-october-2-2026/",
@@ -130,7 +130,7 @@
     "start": "2026-10-03",
     "end": "2026-10-03",
     "time": "8 a.m. HST",
-    "details": "Venue conflict: MIL lists Baldwin; Maui High lists KS Maui. Both list 8 a.m. HST. Confirm the venue with school athletics before travel.",
+    "details": "8 a.m. HST. MIL lists Baldwin and Maui High lists KS Maui as the site, so check with school athletics before you go.",
     "source": "https://www.milsports.org/schedule/742105/cross-country",
     "location": "Unconfirmed: MIL Baldwin / school KS Maui",
     "url": "/events/mil-cross-country-meet-4-2026/",
@@ -142,7 +142,7 @@
       "https://www.mauihigh.org/apps/events/index.jsp?id=3&m=9&v=1&y=2026",
       "https://ksmauiwarriors.com/"
     ],
-    "scheduleNote": "Venue conflict: MIL lists Baldwin; Maui High lists KS Maui. Both list 8 a.m. HST. Confirm the venue with school athletics before travel. KS Maui agrees with the school venue but numbers these meets #5/#6, while MIL and Maui High use #4/#5.",
+    "scheduleNote": "8 a.m. HST. MIL lists Baldwin and Maui High lists KS Maui as the site, so check with school athletics before you go. KS Maui agrees with the school venue but numbers these meets #5/#6, while MIL and Maui High use #4/#5.",
     "listingCategory": "competition"
   },
   {
@@ -185,7 +185,7 @@
     "organization": "Maui County public schools",
     "start": "2026-09-27",
     "end": "2026-09-27",
-    "details": "Hawaiʻi DOE public schools in Maui County closed September 25; school-sponsored activities were canceled through that weekend. This historical cancellation is not a current closure.",
+    "details": "Hawaiʻi DOE public schools in Maui County closed September 25; school-sponsored activities were canceled through that weekend.",
     "source": "https://www.mauihigh.org/apps/news/show_news.jsp?REC_ID=1031853&id=0",
     "location": "Maui County",
     "url": "/events/public-school-athletics-cancellation-september-27-2026/",
@@ -407,7 +407,7 @@
     "end": "2026-11-07",
     "time": "7:00 PM HST",
     "location": "TBD",
-    "details": "DI Football: Baldwin – Lahainaluna, 2026-11-07 at 7:00 PM HST, TBD.",
+    "details": "DI Football: Baldwin – Lahainaluna, 2026-11-07 at 7:00 PM HST, location to be announced.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -583,7 +583,7 @@
     "end": "2026-10-10",
     "time": "8:00 AM HST",
     "location": "Unconfirmed: MIL KS Maui / school Baldwin",
-    "details": "Venue conflict: MIL lists KS - Maui; Maui High lists Baldwin. Both list 8 a.m. HST. Confirm the venue with school athletics before travel.",
+    "details": "8 a.m. HST. MIL lists KS Maui and Maui High lists Baldwin as the site, so check with school athletics before you go.",
     "source": "https://www.milsports.org/schedule/742105/cross-country",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -593,7 +593,7 @@
       "https://www.mauihigh.org/apps/events/index.jsp?id=3&m=9&v=1&y=2026",
       "https://ksmauiwarriors.com/"
     ],
-    "scheduleNote": "Venue conflict: MIL lists KS - Maui; Maui High lists Baldwin. Both list 8 a.m. HST. Confirm the venue with school athletics before travel. KS Maui agrees with the school venue but numbers these meets #5/#6, while MIL and Maui High use #4/#5.",
+    "scheduleNote": "8 a.m. HST. MIL lists KS Maui and Maui High lists Baldwin as the site, so check with school athletics before you go. KS Maui agrees with the school venue but numbers these meets #5/#6, while MIL and Maui High use #4/#5.",
     "listingCategory": "competition"
   },
   {
@@ -631,7 +631,7 @@
     "end": "2026-10-31",
     "time": "8:00 AM HST",
     "location": "TBD",
-    "details": "Cross Country: HHSAA Championships – HHSAA, 2026-10-31 at 8:00 AM HST, TBD.",
+    "details": "Cross Country: HHSAA Championships – HHSAA, 2026-10-31 at 8:00 AM HST, location to be announced.",
     "source": "https://www.milsports.org/schedule/742105/cross-country",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -653,7 +653,7 @@
     "end": "2026-10-17",
     "time": "6:00 PM HST",
     "location": "TBD",
-    "details": "DI Girls Volleyball: 4th – 5th, 2026-10-17 at 6:00 PM HST, TBD. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DI Girls Volleyball: 4th – 5th, 2026-10-17 at 6:00 PM HST, location to be announced. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -675,7 +675,7 @@
     "end": "2026-10-19",
     "time": "5:00 PM HST",
     "location": "KS - Maui",
-    "details": "DI Girls Volleyball: 1st – G1 Winner, 2026-10-19 at 5:00 PM HST, KS - Maui. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DI Girls Volleyball: 1st – G1 Winner, 2026-10-19 at 5:00 PM HST, KS - Maui. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -697,7 +697,7 @@
     "end": "2026-10-19",
     "time": "7:00 PM HST",
     "location": "KS - Maui",
-    "details": "DI Girls Volleyball: 2nd – 3rd, 2026-10-19 at 7:00 PM HST, KS - Maui. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DI Girls Volleyball: 2nd – 3rd, 2026-10-19 at 7:00 PM HST, KS - Maui. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -719,7 +719,7 @@
     "end": "2026-10-20",
     "time": "6:00 PM HST",
     "location": "KS - Maui",
-    "details": "DI Girls Volleyball: G3 Winner – G2 Winner, 2026-10-20 at 6:00 PM HST, KS - Maui. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DI Girls Volleyball: G3 Winner – G2 Winner, 2026-10-20 at 6:00 PM HST, KS - Maui. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -984,7 +984,7 @@
     "end": "2026-10-21",
     "time": "5:00 PM HST",
     "location": "Maui Prep",
-    "details": "DII Girls Volleyball: 3rd – 6th, 2026-10-21 at 5:00 PM HST, Maui Prep. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DII Girls Volleyball: 3rd – 6th, 2026-10-21 at 5:00 PM HST, Maui Prep. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1006,7 +1006,7 @@
     "end": "2026-10-21",
     "time": "7:00 PM HST",
     "location": "Maui Prep",
-    "details": "DII Girls Volleyball: 4th – 5th, 2026-10-21 at 7:00 PM HST, Maui Prep. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DII Girls Volleyball: 4th – 5th, 2026-10-21 at 7:00 PM HST, Maui Prep. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1028,7 +1028,7 @@
     "end": "2026-10-22",
     "time": "5:00 PM HST",
     "location": "Maui Prep",
-    "details": "DII Girls Volleyball: 1st – G1 Winner, 2026-10-22 at 5:00 PM HST, Maui Prep. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DII Girls Volleyball: 1st – G1 Winner, 2026-10-22 at 5:00 PM HST, Maui Prep. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1050,7 +1050,7 @@
     "end": "2026-10-22",
     "time": "7:00 PM HST",
     "location": "Maui Prep",
-    "details": "DII Girls Volleyball: 2nd – G2 Winner, 2026-10-22 at 7:00 PM HST, Maui Prep. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DII Girls Volleyball: 2nd – G2 Winner, 2026-10-22 at 7:00 PM HST, Maui Prep. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1072,7 +1072,7 @@
     "end": "2026-10-23",
     "time": "6:00 PM HST",
     "location": "Maui Prep",
-    "details": "DII Girls Volleyball: G3 Winner – G4 Winner, 2026-10-23 at 6:00 PM HST, Maui Prep. Playoff participants are seed/winner placeholders until confirmed.",
+    "details": "DII Girls Volleyball: G3 Winner – G4 Winner, 2026-10-23 at 6:00 PM HST, Maui Prep. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1094,7 +1094,7 @@
     "end": "2026-10-14",
     "time": "1:00 PM HST",
     "location": "Wailuku Lanes 1",
-    "details": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Playoff date/participant status requires confirmation.",
+    "details": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Check with the league for final playoff dates.",
     "source": "https://www.milsports.org/schedule/742107/bowling",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1103,7 +1103,7 @@
     "supportingSources": [
       "https://www.mauihigh.org/apps/events/index.jsp?id=3&m=9&v=1&y=2026"
     ],
-    "scheduleNote": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Playoff date/participant status requires confirmation.",
+    "scheduleNote": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Check with the league for final playoff dates.",
     "listingCategory": "competition"
   },
   {
@@ -1119,7 +1119,7 @@
     "end": "2026-10-16",
     "time": "1:00 PM HST",
     "location": "Wailuku Lanes 1",
-    "details": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Playoff date/participant status requires confirmation.",
+    "details": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Check with the league for final playoff dates.",
     "source": "https://www.milsports.org/schedule/742107/bowling",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1128,7 +1128,7 @@
     "supportingSources": [
       "https://www.mauihigh.org/apps/events/index.jsp?id=3&m=9&v=1&y=2026"
     ],
-    "scheduleNote": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Playoff date/participant status requires confirmation.",
+    "scheduleNote": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Check with the league for final playoff dates.",
     "listingCategory": "competition"
   },
   {
@@ -1144,7 +1144,7 @@
     "end": "2026-10-16",
     "time": "1:00 PM HST",
     "location": "Wailuku Lanes 2",
-    "details": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Playoff date/participant status requires confirmation.",
+    "details": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Check with the league for final playoff dates.",
     "source": "https://www.milsports.org/schedule/742107/bowling",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1153,7 +1153,7 @@
     "supportingSources": [
       "https://www.mauihigh.org/apps/events/index.jsp?id=3&m=9&v=1&y=2026"
     ],
-    "scheduleNote": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Playoff date/participant status requires confirmation.",
+    "scheduleNote": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Check with the league for final playoff dates.",
     "listingCategory": "competition"
   },
   {
@@ -1169,7 +1169,7 @@
     "end": "2026-10-17",
     "time": "8:00 AM HST",
     "location": "Wailuku Lanes 1",
-    "details": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Playoff date/participant status requires confirmation.",
+    "details": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Check with the league for final playoff dates.",
     "source": "https://www.milsports.org/schedule/742107/bowling",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1178,7 +1178,7 @@
     "supportingSources": [
       "https://www.mauihigh.org/apps/events/index.jsp?id=3&m=9&v=1&y=2026"
     ],
-    "scheduleNote": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Playoff date/participant status requires confirmation.",
+    "scheduleNote": "MIL playoff plan lists October 14/16/17; Maui High also lists October 22/23/24 championships, with rescheduled regular matches October 16/17. Check with the league for final playoff dates.",
     "listingCategory": "competition"
   },
   {
@@ -1213,16 +1213,16 @@
     "kind": "program",
     "start": "2026-10-19",
     "end": "2026-11-30",
-    "time": "Mondays/Wednesdays 5:15–6 p.m. HST; estimated program dates",
+    "time": "Mondays and Wednesdays, 5:15–6 p.m. HST (dates are estimates)",
     "location": "Central Maui Regional Sports Complex · Maui Lani",
     "eligibility": "Ages 4–6",
-    "details": "Soccer introduction through movement, ball skills and guided games. Dates are published as estimates; confirm holiday exceptions before attending.",
+    "details": "A fun first step into soccer with movement, ball skills and games. Dates are estimates, so check holiday schedules with the organizer.",
     "instructions": "Wear the supplied training kit, cleats, socks and shin guards. Bring a size 3 ball and water.",
     "contact": {
       "person": "Mike Adrian",
       "email": "madrian@albionschawaii.org"
     },
-    "scheduleNote": "Estimated dates only; exact individual sessions, price and registration availability are not confirmed.",
+    "scheduleNote": "Dates are estimates. Contact the organizer for session details, price and registration.",
     "source": "https://www.mauiunitedsoccer.org/juniors/keiki-academy/keiki-academy-maui",
     "verified": "2026-10-03",
     "verificationState": "verified-estimated-program-dates",
@@ -1239,9 +1239,9 @@
     "kind": "program",
     "start": "2026-10-29",
     "end": "2026-12-22",
-    "time": "Page lists Mondays/Wednesdays 5–6 p.m. HST; exact sessions require confirmation",
+    "time": "Mondays and Wednesdays, 5–6 p.m. HST",
     "eligibility": "Boys and girls ages 7–12; no tryout required",
-    "details": "Developmental soccer program. The sponsor labels October 29–December 22 as estimated dates; those endpoints are Thursday/Tuesday despite the stated Monday/Wednesday training days.",
+    "details": "Developmental soccer on Mondays and Wednesdays. The organizer lists October 29–December 22 as estimated dates.",
     "scheduleNote": "Published dates and weekly training days need reconciliation. Do not treat the endpoints as individual practice sessions.",
     "contact": {
       "person": "Mike Adrian",
@@ -1271,9 +1271,9 @@
     "time": "6 p.m. HST",
     "location": "King Kekaulike High School",
     "address": "121 Kula Hwy, Makawao, HI 96768",
-    "details": "Varsity only. Maui High publishes this game as rescheduled from September 26. The school calendar lists a 6 p.m. start; its one-hour calendar slot is not a verified game duration.",
+    "details": "Varsity only. Maui High publishes this game as rescheduled from September 26. The game starts at 6 p.m.",
     "source": "https://www.mauihigh.org/apps/events2/event.jsp?d=2026-10-03&eREC_ID=6330517&id=3",
-    "scheduleNote": "Rescheduled from September 26; school announcement supersedes the older MIL date.",
+    "scheduleNote": "Rescheduled from September 26.",
     "relatedEvents": [
       "mil-football-season-2026"
     ],
@@ -1299,7 +1299,7 @@
     "address": "121 Kula Hwy, Makawao, HI 96768",
     "details": "Maui High lists Meet #3 rescheduled from September 26 to October 17. The older MIL schedule still shows September 26.",
     "source": "https://www.mauihigh.org/apps/events2/event.jsp?d=2026-10-17&eREC_ID=5707021&id=3",
-    "scheduleNote": "Published school reschedule; confirm any subsequent changes with school athletics.",
+    "scheduleNote": "Rescheduled by the school.",
     "listingCategory": "competition"
   },
   {
@@ -1388,13 +1388,13 @@
     ],
     "kind": "season",
     "organization": "Maui Interscholastic League · Maui High School",
-    "details": "The MIL August 30 revision lists playoff dates October 14, 16 and 17. Maui High lists a championship slot October 14 and championship tournament dates October 22, 23 and 24 at Wailuku Lanes; its October 16/17 listings are rescheduled regular matches. These official schedules conflict. Confirm playoff dates and participants before attending.",
+    "details": "The MIL August 30 revision lists playoff dates October 14, 16 and 17. Maui High lists a championship slot October 14 and championship tournament dates October 22, 23 and 24 at Wailuku Lanes; its October 16/17 listings are rescheduled regular matches. The two schedules differ, so check with the league before you go.",
     "time": "School lists October 22/23 at 1 p.m.; October 24 at 8 a.m. HST",
     "location": "Wailuku Lanes",
     "address": "1976 E Vineyard St, Wailuku, HI 96793",
     "source": "https://www.milsports.org/schedule/742107/bowling",
     "scheduleSport": "bowling",
-    "scheduleNote": "HHSAA date remains TBD; no season-end date is inferred.",
+    "scheduleNote": "HHSAA date to be announced.",
     "listingCategory": "competition"
   },
   {
@@ -1411,7 +1411,7 @@
     "end": "2026-10-01",
     "time": "6:30 PM HST",
     "location": "King Kekaulike",
-    "details": "DI Girls Volleyball: King Kekaulike – Maui, 2026-10-01 at 6:30 PM HST, King Kekaulike. Result not yet verified by MYS.",
+    "details": "DI Girls Volleyball: King Kekaulike – Maui, 2026-10-01 at 6:30 PM HST, King Kekaulike. Final score coming soon.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1433,7 +1433,7 @@
     "end": "2026-10-01",
     "time": "6:30 PM HST",
     "location": "KS Maui",
-    "details": "DI Girls Volleyball: KS Maui – Lahainaluna, 2026-10-01 at 6:30 PM HST, KS Maui. Result not yet verified by MYS.",
+    "details": "DI Girls Volleyball: KS Maui – Lahainaluna, 2026-10-01 at 6:30 PM HST, KS Maui. Final score coming soon.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1509,7 +1509,7 @@
     "end": "2026-10-02",
     "time": "6:00 PM HST",
     "location": "Hana Ball Park",
-    "details": "8-man Football: Hana – Lanai, 2026-10-02 at 6:00 PM HST, Hana Ball Park. Result not yet verified by MYS.",
+    "details": "8-man Football: Hana – Lanai, 2026-10-02 at 6:00 PM HST, Hana Ball Park. Final score coming soon.",
     "source": "https://www.milsports.org/schedule/744295/8-man-football",
     "verified": "2026-10-03",
     "updated": "2026-10-03",

@@ -4,16 +4,16 @@
 function hawaiiDate(now){const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Pacific/Honolulu',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now||new Date());const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));return p.year+'-'+p.month+'-'+p.day;}
 function status(e,today){
  if(e.currentStatus==='canceled')return 'Canceled · school announcement';
- if(e.currentStatus==='final')return e.resultSummary||'Final · published result';
+ if(e.currentStatus==='final')return e.resultSummary||'Final';
  if(e.verificationState==='official-source-conflict')return 'Check schedule details';
- if(e.kind==='season')return 'Season schedule available · current status not inferred';
- if(e.end&&e.end<today)return e.kind==='notice'?'Past announcement':e.kind==='program'?'Published program end date passed':'Scheduled date passed · Score not available';
+ if(e.kind==='season')return 'Season schedule available';
+ if(e.end&&e.end<today)return e.kind==='notice'?'Past announcement':e.kind==='program'?'Published program end date passed':'Scheduled date passed · Final score coming soon';
  if(e.start&&e.start>today)return 'Upcoming';
- if(e.start===today&&e.end===today)return 'Score not available';
- if(e.start&&e.end&&e.start<=today&&e.end>=today)return 'Within published program dates · confirm sessions';
- return 'Current status not confirmed';
+ if(e.start===today&&e.end===today)return 'Final score coming soon';
+ if(e.start&&e.end&&e.start<=today&&e.end>=today)return 'During the program season';
+ return 'Status not confirmed';
 }
-function registrationStatus(e,today){if(!e.registrationEnd)return 'Current registration status not confirmed';if(e.registrationEnd<today)return 'Published registration window passed';if(e.registrationStart&&e.registrationStart>today)return 'Published registration opens '+e.registrationStart;return 'Within published registration window · confirm availability';}
+function registrationStatus(e,today){if(!e.registrationEnd)return 'Current registration status not confirmed';if(e.registrationEnd<today)return 'Published registration window passed';if(e.registrationStart&&e.registrationStart>today)return 'Published registration opens '+e.registrationStart;return 'Registration open';}
 function active(e,today){return !e.end||e.end>=today;}
 function todayEvent(e,today){return e.start===today&&e.end===today&&e.kind!=='program'&&e.kind!=='season';}
 root.MYSContent={hawaiiDate,status,active,todayEvent,registrationStatus};

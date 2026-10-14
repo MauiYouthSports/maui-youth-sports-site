@@ -120,3 +120,6 @@
 @media(max-width:600px){.section-head:has(> a[href="/sports-directory/"]){align-items:flex-start;flex-direction:column;gap:9px}}
 /* Make the mobile menu consistently toggleable on every route. */
 @media(max-width:850px){.navlinks:not(.is-open){display:none!important}.navlinks.is-open{display:flex!important;flex-direction:column!important;position:relative;z-index:30}}
+
+/* sport tiles: the picture already shows the name; keep the label for screen readers only */
+.pictocard span{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
