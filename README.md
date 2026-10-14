@@ -1,7 +1,7 @@
 # Maui Youth Sports website
 
-The site for MauiYouthSports.com. It currently runs as a Cloudflare Worker at
-https://maui-youth-sports.mauiyouthsports.workers.dev (test address).
+The site for MauiYouthSports.com. It runs as a Cloudflare Worker at
+https://mauiyouthsports.com.
 
 ## What's here
 - `public/`: every file the website serves (pages, images, CSS, scripts, data). This is the whole site.

@@ -3,42 +3,42 @@
 > The community source for youth sports in Maui County, Hawaiʻi (Maui, Molokaʻi and Lānaʻi): where to sign up, who to contact, schedules, scores and scholarships for keiki and teens.
 
 ## Main sections
-- [Sports directory](https://maui-youth-sports.mauiyouthsports.workers.dev/sports-directory/): clubs, leagues, schools and programs by sport, with contact details
-- [Scores](https://maui-youth-sports.mauiyouthsports.workers.dev/scores/): recent Maui Interscholastic League and community results
-- [Schedules](https://maui-youth-sports.mauiyouthsports.workers.dev/schedules/): upcoming games, meets and events
-- [Scholarships](https://maui-youth-sports.mauiyouthsports.workers.dev/scholarships/): scholarships and financial help for young athletes
-- [Highlights](https://maui-youth-sports.mauiyouthsports.workers.dev/highlights/): local youth sports stories
-- [Submit](https://maui-youth-sports.mauiyouthsports.workers.dev/submit/): send scores, events or program updates
+- [Sports directory](https://mauiyouthsports.com/sports-directory/): clubs, leagues, schools and programs by sport, with contact details
+- [Scores](https://mauiyouthsports.com/scores/): recent Maui Interscholastic League and community results
+- [Schedules](https://mauiyouthsports.com/schedules/): upcoming games, meets and events
+- [Scholarships](https://mauiyouthsports.com/scholarships/): scholarships and financial help for young athletes
+- [Highlights](https://mauiyouthsports.com/highlights/): local youth sports stories
+- [Submit](https://mauiyouthsports.com/submit/): send scores, events or program updates
 
 ## Sports
-- [Baseball](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/baseball/)
-- [Basketball](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/basketball/)
-- [Bowling](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/bowling/)
-- [Paddling](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/canoe-paddling/)
-- [Cheerleading](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/cheerleading/)
-- [Cross Country](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/cross-country/)
-- [Dance](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/dance/)
-- [Football](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/football/)
-- [Flag Football](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/flag-football/)
-- [Golf](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/golf/)
-- [Gymnastics](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/gymnastics/)
-- [Inline Hockey](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/inline-hockey/)
-- [Martial Arts](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/martial-arts/)
-- [Rugby](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/rugby/)
-- [Skateboarding](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/skateboarding/)
-- [Soccer](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/soccer/)
-- [Softball](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/softball/)
-- [Surfing](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/surfing/)
-- [Swimming & Diving](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/swimming-diving/)
-- [Tennis](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/tennis/)
-- [Track & Field](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/track-field/)
-- [Volleyball](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/volleyball/)
-- [Water Polo](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/water-polo/)
-- [Wrestling](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/wrestling/)
-- [Air Riflery](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/air-riflery/)
-- [Boxing](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/boxing/)
-- [Archery](https://maui-youth-sports.mauiyouthsports.workers.dev/sports/archery/)
+- [Baseball](https://mauiyouthsports.com/sports/baseball/)
+- [Basketball](https://mauiyouthsports.com/sports/basketball/)
+- [Bowling](https://mauiyouthsports.com/sports/bowling/)
+- [Paddling](https://mauiyouthsports.com/sports/canoe-paddling/)
+- [Cheerleading](https://mauiyouthsports.com/sports/cheerleading/)
+- [Cross Country](https://mauiyouthsports.com/sports/cross-country/)
+- [Dance](https://mauiyouthsports.com/sports/dance/)
+- [Football](https://mauiyouthsports.com/sports/football/)
+- [Flag Football](https://mauiyouthsports.com/sports/flag-football/)
+- [Golf](https://mauiyouthsports.com/sports/golf/)
+- [Gymnastics](https://mauiyouthsports.com/sports/gymnastics/)
+- [Inline Hockey](https://mauiyouthsports.com/sports/inline-hockey/)
+- [Martial Arts](https://mauiyouthsports.com/sports/martial-arts/)
+- [Rugby](https://mauiyouthsports.com/sports/rugby/)
+- [Skateboarding](https://mauiyouthsports.com/sports/skateboarding/)
+- [Soccer](https://mauiyouthsports.com/sports/soccer/)
+- [Softball](https://mauiyouthsports.com/sports/softball/)
+- [Surfing](https://mauiyouthsports.com/sports/surfing/)
+- [Swimming & Diving](https://mauiyouthsports.com/sports/swimming-diving/)
+- [Tennis](https://mauiyouthsports.com/sports/tennis/)
+- [Track & Field](https://mauiyouthsports.com/sports/track-field/)
+- [Volleyball](https://mauiyouthsports.com/sports/volleyball/)
+- [Water Polo](https://mauiyouthsports.com/sports/water-polo/)
+- [Wrestling](https://mauiyouthsports.com/sports/wrestling/)
+- [Air Riflery](https://mauiyouthsports.com/sports/air-riflery/)
+- [Boxing](https://mauiyouthsports.com/sports/boxing/)
+- [Archery](https://mauiyouthsports.com/sports/archery/)
 
 ## Notes
 - Program details come from each organization's own public information. Contact the program directly before registering.
-- Contact Maui Youth Sports: https://maui-youth-sports.mauiyouthsports.workers.dev/contact/
+- Contact Maui Youth Sports: https://mauiyouthsports.com/contact/
