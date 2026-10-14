@@ -123,3 +123,37 @@
 
 /* sport tiles: the picture already shows the name; keep the label for screen readers only */
 .pictocard span{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Pre-launch: sport finder, compact sponsors, phone schedules, contrast, tap targets */
+.sport-finder{margin-top:6px}
+.sport-finder h2{font-size:22px}
+.sport-scroll{display:flex;gap:12px;overflow-x:auto;padding:2px 2px 10px;scroll-snap-type:x mandatory}
+.sport-scroll a{flex:0 0 auto;scroll-snap-align:start;width:88px;text-align:center;font-size:12px;font-weight:800;line-height:1.25;color:var(--ink)}
+.sport-scroll img{display:block;width:72px;height:72px;object-fit:cover;border-radius:12px;margin:0 auto 6px;background:#050505}
+.sport-scroll .see-all{display:flex;align-items:center;justify-content:center;width:auto;min-width:132px;min-height:72px;padding:12px 16px;background:#08777c;color:#fff;border-radius:12px;align-self:center}
+.scoregrid:not(:has(.adcard)),.todaygrid:not(:has(.adcard)){grid-template-columns:minmax(0,1fr)}
+.sponsor-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0 4px}
+.sponsor-mini{display:flex;align-items:center;gap:10px;background:#fffdf8;border:1px solid var(--line);border-radius:12px;padding:8px 10px;min-height:44px}
+.sponsor-mini img{width:64px;height:44px;object-fit:cover;border-radius:8px;flex:none}
+.sponsor-mini.alakaina img{object-fit:contain;background:#fff}
+.sponsor-mini b{display:block;font-size:14px}
+.sponsor-mini span span{display:block;font-size:12px;line-height:1.35;color:#3a545c}
+.page-actions{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 18px}
+.action-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;background:#08777c;color:#fff;border-radius:9px;font-weight:800}
+.schedule-toggle{display:inline-flex;align-items:center;min-height:44px;margin:0 0 12px;padding:10px 16px;border:1px solid #08777c;border-radius:9px;background:#fffdf8;color:#08777c;font:inherit;font-weight:800;cursor:pointer}
+.notice,.optional,.sportcard span{color:#3a545c}
+.verified{color:#3a545c}
+.scoredate{color:#3a545c}
+@media(max-width:700px){
+ .sponsor-row{grid-template-columns:1fr}
+ .fixture-scroll:has(td[data-label]){overflow:visible;border:0}
+ .fixture-table:has(td[data-label]),.fixture-table:has(td[data-label]) tbody,.fixture-table:has(td[data-label]) tr,.fixture-table:has(td[data-label]) td{display:block;width:100%}
+ .fixture-table:has(td[data-label]) thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+ .fixture-table:has(td[data-label]) tr{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 0 12px;padding:10px 14px}
+ .fixture-table:has(td[data-label]) td{border:0;padding:6px 0;white-space:normal}
+ .fixture-table:has(td[data-label]) td::before{content:attr(data-label);display:block;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#3a545c}
+ .fixture-table:has(td[data-label]) .notice{min-width:0}
+ .footer a:not(.footer-home){display:inline-flex;align-items:center;min-height:44px;padding:8px 4px}
+ a.sourcebtn,a.game-source,a.morelink{display:inline-flex;align-items:center;min-height:44px;padding-top:8px;padding-bottom:8px}
+ .fixture-table a{min-height:44px}
+}

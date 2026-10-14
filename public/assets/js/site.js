@@ -7,8 +7,53 @@ function playRows(items){return (items||[]).map(x=>`<a class="playitem pictocard
 const put=(id,html)=>{const el=document.getElementById(id);if(el)el.innerHTML=html};
 put('scores',scoreRows(d.homepageScores||(d.scores||[]).slice(0,4)));put('play',playRows(d.play));
 
-// One rotating sponsor position on interior pages.
-(function(){if(location.pathname==='/'||/index\.html$/.test(location.pathname))return;const hero=document.querySelector('.sport-hero')||document.querySelector('.submitintro')||document.querySelector('main .section');if(!hero)return;const ads=[{name:'Honey & Me Baking',copy:'Made with aloha on Maui · @honeyandmebaking',url:'https://www.instagram.com/honeyandmebaking/',cls:'honey'},{name:'Alakaʻina Consulting',copy:'Culturally grounded leadership, growth & community impact across Hawaiʻi.',url:'https://www.alakainaconsulting.com/',cls:'alakaina'}];let i=Math.floor(Date.now()/10000)%ads.length;const a=ads[i],el=document.createElement('a');el.className='sitewide-ad adcard '+a.cls;el.href=a.url;el.target='_blank';el.rel='noopener';el.innerHTML='<span class="adlabel">MYS Sponsor</span><div><b>'+a.name+'</b><span>'+a.copy+'</span></div><strong>Learn more →</strong>';hero.insertAdjacentElement('afterend',el)})();
+// Sponsors sit below the main content on sport, directory, and schedule pages.
+// Other interior pages keep one rotating sponsor.
+(function(){
+  function normPath(){
+    var p=location.pathname;
+    if(/\/index\.html$/.test(p))p=p.slice(0,-10);
+    if(p.charAt(p.length-1)!=='/')p+='/';
+    return p;
+  }
+  var path=normPath();
+  if(path==='/')return;
+  var main=document.querySelector('main');
+  if(!main)return;
+  var listed=path==='/schedules/'||path.indexOf('/sports/')===0||path.indexOf('/sports-directory/')===0;
+  if(listed){
+    if(path.indexOf('/sports/')===0||path.indexOf('/sports-directory/')===0){
+      var actions=document.createElement('div');
+      actions.className='page-actions';
+      actions.innerHTML='<a class="action-btn" href="/submit/?type=organization">List your program</a><a class="action-btn" href="/submit/?type=score">Send a score</a>';
+      var spot=main.querySelector('.sportnav')||main.querySelector('.p-detail-intro')||main.querySelector('h1');
+      if(spot)spot.insertAdjacentElement('afterend',actions);
+      else main.insertBefore(actions,main.firstChild);
+    }
+    var row=document.createElement('section');
+    row.className='sponsor-row';
+    row.setAttribute('aria-label','Sponsors');
+    [{name:'Honey & Me Baking',copy:'Made with aloha on Maui · @honeyandmebaking',url:'https://www.instagram.com/honeyandmebaking/',cls:'honey',img:'/assets/brand/honey-me-mochi.webp',alt:'Brownie-stuffed mochi from Honey & Me Baking'},{name:'Alakaʻina Consulting',copy:'Culturally grounded leadership, growth & community impact across Hawaiʻi.',url:'https://www.alakainaconsulting.com/',cls:'alakaina',img:'/assets/brand/alakaina-consulting.png',alt:'Alakaʻina Consulting Hawaiʻi'}].forEach(function(a){
+      var link=document.createElement('a');
+      link.className='sponsor-mini '+a.cls;
+      link.href=a.url;link.target='_blank';link.rel='noopener';
+      var img=document.createElement('img');img.src=a.img;img.alt=a.alt;img.width=72;img.height=48;
+      var text=document.createElement('span');
+      var b=document.createElement('b');b.textContent=a.name;
+      var c=document.createElement('span');c.textContent=a.copy;
+      text.append(b,c);link.append(img,text);row.append(link);
+    });
+    main.appendChild(row);
+    return;
+  }
+  var hero=document.querySelector('.sport-hero')||document.querySelector('.submitintro')||document.querySelector('main .section');
+  if(!hero)return;
+  var ads=[{name:'Honey & Me Baking',copy:'Made with aloha on Maui · @honeyandmebaking',url:'https://www.instagram.com/honeyandmebaking/',cls:'honey'},{name:'Alakaʻina Consulting',copy:'Culturally grounded leadership, growth & community impact across Hawaiʻi.',url:'https://www.alakainaconsulting.com/',cls:'alakaina'}];
+  var a=ads[Math.floor(Date.now()/10000)%ads.length],el=document.createElement('a');
+  el.className='sitewide-ad adcard '+a.cls;el.href=a.url;el.target='_blank';el.rel='noopener';
+  el.innerHTML='<span class="adlabel">MYS Sponsor</span><div><b>'+a.name+'</b><span>'+a.copy+'</span></div><strong>Learn more →</strong>';
+  hero.insertAdjacentElement('afterend',el);
+})();
 
 /* v35 accessible mobile navigation */
 (function(){
