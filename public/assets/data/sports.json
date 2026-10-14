@@ -1,0 +1,164 @@
+[
+  {
+    "slug": "baseball",
+    "name": "Baseball",
+    "icon": "baseball",
+    "href": "/sports/baseball/"
+  },
+  {
+    "slug": "basketball",
+    "name": "Basketball",
+    "icon": "basketball",
+    "href": "/sports/basketball/"
+  },
+  {
+    "slug": "bowling",
+    "name": "Bowling",
+    "icon": "bowling",
+    "href": "/sports/bowling/"
+  },
+  {
+    "slug": "canoe-paddling",
+    "name": "Paddling",
+    "icon": "paddling",
+    "href": "/sports/canoe-paddling/"
+  },
+  {
+    "slug": "cheerleading",
+    "name": "Cheerleading",
+    "icon": "cheer",
+    "href": "/sports/cheerleading/"
+  },
+  {
+    "slug": "cross-country",
+    "name": "Cross Country",
+    "icon": "cross-country",
+    "href": "/sports/cross-country/"
+  },
+  {
+    "slug": "dance",
+    "name": "Dance",
+    "icon": "dance",
+    "href": "/sports/dance/"
+  },
+  {
+    "slug": "football",
+    "name": "Football",
+    "icon": "football",
+    "href": "/sports/football/"
+  },
+  {
+    "slug": "flag-football",
+    "name": "Flag Football",
+    "icon": "flag-football",
+    "href": "/sports/flag-football/"
+  },
+  {
+    "slug": "golf",
+    "name": "Golf",
+    "icon": "golf",
+    "href": "/sports/golf/"
+  },
+  {
+    "slug": "gymnastics",
+    "name": "Gymnastics",
+    "icon": "gymnastics",
+    "href": "/sports/gymnastics/"
+  },
+  {
+    "slug": "inline-hockey",
+    "name": "Inline Hockey",
+    "icon": "inline-hockey",
+    "href": "/sports/inline-hockey/"
+  },
+  {
+    "slug": "martial-arts",
+    "name": "Martial Arts",
+    "icon": "martial-arts",
+    "href": "/sports/martial-arts/"
+  },
+  {
+    "slug": "rugby",
+    "name": "Rugby",
+    "icon": "rugby",
+    "href": "/sports/rugby/"
+  },
+  {
+    "slug": "skateboarding",
+    "name": "Skateboarding",
+    "icon": "skateboarding",
+    "href": "/sports/skateboarding/"
+  },
+  {
+    "slug": "soccer",
+    "name": "Soccer",
+    "icon": "soccer",
+    "href": "/sports/soccer/"
+  },
+  {
+    "slug": "softball",
+    "name": "Softball",
+    "icon": "softball",
+    "href": "/sports/softball/"
+  },
+  {
+    "slug": "surfing",
+    "name": "Surfing",
+    "icon": "surfing",
+    "href": "/sports/surfing/"
+  },
+  {
+    "slug": "swimming-diving",
+    "name": "Swimming & Diving",
+    "icon": "swimming",
+    "href": "/sports/swimming-diving/"
+  },
+  {
+    "slug": "tennis",
+    "name": "Tennis",
+    "icon": "tennis",
+    "href": "/sports/tennis/"
+  },
+  {
+    "slug": "track-field",
+    "name": "Track & Field",
+    "icon": "track-field",
+    "href": "/sports/track-field/"
+  },
+  {
+    "slug": "volleyball",
+    "name": "Volleyball",
+    "icon": "volleyball",
+    "href": "/sports/volleyball/"
+  },
+  {
+    "slug": "water-polo",
+    "name": "Water Polo",
+    "icon": "water-polo",
+    "href": "/sports/water-polo/"
+  },
+  {
+    "slug": "wrestling",
+    "name": "Wrestling",
+    "icon": "wrestling",
+    "href": "/sports/wrestling/"
+  },
+  {
+    "slug": "air-riflery",
+    "name": "Air Riflery",
+    "icon": null,
+    "href": "/sports/air-riflery/"
+  },
+  {
+    "slug": "boxing",
+    "name": "Boxing",
+    "icon": null,
+    "href": "/sports/boxing/"
+  },
+  {
+    "slug": "archery",
+    "name": "Archery",
+    "icon": null,
+    "href": "/sports/archery/"
+  }
+]

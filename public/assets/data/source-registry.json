@@ -1,0 +1,2152 @@
+{
+  "version": 23,
+  "reviewDate": "2026-10-03",
+  "policy": "Primary publishers first; local reporting and credible partners support. Publisher authority does not prove every claim current. Access success is not full verification. Missing facts never prove closure, cancellation or season end. No automated research or publishing.",
+  "sources": [
+    {
+      "id": "source-8c0faa25d826",
+      "url": "https://www.mauiunitedsoccer.org/juniors/albion-juniors/albion-juniors-maui",
+      "publisher": "ALBION Juniors Maui",
+      "authority": "primary-publisher",
+      "sports": [
+        "soccer"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts",
+        "Historical or schedule resource; see record-specific notes"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "official-source-conflict",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-b8cf169f9ac6",
+      "url": "https://www.mauiunitedsoccer.org/juniors/keiki-academy/keiki-academy-maui",
+      "publisher": "ALBION Keiki Academy Maui",
+      "authority": "primary-publisher",
+      "sports": [
+        "soccer"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts",
+        "Historical or schedule resource; see record-specific notes"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "resource-review",
+        "verified-estimated-program-dates"
+      ]
+    },
+    {
+      "id": "source-cd5d40bca3c8",
+      "url": "https://www.mauiunitedsoccer.org/",
+      "publisher": "ALBION SC Hawaii",
+      "authority": "primary-publisher",
+      "sports": [
+        "soccer"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-0de604debafa",
+      "url": "https://www.alexanderacademy.info/classes",
+      "publisher": "Alexander Academy of Performing Arts",
+      "authority": "primary-publisher",
+      "sports": [
+        "dance"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-858298b76ffb",
+      "url": "https://alohalegendshawaii.org/scholarships-2/",
+      "publisher": "Aloha Legends Sports Organization",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-0c90b93ab975",
+      "url": "https://alohalegendshawaii.org/wp-content/uploads/2025/06/ALOHA-LEGENDS-STUDENT-ATHLETE-SCHOLARSHIP-1.pdf",
+      "publisher": "Aloha Legends Sports Organization",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-04159f8c48c8",
+      "url": "https://hhsaa.org/resources/bulletin/PGA_golf_aloha_section",
+      "publisher": "Aloha Section PGA Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "current-details-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-72a16c7d5118",
+      "url": "https://www.aspga.com/foundation/tokyu-group-hawaii-golf-scholarship/",
+      "publisher": "Aloha Section PGA Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "current-details-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-7e69bb238d54",
+      "url": "https://www.ajga.org/liberty-national-ace-grant",
+      "publisher": "American Junior Golf Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-edd0e6a05b87",
+      "url": "https://baa2026application.paperform.co/",
+      "publisher": "Binhi at Ani",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-awards-next-cycle-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-4d8b0b2f456f",
+      "url": "https://binhiatani.org/",
+      "publisher": "Binhi at Ani",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-awards-next-cycle-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-f3999b9d4be9",
+      "url": "https://mauinow.com/2026/06/12/binhi-at-ani-to-award-30000-in-scholarships-to-20-students/",
+      "publisher": "Binhi at Ani",
+      "authority": "supporting-local-or-governing-partner",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-awards-next-cycle-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-e4407d23fac4",
+      "url": "https://clubs.bluesombrero.com/cemll",
+      "publisher": "Central Maui Little League",
+      "authority": "primary-publisher",
+      "sports": [
+        "baseball"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-7c337fb3faa6",
+      "url": "https://www.mauicounty.gov/DocumentCenter/View/163248",
+      "publisher": "County Menehune Basketball League",
+      "authority": "primary-publisher",
+      "sports": [
+        "basketball"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-142e2c12b954",
+      "url": "https://www.mauicounty.gov/m/newsflash/Home/Detail/19047",
+      "publisher": "County of Maui Department of Parks and Recreation",
+      "authority": "primary-publisher",
+      "sports": [
+        "basketball"
+      ],
+      "claimScopes": [
+        "Cross-check or schedule conflict"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-29eb4544fe31",
+      "url": "https://fhnp.org/2026-2027-don-reeser-mary-evanson-and-dr-fern-duvall-memorial-scholarship/",
+      "publisher": "Friends of Haleakalā National Park",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-6fefb290d99c",
+      "url": "https://higroundcollective.com/",
+      "publisher": "HI Ground Collective",
+      "authority": "primary-publisher",
+      "sports": [
+        "martial-arts"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-f426faa59ae5",
+      "url": "https://www.hmsa.com/awards-and-scholarships/hmsa-kaimana-awards-and-scholarship-program/",
+      "publisher": "HMSA",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-ca62fe530b74",
+      "url": "https://hhsaa.org/resources/students/hall_of_honor",
+      "publisher": "Hawaii High School Athletic Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-9b11125fccc6",
+      "url": "https://hawaiisf.org/our-programs/",
+      "publisher": "Hawaii Softball Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "Softball"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "partial-verification"
+      ]
+    },
+    {
+      "id": "source-1e82a996967d",
+      "url": "https://hawaiisf.org/wp-content/uploads/2026/03/2026-HSF-Scholarship-Application-Form-1.pdf",
+      "publisher": "Hawaii Softball Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "Softball"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "partial-verification"
+      ]
+    },
+    {
+      "id": "source-6df5a836b5e0",
+      "url": "https://hsjga.org/2026-pga-junior-league/",
+      "publisher": "Hawaii State Junior Golf Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-ae40dc07aba2",
+      "url": "https://hsjga.org/scholarships-college-prep/hsjga-college-scholarships/",
+      "publisher": "Hawaii State Junior Golf Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-4803ecf3c8b4",
+      "url": "https://hsamaui.org/hsa-2026-season-open/",
+      "publisher": "Hawaii Surfing Association Maui",
+      "authority": "primary-publisher",
+      "sports": [
+        "surfing"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-ffd5fa811865",
+      "url": "https://www.hawaiiancanoeclub.org/scholarships",
+      "publisher": "Hawaiian Canoe Club",
+      "authority": "primary-publisher",
+      "sports": [
+        "Canoe Paddling"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-3f060be6a3f8",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeFYulXyfPmHZUGdcvHd3JBb0uh9PEYucwsYmoK_VvVxfyKqQ/closedform",
+      "publisher": "Hawaiian Canoe Racing Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "Canoe Paddling"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-38adf754967a",
+      "url": "https://hawaiiswim.org/",
+      "publisher": "Hawaiian Swimming results",
+      "authority": "primary-publisher",
+      "sports": [
+        "swimming-diving"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-0a1bbafd4fc2",
+      "url": "https://hcf.scholarships.ngwebsolutions.com/Scholarships/Search",
+      "publisher": "Hawaiʻi Community Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-9fdb614f777f",
+      "url": "https://www.hawaiicommunityfoundation.org/scholarships/scholarshipfaqs",
+      "publisher": "Hawaiʻi Community Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-70bc1576cac4",
+      "url": "https://www.hawaiicommunityfoundation.org/students",
+      "publisher": "Hawaiʻi Community Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record",
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-7a1ce6f3e39c",
+      "url": "https://www.menehunemayhem.org/scholarship",
+      "publisher": "Ian Walsh Menehune Mayhem Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-4bb17d2f832e",
+      "url": "https://www.islandaquaticsmaui.com/",
+      "publisher": "Island Aquatics / Island Water Polo",
+      "authority": "primary-publisher",
+      "sports": [
+        "water-polo"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-c29824b80d01",
+      "url": "https://app.iclasspro.com/portal/islandathleticsmaui",
+      "publisher": "Island Athletics Maui",
+      "authority": "primary-publisher",
+      "sports": [
+        "gymnastics"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-9834ea8a31d9",
+      "url": "https://mauifamilymagazine.com/sports-on-maui-2/",
+      "publisher": "Island Athletics Maui",
+      "authority": "primary-publisher",
+      "sports": [
+        "gymnastics"
+      ],
+      "claimScopes": [
+        "Supporting program/contact information"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-30ba482d4722",
+      "url": "https://www.jgah.org/",
+      "publisher": "Junior Golf Association of Hawaii",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-67d1fe41f5e2",
+      "url": "https://sites.google.com/view/kahuluirugbywarriors",
+      "publisher": "Kahului Rugby Warriors",
+      "authority": "primary-publisher",
+      "sports": [
+        "rugby"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-ccbf89c9e1bc",
+      "url": "https://kiheicanoeclub.com/content.aspx?club_id=375541&module_id=370594&page_id=22",
+      "publisher": "Kihei Canoe Club",
+      "authority": "primary-publisher",
+      "sports": [
+        "Canoe Paddling"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-6940016d25a1",
+      "url": "https://www.kiheicanoeclub.com/content.aspx?club_id=375541&module_id=370618&page_id=22",
+      "publisher": "Kīhei Canoe Club",
+      "authority": "primary-publisher",
+      "sports": [
+        "canoe-paddling"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-7066c71c5064",
+      "url": "https://www.mauibasketball.com/",
+      "publisher": "MAUI Academy",
+      "authority": "primary-publisher",
+      "sports": [
+        "basketball"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-77d6102cb93c",
+      "url": "https://www.hockeymaui.com/league",
+      "publisher": "MIHA current season",
+      "authority": "primary-publisher",
+      "sports": [
+        "Inline Hockey",
+        "inline-hockey"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "partial-verification",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-97a19b15a122",
+      "url": "https://mjga.net/membership/",
+      "publisher": "MJGA membership",
+      "authority": "primary-publisher",
+      "sports": [
+        "golf"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-37984407c679",
+      "url": "https://mauinow.com/2026/09/01/mana-o-maui-opens-registration-for-free-fall-surf-n-turf-afterschool-program-for-maui-youth/",
+      "publisher": "Mana O Maui",
+      "authority": "supporting-local-or-governing-partner",
+      "sports": [
+        "surfing"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-historical-session"
+      ]
+    },
+    {
+      "id": "source-479beec87974",
+      "url": "https://mariano-soquenafoundation.org/programs/william-kalani-mahoe-scholarship/",
+      "publisher": "Mariano-Soquena Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-180607445c36",
+      "url": "https://mauiswimming.org/",
+      "publisher": "Maui Age Group Swimming Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "swimming-diving"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-e7e135f231c2",
+      "url": "https://www.ustahawaii.com/maui",
+      "publisher": "Maui Community Tennis Organization",
+      "authority": "primary-publisher",
+      "sports": [
+        "tennis"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-396397108c6c",
+      "url": "https://www.mauicounty.gov/m/newsflash/Home/Detail/18994",
+      "publisher": "Maui County 2026 Little League tournament recap",
+      "authority": "primary-publisher",
+      "sports": [
+        "baseball"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-35e39148b46c",
+      "url": "https://www.mauicounty.gov/BusinessDirectoryii.aspx?lngBusinessCategoryID=47",
+      "publisher": "Maui County Baseball Directory",
+      "authority": "primary-publisher",
+      "sports": [
+        "baseball"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-2caf9498c5cb",
+      "url": "https://www.mauicounty.gov/DocumentCenter/View/117688/Year-Round-Pool-Programs",
+      "publisher": "Maui County pool programs",
+      "authority": "primary-publisher",
+      "sports": [
+        "swimming-diving",
+        "water-polo"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-916b4db57837",
+      "url": "https://www.mauihigh.org/apps/news/show_news.jsp?REC_ID=1031853&id=0",
+      "publisher": "Maui County public schools",
+      "authority": "primary-publisher",
+      "sports": [],
+      "claimScopes": [
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-historical-announcement"
+      ]
+    },
+    {
+      "id": "source-821609a756f4",
+      "url": "https://www.mauiyouthdirectory.com/sports-category/softball/",
+      "publisher": "Maui Girls Softball Association",
+      "authority": "supporting-local-or-governing-partner",
+      "sports": [
+        "softball"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-ede30bdd1bce",
+      "url": "https://www.mauihighschoolfoundation.com/mhs-foundation-scholarship.html",
+      "publisher": "Maui High School Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-d047d3fc4fec",
+      "url": "https://www.mauihighschoolfoundation.com/program-grants.html",
+      "publisher": "Maui High School Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-a609074e72d3",
+      "url": "https://www.mauihigh.org/apps/events2/event.jsp?d=2026-10-03&eREC_ID=6330517&id=3",
+      "publisher": "Maui High School · MIL",
+      "authority": "primary-publisher",
+      "sports": [
+        "football"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-23ac069be61d",
+      "url": "https://www.mauihigh.org/apps/events2/event.jsp?d=2026-10-17&eREC_ID=5707021&id=3",
+      "publisher": "Maui High School · MIL",
+      "authority": "primary-publisher",
+      "sports": [
+        "cross-country"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-8f83709067b6",
+      "url": "https://www.hockeymaui.com/",
+      "publisher": "Maui Inline Hockey Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "inline-hockey"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-63779e16992a",
+      "url": "https://ksmauiwarriors.com/",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "Football",
+        "Girls Volleyball",
+        "cross-country",
+        "football",
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Cross-check or schedule conflict",
+        "Dated event, program or fixture facts",
+        "Specific dated completed score"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "official-source-conflict",
+        "published-result-reviewed",
+        "verified-cancellation-other-results-unconfirmed",
+        "verified-published-information",
+        "verified-published-schedule"
+      ]
+    },
+    {
+      "id": "source-97df75488b20",
+      "url": "https://milsports.org/schedule/744295/8-man-football",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "football"
+      ],
+      "claimScopes": [
+        "Cross-check or schedule conflict",
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-cancellation-other-results-unconfirmed",
+        "verified-published-schedule"
+      ]
+    },
+    {
+      "id": "source-cf0159ca76c6",
+      "url": "https://milsports.org/schedule/744298/di-football",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "football"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-cancellation-other-results-unconfirmed",
+        "verified-published-schedule"
+      ]
+    },
+    {
+      "id": "source-8c136f36ee62",
+      "url": "https://www.lahainalunahs.org/apps/news/article/2236563?categoryId=4316",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "football"
+      ],
+      "claimScopes": [
+        "Cross-check or schedule conflict",
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-cancellation-other-results-unconfirmed",
+        "verified-school-cancellation"
+      ]
+    },
+    {
+      "id": "source-9fc59561c50a",
+      "url": "https://www.mauihigh.org/apps/events/index.jsp?id=3&m=9&v=1&y=2026",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "bowling",
+        "cross-country",
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Cross-check or schedule conflict",
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "official-source-conflict",
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-83a6a79350a8",
+      "url": "https://www.milsports.org/schedule/742105/cross-country",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "cross-country"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts",
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "official-source-conflict",
+        "published-details-current-availability-unconfirmed",
+        "resource-review",
+        "verified-published-schedule"
+      ]
+    },
+    {
+      "id": "source-5dc79cf882a3",
+      "url": "https://www.milsports.org/schedule/742107/bowling",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "bowling"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "official-source-conflict",
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-081bbc5827a1",
+      "url": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information",
+        "verified-published-schedule"
+      ]
+    },
+    {
+      "id": "source-8ef59cf31ade",
+      "url": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-result-reviewed",
+        "verified-published-schedule"
+      ]
+    },
+    {
+      "id": "source-b0d78c832dc6",
+      "url": "https://www.milsports.org/schedules",
+      "publisher": "Maui Interscholastic League",
+      "authority": "primary-publisher",
+      "sports": [
+        "football",
+        "track-field",
+        "volleyball",
+        "water-polo"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-a6f7f07cd3c1",
+      "url": "https://hhsaa.org/about/news/2025/0716-press",
+      "publisher": "Maui Interscholastic League / HHSAA",
+      "authority": "primary-publisher",
+      "sports": [
+        "surfing"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-db3372e0314d",
+      "url": "https://www.hanak12school.org/",
+      "publisher": "Maui Interscholastic League · school athletics",
+      "authority": "primary-publisher",
+      "sports": [
+        "football"
+      ],
+      "claimScopes": [
+        "Cross-check or schedule conflict"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-schedule"
+      ]
+    },
+    {
+      "id": "source-cf5d43ede6e3",
+      "url": "https://www.maxpreps.com/news/aW44L69myUa7SYqrMz0kEQ/volleyball-recap-molokais-luck-changes-for-the-better-on-friday.htm",
+      "publisher": "Maui Interscholastic League · school athletics",
+      "authority": "published-score-platform",
+      "sports": [
+        "Girls Volleyball",
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Cross-check or schedule conflict",
+        "Specific dated completed score"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-result-reviewed"
+      ]
+    },
+    {
+      "id": "source-cd046c1c933d",
+      "url": "https://www.maxpreps.com/news/w_NVr_GPnUaZ6r5-bTU0OQ/volleyball-recap-seabury-rolls-to-its-ninth-straight-win--how-to-watch.htm",
+      "publisher": "Maui Interscholastic League · school athletics",
+      "authority": "published-score-platform",
+      "sports": [
+        "Girls Volleyball",
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Cross-check or schedule conflict",
+        "Specific dated completed score"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-result-reviewed"
+      ]
+    },
+    {
+      "id": "source-57ef84203d59",
+      "url": "https://www.milsports.org/schedule/744295/8-man-football",
+      "publisher": "Maui Interscholastic League · school athletics",
+      "authority": "primary-publisher",
+      "sports": [
+        "football"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-schedule"
+      ]
+    },
+    {
+      "id": "source-d0c7f2ee21d9",
+      "url": "https://mjga.net/",
+      "publisher": "Maui Junior Golf Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "golf"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-99990b811fec",
+      "url": "https://mjga.net/forms/",
+      "publisher": "Maui Junior Golf Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "historical-form-current-cycle-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-a0d4e22d4940",
+      "url": "https://mjga.net/wp-content/uploads/2024/11/MJGA_2025_Travel_Stipend.pdf",
+      "publisher": "Maui Junior Golf Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "historical-form-current-cycle-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-c50a8a9b52d9",
+      "url": "https://mjga.net/wp-content/uploads/2025/12/2026-Reimbursement-Form-Clinic-Lesson.pdf",
+      "publisher": "Maui Junior Golf Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-5e69c326ac80",
+      "url": "https://mjga.net/wp-content/uploads/2026/01/MJGA-Ann-Seki-Scholarship-Form-2026.pdf",
+      "publisher": "Maui Junior Golf Association",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-786b4e70f315",
+      "url": "https://www.ustahawaii.com/junior",
+      "publisher": "Maui Junior Tennis Grant",
+      "authority": "primary-publisher",
+      "sports": [
+        "tennis"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-f586cd1454be",
+      "url": "https://mauivolleyball.sportngin.com/",
+      "publisher": "Maui Juniors Volleyball Club",
+      "authority": "primary-publisher",
+      "sports": [
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-9d425c5b3af7",
+      "url": "https://www.mauikajukenbo.com/",
+      "publisher": "Maui Kajukenbo",
+      "authority": "primary-publisher",
+      "sports": [
+        "martial-arts"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-9e61d6b56196",
+      "url": "https://www.kaainamomona.org/scholarship",
+      "publisher": "Maui Native Hawaiian Chamber of Commerce Foundation / ʻĀina Momona",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-23c91e33c017",
+      "url": "https://maui-popwarner.com/faq",
+      "publisher": "Maui Pop Warner",
+      "authority": "primary-publisher",
+      "sports": [
+        "cheerleading",
+        "football"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Supporting program/contact information"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-ae88bffe15d2",
+      "url": "https://maui-popwarner.com/home",
+      "publisher": "Maui Pop Warner",
+      "authority": "primary-publisher",
+      "sports": [
+        "cheerleading",
+        "football"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-30b0803ef271",
+      "url": "https://sites.google.com/view/mauirugby/home",
+      "publisher": "Maui Rugby",
+      "authority": "primary-publisher",
+      "sports": [
+        "rugby"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-3cf421bbedaa",
+      "url": "https://www.mauisportsleagues.com/",
+      "publisher": "Maui Sports Leagues",
+      "authority": "primary-publisher",
+      "sports": [
+        "basketball"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-181bee94952e",
+      "url": "https://mauistarshawaii.org/events/",
+      "publisher": "Maui Stars Hawaii",
+      "authority": "primary-publisher",
+      "sports": [
+        "flag-football"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-02372d91cfdc",
+      "url": "https://www.mauitaekwondo.org/classes-schedule",
+      "publisher": "Maui Taekwondo & Hapkido Center",
+      "authority": "primary-publisher",
+      "sports": [
+        "martial-arts"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-85e469424438",
+      "url": "https://www.mauitumblers.com/",
+      "publisher": "Maui Tumblers",
+      "authority": "primary-publisher",
+      "sports": [
+        "gymnastics"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-b9cb03784578",
+      "url": "https://mauibasketball.sportsengine-prelive.com/",
+      "publisher": "Maui Youth Basketball",
+      "authority": "primary-publisher",
+      "sports": [
+        "basketball"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-59375d6cf2d1",
+      "url": "https://mauiyouthsports.com/choose-sport/maui-youth-canoe-paddling-information/",
+      "publisher": "Maui Youth Sports paddling archive",
+      "authority": "historical-MYS-lead",
+      "sports": [
+        "canoe-paddling"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-6ebeddc9b53e",
+      "url": "https://mauinow.com/2026/05/13/nakamura-wrestling-of-wailuku-wins-hawai%CA%BBi-usa-wrestling-championship/",
+      "publisher": "May 13, 2026 championship recap",
+      "authority": "supporting-local-or-governing-partner",
+      "sports": [
+        "wrestling"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-b36160aca291",
+      "url": "https://niaaa.finalforms-amp.com/niaaa_award_nominations",
+      "publisher": "NIAAA",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-c1254d5cf35f",
+      "url": "https://niaaa.org/awards-recognition",
+      "publisher": "NIAAA",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-2e6af12531fd",
+      "url": "https://nakamurawrestling.com/",
+      "publisher": "Nakamura Wrestling",
+      "authority": "primary-publisher",
+      "sports": [
+        "wrestling"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-b6af61dd283f",
+      "url": "https://www.nshss.org/scholarships/s/nshss-student-athlete-scholarship-2026/",
+      "publisher": "National Society of High School Scholars",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-454172b80f0d",
+      "url": "https://www.mauicounty.gov/m/newsflash/Home/Detail/19447",
+      "publisher": "One Love Skate",
+      "authority": "primary-publisher",
+      "sports": [
+        "skateboarding"
+      ],
+      "claimScopes": [
+        "Supporting program/contact information"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-b4d0582a8b7a",
+      "url": "https://www.oneloveskate.org/",
+      "publisher": "One Love Skate",
+      "authority": "primary-publisher",
+      "sports": [
+        "skateboarding"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-9e8c21ed7f55",
+      "url": "https://www.dukefoundation.org/scholarships",
+      "publisher": "Outrigger Duke Kahanamoku Foundation",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports",
+        "Canoe Paddling",
+        "Surfing",
+        "Swimming & Diving",
+        "Volleyball",
+        "Water Polo"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-536649255e59",
+      "url": "https://allpono.org/sports/baseball",
+      "publisher": "PONO Baseball",
+      "authority": "primary-publisher",
+      "sports": [
+        "baseball"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-720297bf2c7c",
+      "url": "https://www.mauisportsleagues.com/maui-flag-football-league",
+      "publisher": "Phase 1 / Maui Sports Leagues",
+      "authority": "primary-publisher",
+      "sports": [
+        "flag-football"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts",
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review",
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-86ff5b8b8fa2",
+      "url": "https://www.positiveathlete.org/",
+      "publisher": "Positive Athlete",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-f3dc02871973",
+      "url": "https://www.positiveathlete.org/nominate",
+      "publisher": "Positive Athlete",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-87f86ce515c2",
+      "url": "https://www.mauinews.com/sports/local-sports/2026/09/coppa-scores-three-touchdowns-as-baldwin-tops-lahainaluna/",
+      "publisher": "Published athletics result",
+      "authority": "supporting-local-or-governing-partner",
+      "sports": [
+        "Football"
+      ],
+      "claimScopes": [
+        "Specific dated completed score"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "published-result-reviewed"
+      ]
+    },
+    {
+      "id": "source-48e2caed01c9",
+      "url": "https://www.sasmaui.org/tuition",
+      "publisher": "Shane Victorino Foundation / St. Anthony School",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "partial-verification"
+      ]
+    },
+    {
+      "id": "source-929f8a189cfa",
+      "url": "https://sportstravelhawaii.com/scholarship/",
+      "publisher": "Sports Travel Hawaii",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-8b0b4ab1e461",
+      "url": "https://www.tufhawaii.org/pages/gorilla-athletic-scholarship-fund",
+      "publisher": "TUF Hawaii / Dickson Performance",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-dfff2c20521a",
+      "url": "https://www.thedojomaui.com/classes-1",
+      "publisher": "The Dojo Maui",
+      "authority": "primary-publisher",
+      "sports": [
+        "martial-arts"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-bda17cf7fab9",
+      "url": "https://www.usawmembership.com/state_clubs/HI",
+      "publisher": "USA Wrestling Hawaii club directory",
+      "authority": "primary-publisher",
+      "sports": [
+        "wrestling"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-b2639049a8d1",
+      "url": "https://blog.ncga.org/the-2027-usndp-grant-cycle-now-open?hs_amp=true",
+      "publisher": "USGA",
+      "authority": "supporting-local-or-governing-partner",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Supporting award/window facts"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "partial-verification"
+      ]
+    },
+    {
+      "id": "source-93c97d750dad",
+      "url": "https://www.usga.org/content/championships/usndp/2026/articles/US-National-Development-Program-Grant-Program-Fast-Facts.html",
+      "publisher": "USGA",
+      "authority": "primary-publisher",
+      "sports": [
+        "Golf"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "partial-verification"
+      ]
+    },
+    {
+      "id": "source-3567a9a50219",
+      "url": "https://www.ustahawaii.com/junior-scholarships-1",
+      "publisher": "USTA Hawaii Pacific / Maui Community Tennis Organization",
+      "authority": "primary-publisher",
+      "sports": [
+        "Tennis"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-rules-current-availability-unconfirmed",
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-305f3e7111c4",
+      "url": "https://www.ayso818.org/Default.aspx?tabid=855718",
+      "publisher": "Upcountry AYSO Region 818",
+      "authority": "primary-publisher",
+      "sports": [
+        "soccer"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-a08f8514770b",
+      "url": "https://www.virr.com/MemberOrg/ValleyIsleRoadRunners2/Page/VIRRRaces",
+      "publisher": "VIRR 2026 races",
+      "authority": "primary-publisher",
+      "sports": [
+        "cross-country",
+        "running",
+        "track-field"
+      ],
+      "claimScopes": [
+        "Dated event, program or fixture facts",
+        "Historical or schedule resource; see record-specific notes"
+      ],
+      "checked": "2026-10-03",
+      "access": "reviewed-via-search-or-supporting-source",
+      "verificationStates": [
+        "resource-review",
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-bcf5cab6ea02",
+      "url": "https://www.virr.com/",
+      "publisher": "Valley Isle Road Runners",
+      "authority": "primary-publisher",
+      "sports": [
+        "cross-country",
+        "running"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-84cdb4e381a5",
+      "url": "https://leagues.bluesombrero.com/valleyislesoftball",
+      "publisher": "Valley Isle Softball Little League",
+      "authority": "primary-publisher",
+      "sports": [
+        "softball"
+      ],
+      "claimScopes": [
+        "Historical or schedule resource; see record-specific notes",
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed",
+        "resource-review"
+      ]
+    },
+    {
+      "id": "source-abdf6aacc3f3",
+      "url": "https://verticalsportsmaui.com/scholarships/",
+      "publisher": "Vertical Sports Maui",
+      "authority": "primary-publisher",
+      "sports": [
+        "All Sports"
+      ],
+      "claimScopes": [
+        "Scholarship/assistance requirements; current application status per record"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "verified-published-information"
+      ]
+    },
+    {
+      "id": "source-fe22a793cf02",
+      "url": "https://www.waileacanoeclub.com/programs-and-activities",
+      "publisher": "Wailea Canoe Club",
+      "authority": "primary-publisher",
+      "sports": [
+        "canoe-paddling"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-6d38ebab9330",
+      "url": "https://www.mauicounty.gov/facilities/facility/details/warmemorialcomplex-408",
+      "publisher": "War Memorial Complex",
+      "authority": "primary-publisher",
+      "sports": [
+        "track-field"
+      ],
+      "claimScopes": [
+        "Organization/program facts; current enrollment not implied"
+      ],
+      "checked": "2026-10-03",
+      "access": "fetch-blocked-or-incomplete",
+      "verificationStates": [
+        "published-details-current-availability-unconfirmed"
+      ]
+    },
+    {
+      "id": "source-02b67ad30128",
+      "url": "https://www.maxpreps.com/hi/football/game/kamehameha-maui-pukalani-vs-kulanihakoi-kihei/10-2-2026/?c=85af51f8-c26d-4fc6-a9e1-83f7f8a0de4c",
+      "publisher": "MaxPreps",
+      "authority": "published-results-platform",
+      "sports": [
+        "football"
+      ],
+      "claimScopes": [
+        "Weekend results, highlights or October program information"
+      ],
+      "checked": "2026-10-04",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-information-reviewed"
+      ]
+    },
+    {
+      "id": "source-ba094b64476f",
+      "url": "https://hsjga.org/23151-2/",
+      "publisher": "HSJGA",
+      "authority": "primary-publisher",
+      "sports": [
+        "golf"
+      ],
+      "claimScopes": [
+        "Weekend results, highlights or October program information"
+      ],
+      "checked": "2026-10-04",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-information-reviewed"
+      ]
+    },
+    {
+      "id": "source-f1bdf7ad8a38",
+      "url": "https://www.kaanapaligolfcourses.com/kaanapali-classic/",
+      "publisher": "Kāʻanapali Golf Courses",
+      "authority": "primary-publisher",
+      "sports": [
+        "golf"
+      ],
+      "claimScopes": [
+        "Weekend results, highlights or October program information"
+      ],
+      "checked": "2026-10-04",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-information-reviewed"
+      ]
+    },
+    {
+      "id": "source-371fea2532ec",
+      "url": "https://www.maxpreps.com/m/news/w_NVr_GPnUaZ6r5-bTU0OQ/volleyball-recap-seabury-rolls-to-its-ninth-straight-win--how-to-watch.htm",
+      "publisher": "MaxPreps",
+      "authority": "published-results-platform",
+      "sports": [
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Weekend results, highlights or October program information"
+      ],
+      "checked": "2026-10-04",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-information-reviewed"
+      ]
+    },
+    {
+      "id": "source-0fbc775147d5",
+      "url": "https://www.maxpreps.com/hi/napili/maui-prep-pueo/volleyball/media/videos/?videoid=7e751e89-b382-4f82-b8aa-60f655ed2343",
+      "publisher": "MaxPreps",
+      "authority": "published-results-platform",
+      "sports": [
+        "volleyball"
+      ],
+      "claimScopes": [
+        "Weekend results, highlights or October program information"
+      ],
+      "checked": "2026-10-04",
+      "access": "public-content-returned",
+      "verificationStates": [
+        "published-information-reviewed"
+      ]
+    }
+  ],
+  "weekendReviewDate": "2026-10-04"
+}

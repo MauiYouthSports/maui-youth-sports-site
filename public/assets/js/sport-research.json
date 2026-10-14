@@ -1,0 +1,854 @@
+{
+  "baseball": {
+    "sport": "Baseball",
+    "current": "Central Maui Little League says 2027 registration is expected to open in October 2026. Maui County’s 2026 Little League tournaments included Central East Maui, Upcountry, Kīhei, West Maui and Molokaʻi teams.",
+    "organizations": [
+      {
+        "name": "Central Maui Little League",
+        "detail": "2027 registration expected October 2026.",
+        "url": "https://clubs.bluesombrero.com/cemll",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "PONO Baseball",
+        "detail": "Approximately 150–200 players, ages 4U–18U; teams participate in Central East Maui Little League and Maui Bronco League.",
+        "url": "https://allpono.org/sports/baseball",
+        "contact": {
+          "person": "Peter Delima, director",
+          "email": "Peterd85@outlook.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui County Baseball Directory",
+        "detail": "County directory lists Kīhei, Upcountry, West Maui Little League and Maui Bronco/Pony contacts.",
+        "url": "https://www.mauicounty.gov/BusinessDirectoryii.aspx?lngBusinessCategoryID=47",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "2027 registration was announced for October 2026; exact opening, fees and current acceptance are not confirmed.",
+    "resources": [
+      {
+        "name": "Maui County 2026 Little League tournament recap",
+        "url": "https://www.mauicounty.gov/m/newsflash/Home/Detail/18994"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "basketball": {
+    "sport": "Basketball",
+    "current": "County Menehune Basketball runs September 1–December 10, 2026, for grades 6–8. Registration ended August 14; the season continues.",
+    "organizations": [
+      {
+        "name": "Maui Youth Basketball",
+        "detail": "Volunteer league for ages 6–13; Fall season starts in August with weekend games at Maui venues.",
+        "url": "https://mauibasketball.sportsengine-prelive.com/",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "County Menehune Basketball League",
+        "detail": "Free, grades 6–8. Individual schedules and gym assignments have not been verified as of October 3, 2026.",
+        "url": "https://www.mauicounty.gov/DocumentCenter/View/163248",
+        "contact": {
+          "person": "Noa Chung · West District Recreation",
+          "phone": "808-270-4314",
+          "email": "Noa.K.Chung@co.maui.hi.us"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "MAUI Academy",
+        "detail": "Youth basketball development and mentoring for ages 8–18.",
+        "url": "https://www.mauibasketball.com/",
+        "contact": {
+          "phone": "934-254-6689",
+          "email": "info@mauibasketball.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Menehune registration closed Aug. 14; check Maui Youth Basketball for current Fall 2026 availability.",
+    "resources": [
+      {
+        "name": "Maui Sports Leagues",
+        "url": "https://www.mauisportsleagues.com/"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "canoe-paddling": {
+    "sport": "Paddling",
+    "current": "Kīhei’s published junior season ran April 6–August 1, 2026. Other clubs’ current junior practice dates and future registration remain unconfirmed.",
+    "organizations": [
+      {
+        "name": "Kīhei Canoe Club",
+        "detail": "Published junior season April 6–August 1, 2026; dues $60 including a jersey. Future junior dates are not confirmed.",
+        "url": "https://www.kiheicanoeclub.com/content.aspx?club_id=375541&module_id=370618&page_id=22",
+        "contact": {
+          "person": "Assistant Coach Alexis Goddard",
+          "email": "Kccjr2026@gmail.com",
+          "phone": "808-879-5505"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Wailea Canoe Club",
+        "detail": "Youth paddling programs; published summer-regatta practices are historical. Confirm current practice groups with the club.",
+        "url": "https://www.waileacanoeclub.com/programs-and-activities",
+        "contact": {
+          "email": "waileacanoeclub@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui Youth Sports paddling archive",
+        "detail": "Older Maui club directory retained as a lead list; contacts should be reverified before use.",
+        "url": "https://mauiyouthsports.com/choose-sport/maui-youth-canoe-paddling-information/",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Check individual canoe clubs for 2027 junior registration announcements.",
+    "resources": [
+      {
+        "name": "Kīhei Canoe Club youth program",
+        "url": "https://www.kiheicanoeclub.com/content.aspx?club_id=375541&module_id=370618&page_id=22"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "cheerleading": {
+    "sport": "Cheerleading",
+    "current": "Maui Pop Warner provides youth football, cheer and dance for Maui County participants ages 5–14.",
+    "organizations": [
+      {
+        "name": "Maui Pop Warner",
+        "detail": "Youth football, cheer and dance; district-based teams across Maui. District follows physical home address; two residency proofs are required. FAQ registration dates still refer to May 2025, so 2026 availability is unconfirmed.",
+        "url": "https://maui-popwarner.com/home",
+        "contact": {
+          "email": "kalei.mpw@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed",
+        "supportingSources": [
+          "https://maui-popwarner.com/faq"
+        ]
+      }
+    ],
+    "registration": "The posted registration information uses in-person district registration; contact Maui Pop Warner for late/current openings.",
+    "resources": [
+      {
+        "name": "Maui Pop Warner FAQ",
+        "url": "https://maui-popwarner.com/faq"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "cross-country": {
+    "sport": "Cross Country",
+    "current": "Meet #4 October 3 and #5 October 10 both have venue conflicts between MIL and Maui High. Both sources list 8 a.m. HST. School reschedules Meet #3 to October 17 at King Kekaulike; October 24 championship is listed at Baldwin. See schedule notes below.",
+    "organizations": [
+      {
+        "name": "Maui Interscholastic League",
+        "detail": "Current high-school Fall 2026 schedule and locations.",
+        "url": "https://www.milsports.org/schedule/742105/cross-country",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Valley Isle Road Runners",
+        "detail": "Year-round Maui running club with an active youth program.",
+        "url": "https://www.virr.com/",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "School athletes should register through their school. VIRR is a year-round community option.",
+    "resources": [
+      {
+        "name": "MIL Cross Country schedule",
+        "url": "https://www.milsports.org/schedule/742105/cross-country"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "football": {
+    "sport": "Football",
+    "current": "Official MIL DI and 8-man schedules remain active in October. Upcoming DI games are listed into November; see the MYS fixtures below.",
+    "organizations": [
+      {
+        "name": "Maui Pop Warner",
+        "detail": "District-based youth football for ages 5–14. District follows physical home address; two residency proofs are required. FAQ registration dates still refer to May 2025, so 2026 availability is unconfirmed.",
+        "url": "https://maui-popwarner.com/home",
+        "contact": {
+          "email": "kalei.mpw@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed",
+        "supportingSources": [
+          "https://maui-popwarner.com/faq"
+        ]
+      },
+      {
+        "name": "Maui Interscholastic League",
+        "detail": "Official Fall 2026 high-school football schedules.",
+        "url": "https://www.milsports.org/schedules",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "School football is coordinated by school athletics. Current Pop Warner roster openings are not confirmed.",
+    "resources": [
+      {
+        "name": "MIL schedules",
+        "url": "https://www.milsports.org/schedules"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "flag-football": {
+    "sport": "Flag Football",
+    "current": "Phase 1 publishes late registration October 1–24 at $140. Season October 17–December 12. Maui Stars standings are dated September 14 and are not live results.",
+    "organizations": [
+      {
+        "name": "Phase 1 / Maui Sports Leagues",
+        "detail": "Fall 2026 youth flag football; registration through Oct. 24 with tiered fees.",
+        "url": "https://www.mauisportsleagues.com/maui-flag-football-league",
+        "contact": {
+          "email": "mauisportsleagues@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui Stars Hawaii",
+        "detail": "Published standings dated September 14, 2026; subsequent scores are not confirmed.",
+        "url": "https://mauistarshawaii.org/events/",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Published late-registration window: October 1–24, 2026; team placement requires coach approval.",
+    "resources": [
+      {
+        "name": "Phase 1 registration",
+        "url": "https://www.mauisportsleagues.com/maui-flag-football-league"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "golf": {
+    "sport": "Golf",
+    "current": "Maui Junior Golf Association has a published 2026 tournament schedule and results through Golf Genius; 2026 membership is closed.",
+    "organizations": [
+      {
+        "name": "Maui Junior Golf Association",
+        "detail": "Junior golf development and tournament program for ages 6–18.",
+        "url": "https://mjga.net/",
+        "contact": {
+          "email": "info@mjga.net",
+          "address": "P.O. Box 852, Wailuku, HI 96793"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "2026 MJGA membership is closed; watch the organization for the next season.",
+    "resources": [
+      {
+        "name": "MJGA membership",
+        "url": "https://mjga.net/membership/"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "gymnastics": {
+    "sport": "Gymnastics",
+    "current": "Maui has both mobile and gym-based recreational gymnastics options for keiki.",
+    "organizations": [
+      {
+        "name": "Maui Tumblers",
+        "detail": "Mobile recreational gymnastics, after-school classes and clinics; operating on Maui since 2004.",
+        "url": "https://www.mauitumblers.com/",
+        "contact": {
+          "phone": "808-463-5989"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Island Athletics Maui",
+        "detail": "Parent & Tot, preschool, recreational gymnastics, tumbling and camps in Kahului.",
+        "url": "https://app.iclasspro.com/portal/islandathleticsmaui",
+        "contact": {
+          "phone": "808-385-4066",
+          "email": "islandathleticsmaui@gmail.com",
+          "address": "250 Alamaha St., #N12, Kahului"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed",
+        "supportingSources": [
+          "https://mauifamilymagazine.com/sports-on-maui-2/"
+        ]
+      }
+    ],
+    "registration": "Current class openings and fees require confirmation; enrollment links remain available.",
+    "resources": [
+      {
+        "name": "Maui Tumblers classes",
+        "url": "https://www.mauitumblers.com/"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "inline-hockey": {
+    "sport": "Inline Hockey",
+    "current": "MIHA published a 2026–27 August 18 youth-league start and September 17 game start at Kalama Park, Kīhei. Current individual fixtures and roster openings are not confirmed.",
+    "organizations": [
+      {
+        "name": "Maui Inline Hockey Association",
+        "detail": "Published youth program information mentions weekday evening sessions and AAU membership. Confirm the specific practice/game assignment before attending.",
+        "url": "https://www.hockeymaui.com/",
+        "contact": {
+          "email": "mauiinlinehockeyassociation@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "2026–27 registration opened Aug. 15; check MIHA for current roster availability.",
+    "resources": [
+      {
+        "name": "MIHA current season",
+        "url": "https://www.hockeymaui.com/league"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "martial-arts": {
+    "sport": "Martial Arts",
+    "current": "Maui offers youth programs across Taekwondo, Hapkido, Kajukenbo, karate, Brazilian jiu-jitsu, wrestling and other disciplines.",
+    "organizations": [
+      {
+        "name": "Maui Taekwondo & Hapkido Center",
+        "detail": "Tiger Cubs ages 2–4, Little Tigers 4–7, kids and teen classes in Kīhei and Wailuku.",
+        "url": "https://www.mauitaekwondo.org/classes-schedule",
+        "contact": {
+          "phone": "808-344-5244",
+          "email": "mauitaekwondo@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui Kajukenbo",
+        "detail": "Kids 5+ and teen/adult classes in Wailuku.",
+        "url": "https://www.mauikajukenbo.com/",
+        "contact": {
+          "email": "mauikajukenbo@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "HI Ground Collective",
+        "detail": "Kīhei BJJ programs for ages 3–5 and 6–13, plus teens.",
+        "url": "https://higroundcollective.com/",
+        "contact": {
+          "phone": "808-357-6382",
+          "address": "340 Ohukai Rd, Suite 204, Kihei, HI 96753"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "The Dojo Maui",
+        "detail": "Keiki karate programs beginning at age 5.",
+        "url": "https://www.thedojomaui.com/classes-1",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Official class information is available below; current openings and tuition require confirmation.",
+    "resources": [
+      {
+        "name": "Maui Taekwondo classes",
+        "url": "https://www.mauitaekwondo.org/classes-schedule"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "rugby": {
+    "sport": "Rugby",
+    "current": "Maui Rugby provides rookie, youth and high-school rugby. Its page still labels registration 2025–26; 2026–27 enrollment and dates are not confirmed.",
+    "organizations": [
+      {
+        "name": "Maui Rugby",
+        "detail": "Islandwide nonprofit youth rugby organization; Maui Cup season January–March.",
+        "url": "https://sites.google.com/view/mauirugby/home",
+        "contact": {
+          "email": "MauiRugby1@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Kahului Rugby Warriors",
+        "detail": "Regional Maui Rugby team serving boys and girls ages 5+.",
+        "url": "https://sites.google.com/view/kahuluirugbywarriors",
+        "contact": {
+          "email": "KahuluiRugby@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Contact Maui Rugby to confirm the current season and team placement.",
+    "resources": [
+      {
+        "name": "Maui Rugby",
+        "url": "https://sites.google.com/view/mauirugby/home"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "running": {
+    "sport": "Running",
+    "current": "Valley Isle Road Runners offers a year-round Maui running community with youth programming. Upcoming 2026 events include the Thanksgiving Turkey Trot and Dec. 20 Holiday Run & Keiki Dash.",
+    "organizations": [
+      {
+        "name": "Valley Isle Road Runners",
+        "detail": "Published youth/student membership age 17 and under: $20. Current race entries have their own schedules.",
+        "url": "https://www.virr.com/",
+        "contact": {
+          "email": "president@virr.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "VIRR membership is available year-round; individual races have their own registration windows.",
+    "resources": [
+      {
+        "name": "VIRR 2026 races",
+        "url": "https://www.virr.com/MemberOrg/ValleyIsleRoadRunners2/Page/VIRRRaces"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "soccer": {
+    "sport": "Soccer",
+    "current": "ALBION publishes estimated Holiday 2026 sessions for Keiki Academy and Juniors. See MYS details below for ages, times and date inconsistencies.",
+    "organizations": [
+      {
+        "name": "Upcountry AYSO Region 818",
+        "detail": "Fall 2026 divisions from U6 upward; season August–mid November.",
+        "url": "https://www.ayso818.org/Default.aspx?tabid=855718",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "ALBION SC Hawaii",
+        "detail": "Maui Keiki Academy ages 4–6 and Juniors ages 7–12, plus competitive teams.",
+        "url": "https://www.mauiunitedsoccer.org/",
+        "contact": {
+          "person": "Mike Adrian",
+          "email": "madrian@albionschawaii.org"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Registration acceptance and cost are not confirmed. Keiki Academy Fall 2026 was marked full; it must not be confused with the Holiday program.",
+    "resources": [
+      {
+        "name": "ALBION Keiki Academy Maui",
+        "url": "https://www.mauiunitedsoccer.org/juniors/keiki-academy/keiki-academy-maui"
+      },
+      {
+        "name": "ALBION Juniors Maui",
+        "url": "https://www.mauiunitedsoccer.org/juniors/albion-juniors/albion-juniors-maui"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "softball": {
+    "sport": "Softball",
+    "current": "Valley Isle Softball Little League’s earlier 2026 recap described an inaugural season with about 185 players. Current registrations and the next season have not been verified.",
+    "organizations": [
+      {
+        "name": "Valley Isle Softball Little League",
+        "detail": "Girls softball nonprofit established in 2025; 2026 included clinic, league and All-Star activity.",
+        "url": "https://leagues.bluesombrero.com/valleyislesoftball",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui Girls Softball Association",
+        "detail": "Local youth softball organization; current details should be confirmed directly.",
+        "url": "https://www.mauiyouthdirectory.com/sports-category/softball/",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Watch VISLL for its next clinic and season registration announcements.",
+    "resources": [
+      {
+        "name": "VISLL",
+        "url": "https://leagues.bluesombrero.com/valleyislesoftball"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "surfing": {
+    "sport": "Surfing",
+    "current": "HSA Maui publishes a 2026–27 season page with membership and contest links. Confirm acceptance for the specific contest before entering. HHSAA announced a first state surfing championship for Spring 2026.",
+    "organizations": [
+      {
+        "name": "Hawaii Surfing Association Maui",
+        "detail": "2026–27 amateur surf season and contest registration.",
+        "url": "https://hsamaui.org/hsa-2026-season-open/",
+        "contact": {
+          "phone": "808-385-2221",
+          "email": "John@hsamaui.org"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui Interscholastic League / HHSAA",
+        "detail": "MIL has sanctioned surfing since 2014; HHSAA added a boys’ and girls’ shortboard state championship in 2026.",
+        "url": "https://hhsaa.org/about/news/2025/0716-press",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "HSA Maui provides membership and contest links; individual contest entry availability is not confirmed.",
+    "resources": [
+      {
+        "name": "HSA Maui 2026 season",
+        "url": "https://hsamaui.org/hsa-2026-season-open/"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "swimming-diving": {
+    "sport": "Swimming & Diving",
+    "current": "MAGSA organizes Maui pool meets under Hawaiian Swimming/USA Swimming. County pool programming lists multiple Maui swim clubs and diving programs.",
+    "organizations": [
+      {
+        "name": "Maui Age Group Swimming Association",
+        "detail": "Coordinates Maui competitive swim meets and links to meet schedules/results.",
+        "url": "https://mauiswimming.org/",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui County pool programs",
+        "detail": "Historical County directory identifies swim clubs and diving programs. Its dated timetable must not be treated as the current pool schedule.",
+        "url": "https://www.mauicounty.gov/DocumentCenter/View/117688/Year-Round-Pool-Programs",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Current session times and enrollment require confirmation with each team; the County directory timetable is historical.",
+    "resources": [
+      {
+        "name": "MAGSA",
+        "url": "https://mauiswimming.org/"
+      },
+      {
+        "name": "Hawaiian Swimming results",
+        "url": "https://hawaiiswim.org/"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "tennis": {
+    "sport": "Tennis",
+    "current": "The Maui Community Tennis Organization supports Maui tennis under USTA Hawaii Pacific. A Maui Junior Tennis Grant provides up to $500 for qualifying junior travel.",
+    "organizations": [
+      {
+        "name": "Maui Community Tennis Organization",
+        "detail": "Volunteer USTA organization supporting Maui tennis programs, tournaments and leagues.",
+        "url": "https://www.ustahawaii.com/maui",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui Junior Tennis Grant",
+        "detail": "For Maui residents age 18 or younger who demonstrate financial need.",
+        "url": "https://www.ustahawaii.com/junior",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Junior grant opportunities remain listed by USTA Hawaii Pacific; contact MCTO for current junior programming.",
+    "resources": [
+      {
+        "name": "MCTO",
+        "url": "https://www.ustahawaii.com/maui"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "track-field": {
+    "sport": "Track & Field",
+    "current": "Maui high-school track & field competes through the MIL in spring. War Memorial Complex includes the Satoki Yamamoto regulation track and field facility.",
+    "organizations": [
+      {
+        "name": "Maui Interscholastic League",
+        "detail": "Official source for Maui high-school spring track & field schedules when posted.",
+        "url": "https://www.milsports.org/schedules",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "War Memorial Complex",
+        "detail": "County’s primary stadium track-and-field venue in Wailuku.",
+        "url": "https://www.mauicounty.gov/facilities/facility/details/warmemorialcomplex-408",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "School participation is coordinated through school athletics; Spring 2027 schedules have not been verified.",
+    "resources": [
+      {
+        "name": "MIL schedules",
+        "url": "https://www.milsports.org/schedules"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "volleyball": {
+    "sport": "Volleyball",
+    "current": "Official MIL DI and DII girls volleyball schedules and playoff placeholders are shown below. Current club tryout/enrollment status is not confirmed.",
+    "organizations": [
+      {
+        "name": "Maui Juniors Volleyball Club",
+        "detail": "Youth club focused on local, regional and national training and competition.",
+        "url": "https://mauivolleyball.sportngin.com/",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui Interscholastic League",
+        "detail": "Current DI and DII girls volleyball schedules.",
+        "url": "https://www.milsports.org/schedules",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Current club registration acceptance is not confirmed; school participation is coordinated through school athletics.",
+    "resources": [
+      {
+        "name": "Maui Juniors",
+        "url": "https://mauivolleyball.sportngin.com/"
+      },
+      {
+        "name": "MIL schedules",
+        "url": "https://www.milsports.org/schedules"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "water-polo": {
+    "sport": "Water Polo",
+    "current": "Published Island Aquatics/County information identifies coed youth water polo at Kīhei Aquatic Center; current sessions and enrollment have not been verified. MIL school competition is a separate spring program.",
+    "organizations": [
+      {
+        "name": "Island Aquatics / Island Water Polo",
+        "detail": "Published Maui aquatics program; coed water polo requires swimming skills. Current practice days, times and openings are unconfirmed.",
+        "url": "https://www.islandaquaticsmaui.com/",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "Maui Interscholastic League",
+        "detail": "Official high-school schedule source during water-polo season.",
+        "url": "https://www.milsports.org/schedules",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Contact Island Aquatics for current youth sessions; high-school participation is handled through schools.",
+    "resources": [
+      {
+        "name": "Maui County pool programs",
+        "url": "https://www.mauicounty.gov/DocumentCenter/View/117688/Year-Round-Pool-Programs"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "wrestling": {
+    "sport": "Wrestling",
+    "current": "Maui has a strong youth wrestling network. Nakamura Wrestling won the 2026 Hawaiʻi USA Wrestling Championship, with multiple Maui clubs finishing in the top 10.",
+    "organizations": [
+      {
+        "name": "Nakamura Wrestling",
+        "detail": "Wailuku club with youth development, regular training and camps.",
+        "url": "https://nakamurawrestling.com/",
+        "contact": {
+          "email": "grantnakamurawrestling@gmail.com"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      },
+      {
+        "name": "USA Wrestling Hawaii club directory",
+        "detail": "Lists Maui Wrestling Academy, Nakamura Wrestling and Upcountry Wrestling Foundation among Maui clubs.",
+        "url": "https://www.usawmembership.com/state_clubs/HI",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "registration": "Nakamura asks families to contact the club before signing up; other Maui clubs can be found through USA Wrestling Hawaii.",
+    "resources": [
+      {
+        "name": "Nakamura Wrestling",
+        "url": "https://nakamurawrestling.com/"
+      },
+      {
+        "name": "May 13, 2026 championship recap",
+        "url": "https://mauinow.com/2026/05/13/nakamura-wrestling-of-wailuku-wins-hawai%CA%BBi-usa-wrestling-championship/"
+      }
+    ],
+    "last_checked": "2026-10-03",
+    "verification_state": "mixed-source-review",
+    "current_status": "Current enrollment/registration availability not confirmed unless a dated window is shown below."
+  },
+  "bowling": {
+    "sport": "Bowling",
+    "current": "MIL and Maui High publish conflicting championship dates. School calendar also lists rescheduled regular matches October 16/17. Confirm dates and participants; see the comparison below.",
+    "registration": "School athletes should contact their school athletics office.",
+    "last_checked": "2026-10-03",
+    "organizations": [
+      {
+        "name": "Maui Interscholastic League",
+        "detail": "School bowling at Wailuku Lanes. Official league and school calendars conflict on playoff dates.",
+        "url": "https://www.milsports.org/schedule/742107/bowling",
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "resources": [],
+    "verification_state": "mixed-source-review"
+  },
+  "dance": {
+    "sport": "Dance",
+    "current": "Alexander Academy publishes Fall 2026 dance classes and a December 12–13 Nutcracker performance at the MACC.",
+    "registration": "Confirm class level, tuition and availability with Alexander Academy.",
+    "last_checked": "2026-10-03",
+    "organizations": [
+      {
+        "name": "Alexander Academy of Performing Arts",
+        "detail": "Creative movement ages 2–3: Monday 10:30–11:15 a.m., Queen Kaʻahumanu Center studio; class limited to ten. Confirm enrollment before attending.",
+        "url": "https://www.alexanderacademy.info/classes",
+        "contact": {
+          "phone": "808-818-8870",
+          "address": "275 W Kaahumanu Ave #C102, Kahului, HI 96732"
+        },
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "resources": [],
+    "verification_state": "mixed-source-review"
+  },
+  "skateboarding": {
+    "sport": "Skateboarding",
+    "current": "One Love Skate offers Maui youth skate activities and community events. A September 26 Skate Jam was announced, but completion or cancellation was not verified.",
+    "registration": "Next public clinic/camp dates and registration availability are not confirmed.",
+    "last_checked": "2026-10-03",
+    "organizations": [
+      {
+        "name": "One Love Skate",
+        "detail": "Maui skate programming; the County announced a September 26, 2026 Pukalani event with lessons and contests. The announced date has passed.",
+        "url": "https://www.oneloveskate.org/",
+        "supportingSources": [
+          "https://www.mauicounty.gov/m/newsflash/Home/Detail/19447"
+        ],
+        "contact": {},
+        "last_checked": "2026-10-03",
+        "verification_state": "published-details-current-availability-unconfirmed"
+      }
+    ],
+    "resources": [],
+    "verification_state": "mixed-source-review"
+  }
+}
