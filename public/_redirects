@@ -52,3 +52,6 @@
 /register/ / 301
 /lost-password/ / 301
 /reset-password/ / 301
+/news /highlights/ 301
+/news/ /highlights/ 301
+/news/* /highlights/ 301
