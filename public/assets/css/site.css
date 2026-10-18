@@ -155,3 +155,6 @@
 
 .home-title{font-size:clamp(18px,2.4vw,24px);line-height:1.25;margin:10px 0 0;font-weight:800}#scores-section{margin-top:14px}.footer-social{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin-top:10px}
 .footer-credit{margin-top:8px;font-size:12px;line-height:1.4;color:#b8c8cb}.footer .footer-credit a{display:inline;min-height:0;padding:0;color:inherit}.footer-credit a:hover,.footer-credit a:focus-visible{text-decoration:underline;text-underline-offset:2px}
+#games-section.home-today{min-height:240px}#games-section.home-today.is-collapsed{display:none;min-height:0;margin:0}
+#play-section{container-type:inline-size}#play:empty{min-height:calc((5 * (100cqw - 60px) / 6) + 48px)}@media(max-width:900px){#play:empty{min-height:calc((7 * (100cqw - 36px) / 4) + 72px)}}@media(max-width:600px){#play:empty{min-height:calc((9 * (100cqw - 18px) / 3) + 72px)}}
+#scores{min-height:150px}@media(max-width:850px){#scores{min-height:312px}}@media(max-width:520px){#scores{min-height:156px}}

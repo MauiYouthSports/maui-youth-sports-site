@@ -3,7 +3,7 @@ const d=window.MYS_DATA||{};
 const esc=s=>String(s??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function infoRows(items){return (items||[]).map(x=>`<div class="row"><span class="pill">${esc(x.tag||x.sport)}</span><b class="rowtitle">${esc(x.title)}</b><div class="rowtext">${esc(x.text)}</div>${x.href?`<a class="sourcebtn" href="${esc(x.href)}" ${x.internal?'':'target="_blank" rel="noopener"'}>${x.internal?'Read on MYS →':'Details →'}</a>`:''}</div>`).join('')}
 function scoreRows(items){return (items||[]).map(x=>`<a class="scorecard game-scorecard" href="${esc(x.urlOnMYS)}" aria-label="${esc(x.away+' '+x.awayScore+', '+x.home+' '+x.homeScore+' — '+x.sport+', '+x.dateISO+' final')}"><div class="scorehead"><span class="pill">${esc(x.sport)}</span><span class="scoredate">${esc(x.date)} · ${esc(x.status)}</span></div><div class="scoreline"><span>${esc(x.away)}</span><strong>${esc(x.awayScore)}</strong></div><div class="scoreline"><span>${esc(x.home)}</span><strong>${esc(x.homeScore)}</strong></div></a>`).join('')}
-function playRows(items){return (items||[]).map(x=>`<a class="playitem pictocard" href="${esc(x.href)}" aria-label="${esc(x.sport)}">${x.icon?`<img src="/assets/pictographs/${esc(x.icon)}.png" alt="${esc(x.sport)}">`:`<span class="sport-text-tile">${esc(x.sport)}</span>`}</a>`).join('')}
+function playRows(items){return (items||[]).map(x=>`<a class="playitem pictocard" href="${esc(x.href)}" aria-label="${esc(x.sport)}">${x.icon?`<img src="/assets/pictographs/${esc(x.icon)}.webp" alt="${esc(x.sport)}" width="240" height="240" loading="lazy" decoding="async">`:`<span class="sport-text-tile">${esc(x.sport)}</span>`}</a>`).join('')}
 const put=(id,html)=>{const el=document.getElementById(id);if(el)el.innerHTML=html};
 put('scores',scoreRows(d.homepageScores||(d.scores||[]).slice(0,4)));put('play',playRows(d.play));
 
@@ -33,11 +33,11 @@ put('scores',scoreRows(d.homepageScores||(d.scores||[]).slice(0,4)));put('play',
     var row=document.createElement('section');
     row.className='sponsor-row';
     row.setAttribute('aria-label','Sponsors');
-    [{name:'Honey & Me Baking',copy:'Made with aloha on Maui · @honeyandmebaking',url:'https://www.instagram.com/honeyandmebaking/',cls:'honey',img:'/assets/brand/honey-me-mochi.webp',alt:'Brownie-stuffed mochi from Honey & Me Baking'},{name:'Alakaʻina Consulting',copy:'Culturally grounded leadership, growth & community impact across Hawaiʻi.',url:'https://www.alakainaconsulting.com/',cls:'alakaina',img:'/assets/brand/alakaina-consulting.png',alt:'Alakaʻina Consulting Hawaiʻi'}].forEach(function(a){
+    [{name:'Honey & Me Baking',copy:'Made with aloha on Maui · @honeyandmebaking',url:'https://www.instagram.com/honeyandmebaking/',cls:'honey',img:'/assets/brand/honey-me-mochi-2x.webp',alt:'Brownie-stuffed mochi from Honey & Me Baking'},{name:'Alakaʻina Consulting',copy:'Culturally grounded leadership, growth & community impact across Hawaiʻi.',url:'https://www.alakainaconsulting.com/',cls:'alakaina',img:'/assets/brand/alakaina-consulting-2x.webp',alt:'Alakaʻina Consulting Hawaiʻi'}].forEach(function(a){
       var link=document.createElement('a');
       link.className='sponsor-mini '+a.cls;
       link.href=a.url;link.target='_blank';link.rel='noopener';
-      var img=document.createElement('img');img.src=a.img;img.alt=a.alt;img.width=72;img.height=48;
+      var img=document.createElement('img');img.src=a.img;img.alt=a.alt;img.width=72;img.height=48;img.loading='lazy';img.decoding='async';
       var text=document.createElement('span');
       var b=document.createElement('b');b.textContent=a.name;
       var c=document.createElement('span');c.textContent=a.copy;
