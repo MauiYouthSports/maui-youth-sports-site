@@ -22,7 +22,7 @@ fetch('/assets/data/events.json').then(r=>{if(!r.ok)throw Error('events');return
  const today=hawaiiDate(),by=Object.fromEntries(events.map(e=>[e.slug,e]));
  document.querySelectorAll('[data-score-day]').forEach(el=>{const day=el.dataset.scoreDay,yesterday=new Date(Date.parse(today+'T00:00:00Z')-86400000).toISOString().slice(0,10);el.textContent=(day===today?'Today · ':day===yesterday?'Yesterday · ':'Recorded fixtures · ')+day;});
  document.querySelectorAll('[data-today-label]').forEach(el=>el.textContent=today+' · Hawaiʻi time');
- document.querySelectorAll('[data-event]').forEach(el=>{const e=by[el.dataset.event];if(!e)return;const label=el.querySelector('[data-event-status]');if(label)label.textContent=status(e,today);const reg=el.querySelector('[data-registration-status]');if(reg)reg.textContent=registrationStatus(e,today);});
+ document.querySelectorAll('[data-event]').forEach(el=>{const e=by[el.dataset.event];if(!e)return;const label=el.querySelector('[data-event-status]');if(label){const base=status(e,today);const score=label.getAttribute('data-final-score');const protect=/Canceled|Check schedule|Season schedule/.test(base);const happened=e.start&&e.start<=today&&(!e.end||e.end<=today);label.textContent=score&&!protect&&happened?score:base;}const reg=el.querySelector('[data-registration-status]');if(reg)reg.textContent=registrationStatus(e,today);});
  document.querySelectorAll('[data-event-view]').forEach(view=>{
   const mode=view.dataset.eventView,rows=[...view.querySelectorAll('[data-event]')];
   if(mode==='coming')rows.sort((a,b)=>{const x=by[a.dataset.event],y=by[b.dataset.event];return (x.start<today?today:x.start).localeCompare(y.start<today?today:y.start)||x.slug.localeCompare(y.slug);}).forEach(el=>view.append(el));

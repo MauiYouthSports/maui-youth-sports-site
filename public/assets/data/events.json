@@ -198,7 +198,7 @@
   },
   {
     "slug": "mil-di-football-2026-10-09-kulanihakoi-king-kekaulike",
-    "title": "DI Football — Kulanihakoi vs King Kekaulike · 2026-10-09",
+    "title": "DI Football — Kūlanihākoʻi vs King Kekaulike · 2026-10-09",
     "sports": [
       "football"
     ],
@@ -209,14 +209,16 @@
     "end": "2026-10-09",
     "time": "6:00 PM HST",
     "location": "King Kekaulike",
-    "details": "DI Football: Kulanihakoi – King Kekaulike, 2026-10-09 at 6:00 PM HST, King Kekaulike.",
+    "details": "DI Football: Kūlanihākoʻi – King Kekaulike, 2026-10-09 at 6:00 PM HST, King Kekaulike.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-10-09-kulanihakoi-king-kekaulike/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kūlanihākoʻi 0 – King Kekaulike 53"
   },
   {
     "slug": "mil-di-football-2026-10-10-maui-lahainaluna",
@@ -238,7 +240,9 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-10-10-maui-lahainaluna/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Maui High 12 – Lahainaluna 15"
   },
   {
     "slug": "mil-di-football-2026-10-16-lahainaluna-baldwin",
@@ -260,7 +264,9 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-10-16-lahainaluna-baldwin/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Baldwin 13 – Lahainaluna 3"
   },
   {
     "slug": "mil-di-football-2026-10-17-king-kekaulike-ks-maui",
@@ -282,7 +288,9 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-10-17-king-kekaulike-ks-maui/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kamehameha Maui 27 – King Kekaulike 14"
   },
   {
     "slug": "mil-di-football-2026-10-23-baldwin-maui",
@@ -308,7 +316,7 @@
   },
   {
     "slug": "mil-di-football-2026-10-24-ks-maui-kulanihakoi",
-    "title": "DI Football — KS - Maui vs Kulanihakoi · 2026-10-24",
+    "title": "DI Football — KS - Maui vs Kūlanihākoʻi · 2026-10-24",
     "sports": [
       "football"
     ],
@@ -319,7 +327,7 @@
     "end": "2026-10-24",
     "time": "6:00 PM HST",
     "location": "KS - Maui",
-    "details": "DI Football: KS - Maui – Kulanihakoi, 2026-10-24 at 6:00 PM HST, KS - Maui.",
+    "details": "DI Football: KS - Maui – Kūlanihākoʻi, 2026-10-24 at 6:00 PM HST, KS - Maui.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -352,7 +360,7 @@
   },
   {
     "slug": "mil-di-football-2026-10-31-king-kekaulike-kulanihakoi",
-    "title": "DI Football — King Kekaulike vs Kulanihakoi · 2026-10-31",
+    "title": "DI Football — King Kekaulike vs Kūlanihākoʻi · 2026-10-31",
     "sports": [
       "football"
     ],
@@ -363,7 +371,7 @@
     "end": "2026-10-31",
     "time": "6:00 PM HST",
     "location": "King Kekaulike",
-    "details": "DI Football: King Kekaulike – Kulanihakoi, 2026-10-31 at 6:00 PM HST, King Kekaulike.",
+    "details": "DI Football: King Kekaulike – Kūlanihākoʻi, 2026-10-31 at 6:00 PM HST, King Kekaulike.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -436,7 +444,9 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-06-baldwin-ks-maui/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kamehameha Maui 3 – Baldwin 1"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-06-king-kekaulike-lahainaluna",
@@ -458,7 +468,9 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-06-king-kekaulike-lahainaluna/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Lahainaluna 0 – King Kekaulike 3"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-08-baldwin-king-kekaulike",
@@ -480,7 +492,9 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-08-baldwin-king-kekaulike/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · King Kekaulike 3 – Baldwin 0"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-08-maui-lahainaluna",
@@ -502,7 +516,9 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-08-maui-lahainaluna/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Lahainaluna 2 – Maui High 3"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-13-baldwin-maui",
@@ -524,7 +540,9 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-13-baldwin-maui/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Maui High 2 – Baldwin 3"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-13-king-kekaulike-ks-maui",
@@ -546,11 +564,13 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-13-king-kekaulike-ks-maui/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kamehameha Maui 0 – King Kekaulike 3"
   },
   {
     "slug": "mil-8-man-football-2026-10-10-lanai-hana",
-    "title": "8-Man Football — Lanai vs Hana · 2026-10-10",
+    "title": "8-Man Football — Lānaʻi vs Hāna · 2026-10-10",
     "sports": [
       "football"
     ],
@@ -560,15 +580,17 @@
     "start": "2026-10-10",
     "end": "2026-10-10",
     "time": "9:00 AM HST",
-    "location": "Lanai",
-    "details": "8-Man Football: Lanai – Hana, 2026-10-10 at 9:00 AM HST, Lanai.",
+    "location": "Lānaʻi",
+    "details": "8-Man Football: Lānaʻi – Hāna, 2026-10-10 at 9:00 AM HST, Lānaʻi.",
     "source": "https://milsports.org/schedule/744295/8-man-football",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-8-man-football-2026-10-10-lanai-hana/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Hāna 36 – Lānaʻi 20"
   },
   {
     "slug": "mil-cross-country-2026-10-10-mil-meet-5-mil",
@@ -730,7 +752,7 @@
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-03-molokai-hana",
-    "title": "DII Girls Volleyball — Molokai vs Hana · 2026-10-03",
+    "title": "DII Girls Volleyball — Molokaʻi vs Hāna · 2026-10-03",
     "sports": [
       "volleyball"
     ],
@@ -740,8 +762,8 @@
     "start": "2026-10-03",
     "end": "2026-10-03",
     "time": "8:00 AM HST",
-    "location": "Molokai",
-    "details": "DII Girls Volleyball: Molokai – Hana, 2026-10-03 at 8:00 AM HST, Molokai.",
+    "location": "Molokaʻi",
+    "details": "DII Girls Volleyball: Molokaʻi – Hāna, 2026-10-03 at 8:00 AM HST, Molokaʻi.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -749,11 +771,13 @@
     "url": "/events/mil-dii-girls-volleyball-2026-10-03-molokai-hana/",
     "supportingSources": [],
     "listingCategory": "competition",
-    "scheduleNote": "Separate Saturday rematch. The October 2 Molokai 3–1 final does not establish a result for this October 3 game."
+    "scheduleNote": "Separate Saturday rematch. The October 2 Molokaʻi 3–1 final does not establish a result for this October 3 game.",
+    "currentStatus": "final",
+    "resultSummary": "Final · Hāna 3 – Molokaʻi 1"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-07-kihei-charter-maui-prep",
-    "title": "DII Girls Volleyball — Kihei Charter vs Maui Prep · 2026-10-07",
+    "title": "DII Girls Volleyball — Kīhei Charter vs Maui Prep · 2026-10-07",
     "sports": [
       "volleyball"
     ],
@@ -764,7 +788,7 @@
     "end": "2026-10-07",
     "time": "6:00 PM HST",
     "location": "Maui Prep",
-    "details": "DII Girls Volleyball: Kihei Charter – Maui Prep, 2026-10-07 at 6:00 PM HST, Maui Prep.",
+    "details": "DII Girls Volleyball: Kīhei Charter – Maui Prep, 2026-10-07 at 6:00 PM HST, Maui Prep.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -775,7 +799,7 @@
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-09-haleakala-waldorf-kulanihakoi",
-    "title": "DII Girls Volleyball — Haleakala Waldorf vs Kulanihakoi · 2026-10-09",
+    "title": "DII Girls Volleyball — Haleakalā Waldorf vs Kūlanihākoʻi · 2026-10-09",
     "sports": [
       "volleyball"
     ],
@@ -786,18 +810,20 @@
     "end": "2026-10-09",
     "time": "5:00 PM HST",
     "location": "South Maui Gym",
-    "details": "DII Girls Volleyball: Haleakala Waldorf – Kulanihakoi, 2026-10-09 at 5:00 PM HST, South Maui Gym.",
+    "details": "DII Girls Volleyball: Haleakalā Waldorf – Kūlanihākoʻi, 2026-10-09 at 5:00 PM HST, South Maui Gym.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-dii-girls-volleyball-2026-10-09-haleakala-waldorf-kulanihakoi/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kūlanihākoʻi 3 – Haleakalā Waldorf 0"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-09-lanai-seabury-hall",
-    "title": "DII Girls Volleyball — Lanai vs Seabury Hall · 2026-10-09",
+    "title": "DII Girls Volleyball — Lānaʻi vs Seabury Hall · 2026-10-09",
     "sports": [
       "volleyball"
     ],
@@ -807,8 +833,8 @@
     "start": "2026-10-09",
     "end": "2026-10-09",
     "time": "7:00 PM HST",
-    "location": "Lanai",
-    "details": "DII Girls Volleyball: Lanai – Seabury Hall, 2026-10-09 at 7:00 PM HST, Lanai.",
+    "location": "Lānaʻi",
+    "details": "DII Girls Volleyball: Lānaʻi – Seabury Hall, 2026-10-09 at 7:00 PM HST, Lānaʻi.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -819,7 +845,7 @@
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-09-kihei-charter-hana",
-    "title": "DII Girls Volleyball — Kihei Charter vs Hana · 2026-10-09",
+    "title": "DII Girls Volleyball — Kīhei Charter vs Hāna · 2026-10-09",
     "sports": [
       "volleyball"
     ],
@@ -830,18 +856,20 @@
     "end": "2026-10-09",
     "time": "7:00 PM HST",
     "location": "South Maui Gym",
-    "details": "DII Girls Volleyball: Kihei Charter – Hana, 2026-10-09 at 7:00 PM HST, South Maui Gym.",
+    "details": "DII Girls Volleyball: Kīhei Charter – Hāna, 2026-10-09 at 7:00 PM HST, South Maui Gym.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-dii-girls-volleyball-2026-10-09-kihei-charter-hana/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Hāna 3 – Kīhei Charter 0"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-10-lanai-seabury-hall",
-    "title": "DII Girls Volleyball — Lanai vs Seabury Hall · 2026-10-10",
+    "title": "DII Girls Volleyball — Lānaʻi vs Seabury Hall · 2026-10-10",
     "sports": [
       "volleyball"
     ],
@@ -851,19 +879,21 @@
     "start": "2026-10-10",
     "end": "2026-10-10",
     "time": "9:00 AM HST",
-    "location": "Lanai",
-    "details": "DII Girls Volleyball: Lanai – Seabury Hall, 2026-10-10 at 9:00 AM HST, Lanai.",
+    "location": "Lānaʻi",
+    "details": "DII Girls Volleyball: Lānaʻi – Seabury Hall, 2026-10-10 at 9:00 AM HST, Lānaʻi.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-dii-girls-volleyball-2026-10-10-lanai-seabury-hall/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Seabury Hall 3 – Lānaʻi 1"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-10-kihei-charter-hana",
-    "title": "DII Girls Volleyball — Kihei Charter vs Hana · 2026-10-10",
+    "title": "DII Girls Volleyball — Kīhei Charter vs Hāna · 2026-10-10",
     "sports": [
       "volleyball"
     ],
@@ -874,14 +904,16 @@
     "end": "2026-10-10",
     "time": "10:00 AM HST",
     "location": "South Maui Gym",
-    "details": "DII Girls Volleyball: Kihei Charter – Hana, 2026-10-10 at 10:00 AM HST, South Maui Gym.",
+    "details": "DII Girls Volleyball: Kīhei Charter – Hāna, 2026-10-10 at 10:00 AM HST, South Maui Gym.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-dii-girls-volleyball-2026-10-10-kihei-charter-hana/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Hāna 3 – Kīhei Charter 0"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-14-seabury-hall-maui-prep",
@@ -903,11 +935,13 @@
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-dii-girls-volleyball-2026-10-14-seabury-hall-maui-prep/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Maui Prep 0 – Seabury Hall 3"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-16-hana-lanai",
-    "title": "DII Girls Volleyball — Hana vs Lanai · 2026-10-16",
+    "title": "DII Girls Volleyball — Hāna vs Lānaʻi · 2026-10-16",
     "sports": [
       "volleyball"
     ],
@@ -917,19 +951,21 @@
     "start": "2026-10-16",
     "end": "2026-10-16",
     "time": "6:00 PM HST",
-    "location": "Hana",
-    "details": "DII Girls Volleyball: Hana – Lanai, 2026-10-16 at 6:00 PM HST, Hana.",
+    "location": "Hāna",
+    "details": "DII Girls Volleyball: Hāna – Lānaʻi, 2026-10-16 at 6:00 PM HST, Hāna.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-dii-girls-volleyball-2026-10-16-hana-lanai/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Lānaʻi 1 – Hāna 3"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-16-seabury-hall-kulanihakoi",
-    "title": "DII Girls Volleyball — Seabury Hall vs Kulanihakoi · 2026-10-16",
+    "title": "DII Girls Volleyball — Seabury Hall vs Kūlanihākoʻi · 2026-10-16",
     "sports": [
       "volleyball"
     ],
@@ -940,18 +976,20 @@
     "end": "2026-10-16",
     "time": "6:00 PM HST",
     "location": "Seabury Hall",
-    "details": "DII Girls Volleyball: Seabury Hall – Kulanihakoi, 2026-10-16 at 6:00 PM HST, Seabury Hall.",
+    "details": "DII Girls Volleyball: Seabury Hall – Kūlanihākoʻi, 2026-10-16 at 6:00 PM HST, Seabury Hall.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-dii-girls-volleyball-2026-10-16-seabury-hall-kulanihakoi/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kūlanihākoʻi 0 – Seabury Hall 3"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-17-hana-lanai",
-    "title": "DII Girls Volleyball — Hana vs Lanai · 2026-10-17",
+    "title": "DII Girls Volleyball — Hāna vs Lānaʻi · 2026-10-17",
     "sports": [
       "volleyball"
     ],
@@ -961,8 +999,8 @@
     "start": "2026-10-17",
     "end": "2026-10-17",
     "time": "9:00 AM HST",
-    "location": "Hana",
-    "details": "DII Girls Volleyball: Hana – Lanai, 2026-10-17 at 9:00 AM HST, Hana.",
+    "location": "Hāna",
+    "details": "DII Girls Volleyball: Hāna – Lānaʻi, 2026-10-17 at 9:00 AM HST, Hāna.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1470,7 +1508,7 @@
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-02-molokai-hana",
-    "title": "DII Girls Volleyball — Molokai vs Hana · 2026-10-02",
+    "title": "DII Girls Volleyball — Molokaʻi vs Hāna · 2026-10-02",
     "sports": [
       "volleyball"
     ],
@@ -1481,8 +1519,8 @@
     "start": "2026-10-02",
     "end": "2026-10-02",
     "time": "7:00 PM HST",
-    "location": "Molokai",
-    "details": "Published final: Hana 1, Molokai 3. Girls varsity DII volleyball, October 2, 2026. Result published by MaxPreps and reviewed October 3.",
+    "location": "Molokaʻi",
+    "details": "Published final: Hāna 1, Molokaʻi 3. Girls varsity DII volleyball, October 2, 2026. Result published by MaxPreps and reviewed October 3.",
     "source": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1492,12 +1530,12 @@
       "https://www.maxpreps.com/news/aW44L69myUa7SYqrMz0kEQ/volleyball-recap-molokais-luck-changes-for-the-better-on-friday.htm"
     ],
     "currentStatus": "final",
-    "resultSummary": "Final · Hana 1 – Molokai 3",
+    "resultSummary": "Final · Hāna 1 – Molokaʻi 3",
     "resultSource": "https://www.maxpreps.com/news/aW44L69myUa7SYqrMz0kEQ/volleyball-recap-molokais-luck-changes-for-the-better-on-friday.htm"
   },
   {
     "slug": "mil-8-man-football-2026-10-02-hana-lanai",
-    "title": "8-man Football — Hana vs Lanai · 2026-10-02",
+    "title": "8-man Football — Hāna vs Lānaʻi · 2026-10-02",
     "sports": [
       "football"
     ],
@@ -1508,8 +1546,8 @@
     "start": "2026-10-02",
     "end": "2026-10-02",
     "time": "6:00 PM HST",
-    "location": "Hana Ball Park",
-    "details": "8-man Football: Hana – Lanai, 2026-10-02 at 6:00 PM HST, Hana Ball Park.",
+    "location": "Hāna Ball Park",
+    "details": "8-man Football: Hāna – Lānaʻi, 2026-10-02 at 6:00 PM HST, Hāna Ball Park.",
     "source": "https://www.milsports.org/schedule/744295/8-man-football",
     "verified": "2026-10-03",
     "updated": "2026-10-03",
@@ -1521,7 +1559,7 @@
   },
   {
     "slug": "ks-maui-kulanihakoi-football-october-2-2026",
-    "title": "DI Football — KS Maui vs Kulanihakoi · 2026-10-02",
+    "title": "DI Football — KS Maui vs Kūlanihākoʻi · 2026-10-02",
     "sports": [
       "football"
     ],
@@ -1533,7 +1571,7 @@
     "end": "2026-10-02",
     "time": "6:00 PM HST",
     "location": "Kanaʻiaupuni Stadium",
-    "details": "Kamehameha Maui defeated Kulanihakoʻi 59–0 on Friday, October 2. MaxPreps publishes the varsity football final.",
+    "details": "Kamehameha Maui defeated Kūlanihākoʻi 59–0 on Friday, October 2. MaxPreps publishes the varsity football final.",
     "source": "https://www.maxpreps.com/hi/football/game/kamehameha-maui-pukalani-vs-kulanihakoi-kihei/10-2-2026/?c=85af51f8-c26d-4fc6-a9e1-83f7f8a0de4c",
     "verified": "2026-10-04",
     "updated": "2026-10-04",
@@ -1543,11 +1581,11 @@
       "https://ksmauiwarriors.com/"
     ],
     "currentStatus": "final",
-    "resultSummary": "Final: KS Maui 59, Kulanihakoʻi 0"
+    "resultSummary": "Final · Kūlanihākoʻi 0 – Kamehameha Maui 59"
   },
   {
     "slug": "lahainaluna-kulanihakoi-canceled-october-2-2026",
-    "title": "DI Football — Lahainaluna vs Kulanihakoi · 2026-10-02",
+    "title": "DI Football — Lahainaluna vs Kūlanihākoʻi · 2026-10-02",
     "sports": [
       "football"
     ],
@@ -1559,7 +1597,7 @@
     "end": "2026-10-02",
     "time": "Canceled",
     "location": "Lahainaluna",
-    "details": "Lahainaluna canceled this October 2 game against Kulanihakoi. The school says it will not be rescheduled.",
+    "details": "Lahainaluna canceled this October 2 game against Kūlanihākoʻi. The school says it will not be rescheduled.",
     "source": "https://www.lahainalunahs.org/apps/news/article/2236563?categoryId=4316",
     "verified": "2026-10-03",
     "updated": "2026-10-03",

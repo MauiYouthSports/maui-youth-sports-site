@@ -1,4 +1,3 @@
-function openSubmit(){document.getElementById('submitModal').classList.add('open')}function closeSubmit(){document.getElementById('submitModal').classList.remove('open')}
 const d=window.MYS_DATA||{};
 const esc=s=>String(s??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function infoRows(items){return (items||[]).map(x=>`<div class="row"><span class="pill">${esc(x.tag||x.sport)}</span><b class="rowtitle">${esc(x.title)}</b><div class="rowtext">${esc(x.text)}</div>${x.href?`<a class="sourcebtn" href="${esc(x.href)}" ${x.internal?'':'target="_blank" rel="noopener"'}>${x.internal?'Read on MYS →':'Details →'}</a>`:''}</div>`).join('')}
