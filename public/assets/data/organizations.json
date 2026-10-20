@@ -2535,6 +2535,30 @@
   },
   {
     "sport": "basketball",
+    "slug": "uptempo-athletics-maui",
+    "name": "Uptempo Athletics Maui",
+    "island": "Maui",
+    "area": "Central Maui",
+    "ages": "Ages 4 and up",
+    "description": "Youth basketball leagues, skills clinics, classes for young players and private training.",
+    "website": "https://www.uptempomaui.com/",
+    "where": "Various Central Maui gyms (Puʻu Kukui Elementary, Old Wailuku Gym)",
+    "season": "Fall league divisions for kindergarten through 5th grade, plus pop-up clinics and 4- and 5-year-old classes. Locations vary by program and are shared at registration.",
+    "registration": "Register online at uptempomaui.com.",
+    "contact": "",
+    "phone": "",
+    "email": "info@uptempomaui.com",
+    "extra": "Instagram: https://instagram.com/uptempoathleticsmaui",
+    "status": "Youth program",
+    "sources": [
+      "https://www.uptempomaui.com/",
+      "https://www.uptempomaui.com/uptempomauifaqs",
+      "https://instagram.com/uptempoathleticsmaui"
+    ],
+    "href": "/sports-directory/basketball/uptempo-athletics-maui/"
+  },
+  {
+    "sport": "basketball",
     "slug": "county-menehune-basketball",
     "name": "County Menehune Basketball",
     "island": "Maui",
