@@ -241,19 +241,24 @@
       "island": "Molokaʻi",
       "area": "Kaunakakai",
       "place": "Kaunakakai. Message the club for the practice meeting spot.",
-      "ages": "Ask the club about age requirements.",
+      "ages": "Youth ages 8-18.",
       "description": "Active in Molokaʻi racing and community programming, including hosting the second MCRA regatta in 2026.",
-      "opportunity": "MCRA competition and community programming. Contact the club for youth program availability.",
-      "season": "Hosted Regatta #2 on July 4, 2026. Contact the club for practice times.",
-      "registration": "Contact the club for youth program availability. Ask whether young paddlers can join, and about ages, fees, swimming requirements and practice schedules.",
+      "opportunity": "MCRA competition and community programming. 2027 registration opens in January.",
+      "season": "Regatta season runs April-August. MCRA regattas run on various weekends throughout June and July. Coach and schedule information will be posted as soon as available.",
+      "registration": "Register and find other information on the club website. 2027 registration opens in January.",
       "contact": "Tiana Miguel · HCRA primary contact",
       "phone": "808-336-1952",
       "email": "heentiana@yahoo.com",
       "source": "https://www.hcrapaddler.com/desktop_content.php?action=clublist",
-      "status": "Contact the club for youth program availability.",
+      "status": "2027 registration opens in January.",
       "extra": "",
-      "links": [],
-      "verificationStatus": "Active club · youth intake unverified"
+      "links": [
+        [
+          "Club website / registration",
+          "https://waakapaemuacanoeclub.usetopscore.com/"
+        ]
+      ],
+      "verificationStatus": "Active club · youth program confirmed by club (Oct 2026)"
     },
     {
       "slug": "kukui-o-molokai",
