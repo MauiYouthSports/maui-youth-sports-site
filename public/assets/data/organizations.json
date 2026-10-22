@@ -916,30 +916,6 @@
   },
   {
     "sport": "soccer",
-    "slug": "excel-soccer-academy",
-    "name": "Excel Soccer Academy",
-    "island": "Maui",
-    "area": "Maui",
-    "ages": "Farm U6–U10 · academy U11–U19",
-    "description": "Low-pressure development through the Farm, then academy/competitive progression, camps and targeted clinics. Farm serves girls and boys.",
-    "website": "https://www.excelsocceracademy.com/",
-    "where": "Maui",
-    "season": "",
-    "registration": "2026–27 tryouts are done. Contact the director about an evaluation or Farm team openings.",
-    "contact": "Stryker Aguilar · Director of Coaching",
-    "phone": "602-677-1960",
-    "email": "saguilar9@mac.com",
-    "extra": "",
-    "status": "Youth program",
-    "sources": [
-      "https://www.excelsocceracademy.com/",
-      "https://www.excelsocceracademy.com/farm/",
-      "https://www.excelsocceracademy.com/registration/"
-    ],
-    "href": "/sports-directory/soccer/excel-soccer-academy/"
-  },
-  {
-    "sport": "soccer",
     "slug": "maui-strikers-soccer-club",
     "name": "Maui Strikers Soccer Club",
     "island": "Maui",
@@ -1056,7 +1032,7 @@
     "area": "Central Maui",
     "ages": "Ages 4–16. Contact the program for this season’s divisions.",
     "description": "A girls softball league welcoming beginners, with development toward Little League Major and Junior All-Stars. Its first season opened in January 2026 with 17 teams.",
-    "website": "https://leagues.bluesombrero.com/valleyislesoftball",
+    "website": "https://www.valleyislesbll.com",
     "where": "Central Maui Regional Sports Complex, Kahului School fields and Papohaku. Your coach will share your team’s field.",
     "season": "The first season began January 17, 2026. Contact the league about the next one.",
     "registration": "Contact the league about registration, age divisions, equipment and fees. Need-based scholarships have been offered.",
@@ -1066,7 +1042,7 @@
     "extra": "Instagram @ValleyIsleSBLL. Maui Girls Softball Association supported formation of VISLL.",
     "status": "Youth program",
     "sources": [
-      "https://leagues.bluesombrero.com/valleyislesoftball"
+      "https://www.valleyislesbll.com"
     ],
     "href": "/sports-directory/softball/valley-isle-softball-little-league/"
   },
