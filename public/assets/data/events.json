@@ -65,7 +65,10 @@
         "opponentScore": 0
       }
     ],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Varsity Kamehameha Maui 3 – Maui High 0; JV Kamehameha Maui 3 – Maui High 0",
+    "resultSource": "https://ksmauiwarriors.com/"
   },
   {
     "slug": "surf-n-turf-september-30-2026",
@@ -118,7 +121,9 @@
     ],
     "scheduleNote": "Lahainaluna’s cancellation replaces the older listing for the Lahainaluna–Kūlanihākoʻi game.",
     "verificationState": "published-result-other-results-unconfirmed",
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kūlanihākoʻi 0 – Kamehameha Maui 59"
   },
   {
     "slug": "mil-cross-country-meet-4-2026",
@@ -1547,15 +1552,19 @@
     "end": "2026-10-02",
     "time": "6:00 PM HST",
     "location": "Hāna Ball Park",
-    "details": "8-man Football: Hāna – Lānaʻi, 2026-10-02 at 6:00 PM HST, Hāna Ball Park.",
+    "details": "Final: Lānaʻi 0, Hāna 20. 8-man football on Oct. 2, 2026, at 6:00 PM HST, Hāna Ball Park.",
     "source": "https://www.milsports.org/schedule/744295/8-man-football",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
-    "verificationState": "verified-published-schedule",
+    "updated": "2026-10-18",
+    "verificationState": "published-result-reviewed",
     "url": "/events/mil-8-man-football-2026-10-02-hana-lanai/",
     "supportingSources": [
-      "https://www.hanak12school.org/"
-    ]
+      "https://www.hanak12school.org/",
+      "https://www.mauinews.com/sports/local-sports/2026/10/hana-scores-20-in-fourth-quarter-to-shut-out-lanai/"
+    ],
+    "currentStatus": "final",
+    "resultSummary": "Final · Lānaʻi 0 – Hāna 20",
+    "resultSource": "https://www.mauinews.com/sports/local-sports/2026/10/hana-scores-20-in-fourth-quarter-to-shut-out-lanai/"
   },
   {
     "slug": "ks-maui-kulanihakoi-football-october-2-2026",
