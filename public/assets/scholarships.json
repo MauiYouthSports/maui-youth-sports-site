@@ -959,31 +959,24 @@
     "type": "General College Scholarship",
     "sports": "All Sports",
     "amount": "Three $2,000 awards",
-    "status": "2026–27 deadline passed; next cycle not confirmed",
+    "status": "2026 scholarships have been awarded. The 2027-2028 application is expected around February 2027 — check back then.",
     "eligibility": "Hawaiʻi residents entering or continuing accredited US college study in conservation, ecology, biology or a related ecosystem field; GPA 3.0+.",
-    "url": "https://fhnp.org/2026-2027-don-reeser-mary-evanson-and-dr-fern-duvall-memorial-scholarship/",
-    "verified": "2026-10-03",
+    "url": "",
+    "verified": "2026-10-23",
     "organization": "Friends of Haleakalā National Park",
-    "applicationWindows": [
-      {
-        "start": null,
-        "end": "2026-05-15",
-        "label": "2026–27; received or postmarked",
-        "endAt": null
-      }
-    ],
-    "instructions": "Provide transcript, two references and an original 1,000–1,300-word career-goals essay. AI-generated essays are prohibited.",
+    "applicationWindows": [],
+    "instructions": "",
     "contact": {
       "email": "andy@fhnp.org; mary@fhnp.org",
       "address": "P.O. Box 322, Makawao, HI 96768"
     },
     "detailPage": true,
-    "lastChecked": "2026-10-03",
-    "primarySource": "https://fhnp.org/2026-2027-don-reeser-mary-evanson-and-dr-fern-duvall-memorial-scholarship/",
+    "lastChecked": "2026-10-23",
+    "primarySource": "",
     "supportingSources": [],
     "verificationState": "verified-published-information",
     "slug": "friends-of-haleakal-memorial-scholarship",
-    "applicationWindowAuthority": "primary",
+    "applicationWindowAuthority": "unconfirmed",
     "urlOnMYS": "/scholarships/friends-of-haleakal-memorial-scholarship/"
   },
   {
