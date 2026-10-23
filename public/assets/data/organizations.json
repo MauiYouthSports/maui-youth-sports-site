@@ -3431,6 +3431,30 @@
   },
   {
     "sport": "basketball",
+    "slug": "maui-christian-academy",
+    "name": "Maui Christian Academy",
+    "island": "Maui",
+    "area": "North Shore",
+    "ages": "Eligible enrolled high-school students",
+    "description": "Boys and girls basketball. Contact the athletics office about tryouts and athletic clearance.",
+    "website": "https://doristoddchristian.org/",
+    "where": "519 Baldwin Avenue, Pāʻia. Gym and practice assignments come from school athletics.",
+    "season": "Contact the athletics office about this year’s teams.",
+    "registration": "Open to enrolled students who meet athletic eligibility. The athletics office has tryout dates and clearance forms.",
+    "contact": "Athletic Director David Garza",
+    "phone": "808-579-9237",
+    "email": "office@mauichristian.org",
+    "status": "School program",
+    "sources": [
+      "https://doristoddchristian.org/programs",
+      "https://hhsaa.org/schools/maui-christian-academy",
+      "https://hhsaa.org/schools/MIL"
+    ],
+    "extra": "",
+    "href": "/sports-directory/basketball/maui-christian-academy/"
+  },
+  {
+    "sport": "basketball",
     "slug": "seabury-hall",
     "name": "Seabury Hall",
     "island": "Maui",
