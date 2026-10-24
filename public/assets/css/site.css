@@ -158,3 +158,18 @@
 #games-section.home-today{min-height:240px}#games-section.home-today.is-collapsed{display:none;min-height:0;margin:0}
 #play-section{container-type:inline-size}#play:empty{min-height:calc((5 * (100cqw - 60px) / 6) + 48px)}@media(max-width:900px){#play:empty{min-height:calc((7 * (100cqw - 36px) / 4) + 72px)}}@media(max-width:600px){#play:empty{min-height:calc((9 * (100cqw - 18px) / 3) + 72px)}}
 #scores{min-height:150px}@media(max-width:850px){#scores{min-height:312px}}@media(max-width:520px){#scores{min-height:156px}}
+
+/* Phone homepage: pull News into the first screen. Desktop spacing is unchanged. */
+@media(max-width:520px){
+ main.wrap:has(> .home-title){padding-top:6px}
+ .home-title{margin-top:4px}
+ #scores-section{margin-top:8px;margin-bottom:8px}
+ #highlights-section{margin-top:8px}
+ #scores-section .section-head>div>.eyebrow,
+ #highlights-section .section-head>div>.eyebrow{margin-bottom:4px}
+ #scores{min-height:130px;padding-bottom:2px}
+ #scores .scorecard{padding:11px 14px}
+ #scores .scoreline{padding-top:6px}
+ #scores .scoreline strong{font-size:22px}
+ #scores-section .morelink{margin-top:2px}
+}
