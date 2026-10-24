@@ -1,15 +1,19 @@
 {
   "baseball": {
     "sport": "Baseball",
-    "current": "Central Maui Little League says 2027 registration is expected to open in October 2026. Maui County’s 2026 Little League tournaments included Central East Maui, Upcountry, Kīhei, West Maui and Molokaʻi teams.",
+    "current": "Central Maui Little League registration is open October 15 through November 15, 2026. Maui County’s 2026 Little League tournaments included Central East Maui, Upcountry, Kīhei, West Maui and Molokaʻi teams.",
     "organizations": [
       {
         "name": "Central Maui Little League",
-        "detail": "2027 registration expected October 2026.",
+        "detail": "2027 registration is open October 15 through November 15, 2026. Tee-Ball is $100 for birthdates September 2020–August 2023.",
         "url": "https://clubs.bluesombrero.com/cemll",
-        "contact": {},
-        "last_checked": "2026-10-03",
-        "verification_state": "published-details-current-availability-unconfirmed"
+        "contact": {
+          "email": "CEastMauiLL@gmail.com",
+          "note": "Preferred family contact. Listed with written permission from the league."
+        },
+        "last_checked": "2026-10-24",
+        "verification_state": "verified-published-information",
+        "flyer": "https://www.instagram.com/centralmaui_ll/p/Dehk1ilPH3L/"
       },
       {
         "name": "PONO Baseball",

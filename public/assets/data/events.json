@@ -1247,6 +1247,40 @@
     "listingCategory": "competition"
   },
   {
+    "slug": "central-maui-little-league-tee-ball-registration-2027",
+    "title": "Central Maui Little League — Tee-Ball / 2027 Registration",
+    "sports": [
+      "baseball"
+    ],
+    "organization": "Central Maui Little League",
+    "kind": "program",
+    "listingCategory": "community",
+    "start": "2026-10-15",
+    "end": "2026-11-15",
+    "registrationStart": "2026-10-15",
+    "registrationEnd": "2026-11-15",
+    "time": "Opens Thursday, October 15, 2026; closes Sunday, November 15, 2026",
+    "location": "Central Maui",
+    "eligibility": "Tee-Ball: birthdates September 2020–August 2023",
+    "cost": "Tee-Ball $100",
+    "details": "Registration is open Thursday, October 15 through Sunday, November 15, 2026. Tee-Ball is $100 for birthdates September 2020–August 2023. Register online at the league site.",
+    "instructions": "All registrations must be completed online at the league site. Registration for Juniors (12–14) and Seniors (14–16) will be held at a later date.",
+    "scheduleNote": "This window also includes Coach Pitch (birthdates September 2018–August 2020, $105), Minors (September 2016–August 2018, $125), Majors (September 2014–August 2016, $130) and Intermediate / 50-70 (September 2013–August 2015, $130).",
+    "contact": {
+      "email": "CEastMauiLL@gmail.com"
+    },
+    "flyerImage": "/assets/events/central-maui-little-league-tee-ball-registration-2027.webp",
+    "flyerCredit": "Central Maui Little League",
+    "flyerStatus": "published",
+    "source": "https://www.instagram.com/centralmaui_ll/p/Dehk1ilPH3L/",
+    "supportingSources": [
+      "https://clubs.bluesombrero.com/cemll"
+    ],
+    "verified": "2026-10-24",
+    "verificationState": "verified-published-information",
+    "url": "/events/central-maui-little-league-tee-ball-registration-2027/"
+  },
+  {
     "slug": "albion-keiki-academy-holiday-2026",
     "title": "ALBION Keiki Academy — Holiday 2026",
     "sports": [
