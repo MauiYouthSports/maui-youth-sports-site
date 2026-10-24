@@ -730,32 +730,6 @@
     "urlOnMYS": "/scholarships/tuf-athletic-scholarship-fund/"
   },
   {
-    "name": "Kit Lauer Memorial Scholarship",
-    "region": "Maui County",
-    "type": "Training & Camp Assistance",
-    "sports": "All Sports",
-    "amount": "Not published",
-    "status": "Current award availability not confirmed",
-    "eligibility": "Maui youth seeking sports-camp assistance.",
-    "url": "https://verticalsportsmaui.com/scholarships/",
-    "verified": "2026-10-03",
-    "organization": "Vertical Sports Maui",
-    "description": "The current sponsor page describes assistance for sports camp and character development.",
-    "contact": {
-      "email": "VSM@verticalsportsmaui.com",
-      "address": "1254 S. Kihei Rd. #38, Kihei, HI 96753"
-    },
-    "lastChecked": "2026-10-03",
-    "primarySource": "https://verticalsportsmaui.com/scholarships/",
-    "supportingSources": [],
-    "verificationState": "verified-published-information",
-    "applicationWindows": [],
-    "slug": "kit-lauer-memorial-scholarship",
-    "detailPage": false,
-    "applicationWindowAuthority": "unconfirmed",
-    "urlOnMYS": null
-  },
-  {
     "name": "Maui Inline Hockey Association Financial Assistance",
     "region": "Maui County",
     "type": "Youth Athlete Grant",
