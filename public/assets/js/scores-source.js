@@ -1,6 +1,6 @@
 /* MYS scores loader: reads the published "Scores" tab of the MYS Scores Google Sheet (CSV).
-   Only rows with review_status=approved are returned. Returns null on any failure so
-   pages keep their built-in fallback data. Paste the "Publish to web" CSV link below. */
+   Only rows with review_status=approved are returned, including rows with an empty mys_page.
+   Returns null on any failure. Callers must not substitute a frozen snapshot. */
 (function(){'use strict';
 var SHEET_CSV_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vSftDZ9GZFkqnYw2edu_nu-eRFUeDInqEhqVnFjoogW6Uea8tK3S_S-ywdQYZlhCvpN5mW3ow9qh9cp/pub?gid=825218774&single=true&output=csv';
 function parseCSV(t){var rows=[],row=[],f='',q=false;for(var i=0;i<t.length;i++){var c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){f+='"';i++;}else q=false;}else f+=c;}else if(c==='"')q=true;else if(c===','){row.push(f);f='';}else if(c==='\n'||c==='\r'){if(c==='\r'&&t[i+1]==='\n')i++;row.push(f);rows.push(row);row=[];f='';}else f+=c;}if(f!==''||row.length){row.push(f);rows.push(row);}return rows;}

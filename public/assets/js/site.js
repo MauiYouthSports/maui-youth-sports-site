@@ -4,7 +4,7 @@ function infoRows(items){return (items||[]).map(x=>`<div class="row"><span class
 function scoreRows(items){return (items||[]).map(x=>`<a class="scorecard game-scorecard" href="${esc(x.urlOnMYS)}" aria-label="${esc(x.away+' '+x.awayScore+', '+x.home+' '+x.homeScore+' — '+x.sport+', '+x.dateISO+' final')}"><div class="scorehead"><span class="pill">${esc(x.sport)}</span><span class="scoredate">${esc(x.date)} · ${esc(x.status)}</span></div><div class="scoreline"><span>${esc(x.away)}</span><strong>${esc(x.awayScore)}</strong></div><div class="scoreline"><span>${esc(x.home)}</span><strong>${esc(x.homeScore)}</strong></div></a>`).join('')}
 function playRows(items){return (items||[]).map(x=>`<a class="playitem pictocard" href="${esc(x.href)}" aria-label="${esc(x.sport)}">${x.icon?`<img src="/assets/pictographs/${esc(x.icon)}.webp" alt="${esc(x.sport)}" width="240" height="240" loading="lazy" decoding="async">`:`<span class="sport-text-tile">${esc(x.sport)}</span>`}</a>`).join('')}
 const put=(id,html)=>{const el=document.getElementById(id);if(el)el.innerHTML=html};
-put('scores',scoreRows(d.homepageScores||(d.scores||[]).slice(0,4)));put('play',playRows(d.play));
+put('play',playRows(d.play));
 
 // Sponsors sit below the main content on sport, directory, and schedule pages.
 // Other interior pages keep one rotating sponsor.
