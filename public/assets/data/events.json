@@ -1247,6 +1247,31 @@
     "listingCategory": "competition"
   },
   {
+    "slug": "central-maui-little-league-tee-ball-registration-2027",
+    "title": "Central Maui Little League — Tee-Ball / 2027 Registration",
+    "sports": [
+      "baseball"
+    ],
+    "organization": "Central Maui Little League",
+    "kind": "program",
+    "listingCategory": "community",
+    "location": "Central Maui",
+    "time": "Expected October 2026 — confirm dates on the league site",
+    "details": "Tee-Ball registration for the 2027 season. Registration is expected to open in October 2026. Confirm dates, fees and age divisions on the league site.",
+    "instructions": "Register on the league website. Email is the league’s preferred contact for families.",
+    "scheduleNote": "Registration for the 2027 season is expected to open in October 2026. Families should confirm dates on the league site. Fees and age divisions are not listed here.",
+    "contact": {
+      "email": "CEastMauiLL@gmail.com"
+    },
+    "flyerImage": "/assets/events/central-maui-little-league-tee-ball-registration-2027.webp",
+    "flyerCredit": "Central Maui Little League",
+    "flyerStatus": "awaiting-file",
+    "source": "https://clubs.bluesombrero.com/cemll",
+    "verified": "2026-10-24",
+    "verificationState": "published-details-current-availability-unconfirmed",
+    "url": "/events/central-maui-little-league-tee-ball-registration-2027/"
+  },
+  {
     "slug": "albion-keiki-academy-holiday-2026",
     "title": "ALBION Keiki Academy — Holiday 2026",
     "sports": [

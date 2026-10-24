@@ -7,8 +7,11 @@
         "name": "Central Maui Little League",
         "detail": "2027 registration expected October 2026.",
         "url": "https://clubs.bluesombrero.com/cemll",
-        "contact": {},
-        "last_checked": "2026-10-03",
+        "contact": {
+          "email": "CEastMauiLL@gmail.com",
+          "note": "Preferred family contact. Listed with written permission from the league."
+        },
+        "last_checked": "2026-10-24",
         "verification_state": "published-details-current-availability-unconfirmed"
       },
       {
