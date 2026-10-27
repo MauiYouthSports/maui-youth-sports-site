@@ -40,10 +40,24 @@ function pairKey(date,sport,a,b){
   if(x>y){var t=x;x=y;y=t;}
   return date+'|'+sport+'|'+x+'|'+y;
 }
-function exempt(date,text){
-  if(date!=='2026-10-09')return false;
-  var n=fold(text);
-  return n.indexOf('lanai')>=0&&n.indexOf('seabury')>=0;
+function seedSide(s){
+  return /^(?:\d+(?:st|nd|rd|th)|g\d+ winner)\b/.test(fold(s));
+}
+function divisionOf(text){
+  var t=fold(text);
+  if(/\bdii\b/.test(t))return 'dii';
+  if(/\b8 man\b/.test(t))return '8-man';
+  if(/\bdi\b/.test(t))return 'di';
+  return '';
+}
+function sameSlot(g,date,sport,division){
+  return !!g&&g.dateISO===date&&sportOf(g.sport||g.sportGroup||'')===sport&&divisionOf(g.sport||'')===division;
+}
+function uniqueGame(list){
+  if(!list||!list.length)return null;
+  var sig=list.map(function(g){return g.awayScore+'|'+g.homeScore+'|'+fold(g.away)+'|'+fold(g.home);});
+  var unique=sig.filter(function(s,idx){return sig.indexOf(s)===idx;});
+  return unique.length===1?list[0]:null;
 }
 function line(g){
   return 'Final · '+spell(g.away)+' '+g.awayScore+' – '+spell(g.home)+' '+g.homeScore;
@@ -61,16 +75,18 @@ function indexScores(rows){
   return map;
 }
 function lookup(map,date,sport,a,b){
-  var list=map[pairKey(date,sport,a,b)];
-  if(!list||!list.length)return null;
-  var sig=list.map(function(g){return g.awayScore+'|'+g.homeScore+'|'+fold(g.away)+'|'+fold(g.home);});
-  var unique=sig.filter(function(s,idx){return sig.indexOf(s)===idx;});
-  return unique.length===1?list[0]:null;
+  return uniqueGame(map[pairKey(date,sport,a,b)]);
 }
 function textOf(el){return (el.textContent||'').replace(/\s+/g,' ').trim();}
 function setText(el,value){if(el&&el.textContent!==value)el.textContent=value;}
-function apply(map,authoritative){
+function paint(status,found){
+  setText(status,line(found));
+  status.setAttribute('data-mys-score','1');
+}
+function apply(map,authoritative,rows){
+  rows=rows||[];
   var today=hawaiiToday();
+  var pending=[];
   TABLES.forEach(function(table){
     table.querySelectorAll('tbody tr[data-fixture-date]').forEach(function(tr){
       var date=tr.getAttribute('data-fixture-date')||'';
@@ -80,21 +96,46 @@ function apply(map,authoritative){
       var division=cells.length>1?cells[1]:cells[0];
       var status=tr.lastElementChild;
       var matchupText=textOf(matchup);
-      if(exempt(date,matchupText))return;
       var current=textOf(status);
       if(/canceled/i.test(current)||/check schedule details/i.test(current))return;
+      var sport=sportOf(textOf(division));
       var bits=matchupText.split(/\s+[–—]\s+/);
-      var found=bits.length>=2?lookup(map,date,sportOf(textOf(division)),bits[0],bits[1]):null;
+      var found=bits.length>=2?lookup(map,date,sport,bits[0],bits[1]):null;
       if(found){
-        setText(status,line(found));
-        status.setAttribute('data-mys-score','1');
+        paint(status,found);
+        (map[pairKey(date,sport,bits[0],bits[1])]||[]).forEach(function(g){g._consumed=true;});
         return;
       }
-      if(date<today&&(/upcoming/i.test(current)||/coming soon/i.test(current)||/score not reported/i.test(current)||(authoritative&&status.getAttribute('data-mys-score')==='1'))){
-        setText(status,'Score not reported yet');
-        status.removeAttribute('data-mys-score');
-      }
+      pending.push({date:date,status:status,bits:bits,sport:sport,div:divisionOf(textOf(division))});
     });
+  });
+  var groups={};
+  var namedLeft={};
+  pending.forEach(function(row){
+    if(!row.sport||!row.div)return;
+    var key=row.date+'|'+row.sport+'|'+row.div;
+    if(!(row.bits.length>=2&&seedSide(row.bits[0])&&seedSide(row.bits[1]))){namedLeft[key]=true;return;}
+    if(!groups[key])groups[key]=[];
+    groups[key].push(row);
+  });
+  Object.keys(groups).forEach(function(key){
+    var group=groups[key];
+    if(namedLeft[key]||group.length!==1)return;
+    var row=group[0];
+    var candidates=rows.filter(function(g){return !g._consumed&&sameSlot(g,row.date,row.sport,row.div);});
+    var found=uniqueGame(candidates);
+    if(!found)return;
+    paint(row.status,found);
+    candidates.forEach(function(g){g._consumed=true;});
+    row.painted=true;
+  });
+  pending.forEach(function(row){
+    if(row.painted)return;
+    var current=textOf(row.status);
+    if(row.date<today&&(/upcoming/i.test(current)||/coming soon/i.test(current)||/score not reported/i.test(current)||(authoritative&&row.status.getAttribute('data-mys-score')==='1'))){
+      setText(row.status,'Score not reported yet');
+      row.status.removeAttribute('data-mys-score');
+    }
   });
   document.querySelectorAll('[data-event]').forEach(function(el){
     var label=el.querySelector('[data-event-status]');
@@ -112,9 +153,12 @@ function apply(map,authoritative){
     }
     var left=vs[0].split('—').pop().split('·')[0];
     var right=vs[1].split('·')[0];
-    if(exempt(date,left+' '+right))return;
     var sport=sportOf(title);
     var found=lookup(map,date,sport,left,right);
+    if(!found&&seedSide(left)&&seedSide(right)){
+      var div=divisionOf(title);
+      if(sport&&div)found=uniqueGame(rows.filter(function(g){return sameSlot(g,date,sport,div);}));
+    }
     if(found){
       var value=line(found);
       label.setAttribute('data-final-score',value);
@@ -123,11 +167,11 @@ function apply(map,authoritative){
   });
 }
 function fallback(){
-  return fetch('/assets/data/scores.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('scores');return r.json();}).then(function(rows){if(Array.isArray(rows))apply(indexScores(rows),false);}).catch(function(){});
+  return fetch('/assets/data/scores.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('scores');return r.json();}).then(function(rows){if(Array.isArray(rows))apply(indexScores(rows),false,rows);}).catch(function(){});
 }
 var loader=window.MYSScores&&window.MYSScores.load?window.MYSScores.load():Promise.resolve(null);
 Promise.resolve(loader).then(function(rows){
-  if(Array.isArray(rows)&&rows.length)apply(indexScores(rows),true);
+  if(Array.isArray(rows)&&rows.length)apply(indexScores(rows),true,rows);
   else return fallback();
 }).catch(function(){return fallback();});
 })();
