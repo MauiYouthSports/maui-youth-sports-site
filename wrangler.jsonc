@@ -14,7 +14,9 @@
   "routes": [
     {"pattern": "mauiyouthsports.com", "custom_domain": true},
     {"pattern": "www.mauiyouthsports.com", "custom_domain": true}
-  ]
+  ],
+  // Required by the PR build command `npx wrangler preview`. Assets stay at the top level.
+  "previews": {}
   // Later, when /api/submit is added: "main": "src/index.js", plus
   // "assets": { ..., "binding": "ASSETS", "run_worker_first": ["/api/*"] }
   // and the Formspree endpoint as a var/secret (set with `wrangler secret put`, never committed).

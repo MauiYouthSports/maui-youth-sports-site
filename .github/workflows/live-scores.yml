@@ -1,0 +1,62 @@
+name: Refresh live scores
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Mon–Thu 21:00 HST (UTC−10) → 07:00 UTC Tuesday–Friday
+    - cron: "0 7 * * 2-5"
+    # Fri–Sun 16:00 HST → 02:00 UTC Saturday, Sunday, Monday
+    - cron: "0 2 * * 6,0,1"
+    # Fri–Sun 23:00 HST → 09:00 UTC Saturday, Sunday, Monday
+    - cron: "0 9 * * 6,0,1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-scores
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build live scores
+        run: node scripts/build-live-scores.mjs
+      - name: Commit when approved rows change
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- public/assets/data/live-scores.json; then
+            echo "No file change"
+            exit 0
+          fi
+          set +e
+          python3 - << 'PY'
+          import json, subprocess, sys
+          try:
+              old = subprocess.check_output(["git", "show", "HEAD:public/assets/data/live-scores.json"], text=True)
+              previous = json.loads(old).get("rows")
+          except subprocess.CalledProcessError:
+              previous = None
+          current = json.loads(open("public/assets/data/live-scores.json", encoding="utf-8").read()).get("rows")
+          sys.exit(0 if previous == current else 10)
+          PY
+          status=$?
+          set -e
+          if [ "$status" -eq 0 ]; then
+            git checkout -- public/assets/data/live-scores.json
+            echo "Rows unchanged; generatedAt ignored"
+            exit 0
+          fi
+          if [ "$status" -ne 10 ]; then
+            exit "$status"
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/assets/data/live-scores.json
+          git commit -m "Refresh live scores from approved sheet rows"
+          git push

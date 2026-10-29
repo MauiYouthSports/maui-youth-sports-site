@@ -1741,6 +1741,30 @@
   },
   {
     "sport": "volleyball",
+    "slug": "maui-mana-volleyball-academy",
+    "name": "Maui Mana Volleyball Academy",
+    "island": "Maui",
+    "area": "Upcountry",
+    "ages": "Middle school and high school · girls and boys teams",
+    "description": "Upcountry club volleyball led by coaches Geoffrey Cook and Tanya Farmer, built on character, commitment and coachability. Athletes commit to two practices a week, so they can still play other sports.",
+    "website": "https://www.mauimanavolleyball.com/",
+    "where": "Hāliʻimaile Gym, Upcountry Maui",
+    "season": "",
+    "registration": "Email or call the club about tryouts, teams and fees.",
+    "contact": "Geoffrey Cook and Tanya Farmer",
+    "phone": "808-281-6666",
+    "email": "MauiMana@CMaui.com",
+    "extra": "",
+    "status": "Youth program",
+    "sources": [
+      "https://www.mauimanavolleyball.com/",
+      "https://www.mauiyouthdirectory.com/sport/maui-mana-volleyball-academy/",
+      "https://volleylens.com/club/maui-mana-volleyball-academy"
+    ],
+    "href": "/sports-directory/volleyball/maui-mana-volleyball-academy/"
+  },
+  {
+    "sport": "volleyball",
     "slug": "kahalawai-volleyball-club",
     "name": "Kahālāwai Volleyball Club",
     "island": "Maui",
