@@ -18,7 +18,9 @@ function active(e,today){return !e.end||e.end>=today;}
 function todayEvent(e,today){return e.start===today&&e.end===today&&e.kind!=='program'&&e.kind!=='season';}
 root.MYSContent={hawaiiDate,status,active,todayEvent,registrationStatus};
 if(typeof document==='undefined')return;
-fetch('/assets/data/events.json').then(r=>{if(!r.ok)throw Error('events');return r.json();}).then(events=>{
+root.MYSEvents = root.MYSEvents || fetch('/assets/data/events.json').then(r=>r.ok?r.json():null).catch(()=>null);
+root.MYSEvents.then(events=>{
+ if(!Array.isArray(events))throw Error('events');
  const today=hawaiiDate(),by=Object.fromEntries(events.map(e=>[e.slug,e]));
  document.querySelectorAll('[data-score-day]').forEach(el=>{const day=el.dataset.scoreDay,yesterday=new Date(Date.parse(today+'T00:00:00Z')-86400000).toISOString().slice(0,10);el.textContent=(day===today?'Today · ':day===yesterday?'Yesterday · ':'Recorded fixtures · ')+day;});
  document.querySelectorAll('[data-today-label]').forEach(el=>el.textContent=today+' · Hawaiʻi time');
