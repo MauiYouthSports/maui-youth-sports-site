@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-10-29T07:17:00.511Z",
+  "generatedAt": "2026-10-30T07:46:17.274Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
+    {
+      "id": "MYS-0049",
+      "dateISO": "2026-10-29",
+      "sportGroup": "Volleyball",
+      "sport": "Girls Volleyball · Varsity DII",
+      "away": "Le Jardin",
+      "awayScore": "0",
+      "home": "Seabury Hall",
+      "homeScore": "3",
+      "status": "FINAL",
+      "href": "https://www.hhsaa.org/sports/volleyball_girls/tournament/2026/division-II",
+      "urlOnMYS": "",
+      "notes": "HHSAA DII Girls Volleyball State Championships Semifinal Match #15, Thu Oct 29 7:00 PM at Roosevelt (neutral); winner Seabury Hall in home slot. #1 seed Seabury Hall def. Le Jardin 3-0. HHSAA bracket sets (Seabury first): 25-17, 25-23, 25-14. Seabury Hall advances to the DII state championship Match #18, Fri Oct 30 5:00 PM at Stan Sheriff Center, vs #3 Waipahu (won semifinal Match #14 3-0 over Waiʻanae). Le Jardin is an Oʻahu school (not on Teams tab). Single source so far.",
+      "sourceName": "HHSAA"
+    },
+    {
+      "id": "MYS-0050",
+      "dateISO": "2026-10-29",
+      "sportGroup": "Volleyball",
+      "sport": "Girls Volleyball · Varsity DI",
+      "away": "King Kekaulike",
+      "awayScore": "0",
+      "home": "Mililani",
+      "homeScore": "2",
+      "status": "FINAL",
+      "href": "https://hhsaa.org/sports/volleyball_girls/tournament/2026/division-I",
+      "urlOnMYS": "",
+      "notes": "HHSAA DI Girls Volleyball State Championships consolation semifinal Match #9 (best of three), Thu Oct 29 5:00 PM at Punahou (neutral); winner Mililani in home slot. Mililani def. King Kekaulike 2-0, sets 25-16, 25-13. King Kekaulike's state tournament ends; Mililani plays Nānākuli for 5th place Fri. Mililani is an Oʻahu school (not on Teams tab). Single source so far.",
+      "sourceName": "HHSAA"
+    },
     {
       "id": "MYS-0046",
       "dateISO": "2026-10-28",
