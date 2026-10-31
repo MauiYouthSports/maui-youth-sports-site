@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-10-30T07:46:17.274Z",
+  "generatedAt": "2026-10-31T09:25:36.314Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
+    {
+      "id": "MYS-0051",
+      "dateISO": "2026-10-30",
+      "sportGroup": "Volleyball",
+      "sport": "Girls Volleyball · Varsity DII",
+      "away": "Waipahu",
+      "awayScore": "1",
+      "home": "Seabury Hall",
+      "homeScore": "3",
+      "status": "FINAL",
+      "href": "https://hhsaa.org/sports/volleyball_girls/tournament/2026/division-II",
+      "urlOnMYS": "",
+      "notes": "HHSAA DII Girls Volleyball State Championship final Match #18, Fri Oct 30 5:00 PM at Stan Sheriff Center (neutral); winner Seabury Hall in home slot. #1 seed Seabury Hall def. #3 Waipahu 3-1 for the DII state title. Set scores (Seabury first, per HHSAA bracket and MaxPreps recap): 25-18, 25-18, 12-25, 25-18. MaxPreps: Seabury's 14th straight win. Waipahu is an Oʻahu school (not on Teams tab). Two sources agree.",
+      "sourceName": "HHSAA"
+    },
     {
       "id": "MYS-0049",
       "dateISO": "2026-10-29",
