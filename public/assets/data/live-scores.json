@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T09:25:36.314Z",
+  "generatedAt": "2026-11-01T02:39:48.104Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
     {
@@ -16,6 +16,21 @@
       "urlOnMYS": "",
       "notes": "HHSAA DII Girls Volleyball State Championship final Match #18, Fri Oct 30 5:00 PM at Stan Sheriff Center (neutral); winner Seabury Hall in home slot. #1 seed Seabury Hall def. #3 Waipahu 3-1 for the DII state title. Set scores (Seabury first, per HHSAA bracket and MaxPreps recap): 25-18, 25-18, 12-25, 25-18. MaxPreps: Seabury's 14th straight win. Waipahu is an Oʻahu school (not on Teams tab). Two sources agree.",
       "sourceName": "HHSAA"
+    },
+    {
+      "id": "MYS-0054",
+      "dateISO": "2026-10-30",
+      "sportGroup": "Football",
+      "sport": "Boys Football · Varsity DI",
+      "away": "Maui High",
+      "awayScore": "10",
+      "home": "Lahainaluna",
+      "homeScore": "13",
+      "status": "FINAL",
+      "href": "https://www.maxpreps.com/news/k9qNktqcmEChSdaz-pqHCA/football-recap-lahainaluna-escapes-with-a-win.htm",
+      "urlOnMYS": "",
+      "notes": "FINAL: Lahainaluna 13, Maui High 10 (Fri Oct 30, 7 PM at Lahainaluna). MaxPreps recaps (Oct 31): Lahainaluna edged Maui, now 3-5; Maui 3-6, third straight loss. Maui High MaxPreps team page confirms L 10-13. Lahainaluna next: Baldwin Nov 7, 7 PM. Ballfrog event 139930, ScoringLive game 9846 and SI still show no score as of Oct 31 4:20 PM HST. No player lines available yet.",
+      "sourceName": "MaxPreps"
     },
     {
       "id": "MYS-0049",
@@ -151,6 +166,36 @@
       "urlOnMYS": "",
       "notes": "KHON Week 12 scoreboard (checked Oct 24 ~6:10 PM HST): Baldwin (8-1) def. Maui (3-6), 48-31. Played at King Kekaulike (neutral, per MIL schedule); winner Baldwin in home slot, same convention as MYS-0034. Oct 28 recheck for News Bot: CORRECT score remains 48–31. Independent sources agreeing: (1) KHON2 Week 12 scoreboard; (2) MaxPreps final 48–31 provided by M. Porrazzo + MaxPreps recaps. CONFLICT: Star-Advertiser Oct 26 recent-results line lists Baldwin 48, Maui 24 at King Kekaulike (https://www.staradvertiser.com/2026/10/26/sports/scoreboard-october-26-2026/); SA Oct 23 board was pregame only and Oct 25 had no this-game result — likely SA typo. Digital Piko Island Scoreboard (~Oct 28 2am HST) correctly flagged MaxPreps 48–31 vs SA 48–24 and withheld Maui’s score until sources agree. Maui News has no Oct 23 recap yet. Score left approved 48–31; no sheet change to the score itself.",
       "sourceName": "KHON2"
+    },
+    {
+      "id": "MYS-0053",
+      "dateISO": "2026-10-22",
+      "sportGroup": "Volleyball",
+      "sport": "Girls Volleyball · Varsity DII",
+      "away": "Lānaʻi",
+      "awayScore": "1",
+      "home": "Hāna",
+      "homeScore": "3",
+      "status": "FINAL",
+      "href": "https://www.maxpreps.com/hi/volleyball/match/hana-vs-lanai-lanai-city/10-22-2026/?c=f8dbc06d-cd77-4e22-b10d-dd5ec6833237",
+      "urlOnMYS": "",
+      "notes": "Reported by Hāna athletics director. MIL DII girls volleyball tournament semifinal (Playoff Round 2), Thu Oct 22 ~6:45 PM at Maui Prep (neutral); winner Hāna in home slot. Hāna def. Lānaʻi 3-1, sets 22-25, 25-23, 25-18, 25-16 (Hāna first). Matchup/date confirmed by MaxPreps match page and NFHS Network (marked FINAL, Maui Prep), but neither posts the score (MaxPreps: no result reported as of Oct 31). Separate match from MYS-0029 (Oct 16) and MYS-0030 (Oct 17, still needs_research; this report does not resolve it).",
+      "sourceName": "Hāna Athletics (AD report)"
+    },
+    {
+      "id": "MYS-0052",
+      "dateISO": "2026-10-21",
+      "sportGroup": "Volleyball",
+      "sport": "Girls Volleyball · Varsity DII",
+      "away": "Molokaʻi",
+      "awayScore": "1",
+      "home": "Hāna",
+      "homeScore": "3",
+      "status": "FINAL",
+      "href": "https://www.milsports.org/schedule/744297/dii-girls-volleyball",
+      "urlOnMYS": "",
+      "notes": "Reported by Hāna athletics director. MIL DII girls volleyball tournament Playoff Round 1, Wed Oct 21 at Maui Prep (neutral per MIL bracket); winner Hāna in home slot. Hāna def. Molokaʻi 3-1, sets 21-25, 25-21, 25-11, 25-15 (Hāna first). Score not yet published publicly (MIL bracket shows no teams/results; ProspectsHI and MaxPreps have no result as of Oct 31). Minor conflict: Hāna school calendar lists tournament location South Maui Gym - Kihei; MIL bracket and Maui News say Maui Prep.",
+      "sourceName": "Hāna Athletics (AD report)"
     },
     {
       "id": "MYS-0035",
