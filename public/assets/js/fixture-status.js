@@ -62,10 +62,42 @@ function uniqueGame(list){
 function line(g){
   return 'Final · '+spell(g.away)+' '+g.awayScore+' – '+spell(g.home)+' '+g.homeScore;
 }
+function isMeet(g){
+  return !!g&&!String(g.away||'').trim()&&!!String(g.home||'').trim();
+}
+function meetStatus(list){
+  return list.map(function(g){return g.meetLine;}).filter(Boolean).join('. ');
+}
+function meetsFor(rows,date,sport,label){
+  return (rows||[]).filter(function(g){
+    if(!isMeet(g)||g.dateISO!==date)return false;
+    if(sport&&sportOf(g.sport||g.sportGroup||'')!==sport)return false;
+    if(g.status&&!/final/i.test(g.status)&&!/published-result-reviewed/i.test(g.verificationState||''))return false;
+    var blob=(g.notes||'')+' '+(g.meetLine||'');
+    if(/hhsaa/i.test(label)&&!/hhsaa/i.test(blob))return false;
+    if(/\bmil\b/i.test(label)&&!/hhsaa/i.test(label)&&!/\bmil\b/i.test(blob))return false;
+    return !!g.meetLine;
+  });
+}
+function dateFrom(el,title){
+  var m=String(title||'').match(/\d{4}-\d{2}-\d{2}/);
+  if(m)return m[0];
+  var all=textOf(el);
+  var found=all.match(/\d{4}-\d{2}-\d{2}/);
+  return found?found[0]:'';
+}
+function teamsFrom(title){
+  title=String(title||'');
+  var vs=title.split(/\s+vs\s+/i);
+  if(vs.length>=2)return [vs[0].split(/[—–]/).pop().split('·')[0],vs[1].split('·')[0]];
+  var mashed=title.match(/^(.+?)\s*[–—]\s*(.+?)\s+(Football|Volleyball|Basketball|Soccer|Bowling|Softball|Baseball)\b/i);
+  if(mashed&&!/championship|meet/i.test(mashed[1]+' '+mashed[2]))return [mashed[1],mashed[2]];
+  return null;
+}
 function indexScores(rows){
   var map={};
   rows.forEach(function(g){
-    if(!g||!g.dateISO||!g.away||!g.home)return;
+    if(!g||!g.dateISO||!g.away||!g.home||isMeet(g))return;
     if(g.status&&!/final/i.test(g.status)&&!/published-result-reviewed/i.test(g.verificationState||''))return;
     var key=pairKey(g.dateISO,sportOf(g.sport||g.sportGroup||''),g.away,g.home);
     if(!key)return;
@@ -97,8 +129,16 @@ function apply(map,authoritative,rows){
       var status=tr.lastElementChild;
       var matchupText=textOf(matchup);
       var current=textOf(status);
-      if(/canceled/i.test(current)||/check schedule details/i.test(current))return;
-      var sport=sportOf(textOf(division));
+      if(/canceled/i.test(current))return;
+      var sport=sportOf(textOf(division)+' '+matchupText);
+      var meets=meetsFor(rows,date,sport,textOf(division)+' '+matchupText);
+      if(meets.length){
+        setText(status,meetStatus(meets));
+        status.setAttribute('data-mys-score','1');
+        meets.forEach(function(g){g._consumed=true;});
+        return;
+      }
+      if(/check schedule details/i.test(current))return;
       var bits=matchupText.split(/\s+[–—]\s+/);
       var found=bits.length>=2?lookup(map,date,sport,bits[0],bits[1]):null;
       if(found){
@@ -143,17 +183,23 @@ function apply(map,authoritative,rows){
     var heading=el.querySelector('h1,h2,h3');
     var pageHeading=document.querySelector('main h1');
     var title=textOf(heading&&el.contains(heading)?heading:pageHeading||el);
-    var dateMatch=title.match(/\d{4}-\d{2}-\d{2}/);
-    var date=dateMatch?dateMatch[0]:'';
-    var vs=title.split(/\s+vs\s+/i);
-    if(!date||vs.length<2){
+    var date=dateFrom(el,title)||(pageHeading?dateFrom(pageHeading.parentElement||el,textOf(pageHeading)):'');
+    var sport=sportOf(title+' '+textOf(el));
+    var meets=date?meetsFor(rows,date,sport,title):[];
+    if(meets.length){
+      var meetValue=meetStatus(meets);
+      label.setAttribute('data-final-score',meetValue);
+      if(date<=hawaiiToday())setText(label,meetValue);
+      return;
+    }
+    var teams=teamsFrom(title);
+    if(!date||!teams){
       var preset=label.getAttribute('data-final-score');
       if(preset&&date&&date<hawaiiToday())setText(label,preset);
       return;
     }
-    var left=vs[0].split('—').pop().split('·')[0];
-    var right=vs[1].split('·')[0];
-    var sport=sportOf(title);
+    var left=teams[0];
+    var right=teams[1];
     var found=lookup(map,date,sport,left,right);
     if(!found&&seedSide(left)&&seedSide(right)){
       var div=divisionOf(title);

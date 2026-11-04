@@ -28,7 +28,12 @@ const csv = [
   row({ id: 'MYS-0039', date: '2026-10-23', sport: 'Football', division: 'DI', gender: 'Boys', away: 'Maui High', awayScore: '31', home: 'Baldwin', homeScore: '48' }),
   row({ id: 'MYS-0040', date: '2026-10-24', sport: 'Football', division: 'DI', gender: 'Boys', away: 'Kūlanihākoʻi', awayScore: '0', home: 'Kamehameha Maui', homeScore: '38' }),
   row({ id: 'MYS-C1', date: '2026-10-05', sport: 'Football', division: 'DI', gender: 'Boys', away: 'Maui High', awayScore: '7', home: 'Baldwin', homeScore: '20' }),
-  row({ id: 'MYS-C2', date: '2026-10-05', sport: 'Football', division: 'DI', gender: 'Boys', away: 'Maui High', awayScore: '10', home: 'Baldwin', homeScore: '14' })
+  row({ id: 'MYS-C2', date: '2026-10-05', sport: 'Football', division: 'DI', gender: 'Boys', away: 'Maui High', awayScore: '10', home: 'Baldwin', homeScore: '14' }),
+  row({ id: 'MYS-0054', date: '2026-10-30', sport: 'Football', division: 'DI', gender: 'Boys', away: 'Maui High', awayScore: '10', home: 'Lahainaluna', homeScore: '13' }),
+  row({ id: 'MYS-0055', date: '2026-10-31', sport: 'Football', division: 'DI', gender: 'Boys', away: 'Kūlanihākoʻi', awayScore: '7', home: 'King Kekaulike', homeScore: '48' }),
+  row({ id: 'MYS-0052', date: '2026-10-21', sport: 'Volleyball', division: 'DII', gender: 'Girls', away: 'Molokaʻi', awayScore: '1', home: 'Hāna', homeScore: '3' }),
+  row({ id: 'MYS-0056', date: '2026-10-24', sport: 'Cross Country', division: '', gender: 'Boys', away: '', awayScore: '', home: 'Seabury Hall', homeScore: '20' }) + ',"MIL Cross Country Championships, boys 5K. Team: 1. Seabury Hall 20. Individual champion Silas Miller-Yoder (Seabury Hall) 17:09."',
+  row({ id: 'MYS-0058', date: '2026-10-31', sport: 'Cross Country', division: 'DII', gender: 'Boys', away: '', awayScore: '', home: 'Seabury Hall', homeScore: '44' }) + ',"HHSAA state XC, boys DII (meet result). Seabury Hall 2nd with 44 behind champion Hawaiʻi Prep 25."'
 ].join('\n');
 
 function createElement(tag) {
@@ -148,6 +153,12 @@ function buildDocument() {
     fixture('2026-10-23', 'DI Football', 'Baldwin – Maui', 'Upcoming'),
     fixture('2026-10-24', 'DI Football', 'KS - Maui – Kūlanihākoʻi', 'Upcoming'),
     fixture('2026-10-05', 'DI Football', 'Maui – Baldwin', 'Score not reported yet'),
+    fixture('2026-10-21', 'DII Girls Volleyball', '4th – 5th', 'Upcoming'),
+    fixture('2026-10-21', 'DII Girls Volleyball', '3rd – 6th', 'Upcoming'),
+    fixture('2026-10-24', 'Cross Country', 'MIL Championships', 'Upcoming'),
+    fixture('2026-10-30', 'DI Football', 'Lahainaluna – Maui', 'Upcoming'),
+    fixture('2026-10-31', 'DI Football', 'King Kekaulike – Kūlanihākoʻi', 'Upcoming'),
+    fixture('2026-10-31', 'Cross Country', 'HHSAA Championships', 'Upcoming'),
     fixture('2026-12-01', 'DI Football', 'Baldwin – Lahainaluna', 'Upcoming')
   ].forEach((tr) => tbody.append(tr));
   table.append(tbody);
@@ -164,6 +175,29 @@ function buildDocument() {
   pill.textContent = 'Upcoming';
   event.append(pill);
   main.append(event);
+  const baldwin = createElement('section');
+  baldwin.setAttribute('data-event', 'maui-baldwin');
+  const baldwinHeading = createElement('h3');
+  baldwinHeading.textContent = 'Maui–Baldwin Football — Rescheduled October 3';
+  const baldwinPill = createElement('span');
+  baldwinPill.setAttribute('data-event-status', '');
+  baldwinPill.textContent = 'Final score coming soon';
+  const baldwinDate = createElement('dd');
+  baldwinDate.textContent = '2026-10-03';
+  baldwin.append(baldwinHeading);
+  baldwin.append(baldwinPill);
+  baldwin.append(baldwinDate);
+  main.append(baldwin);
+  const milMeet = createElement('section');
+  milMeet.setAttribute('data-event', 'mil-xc');
+  const milHeading = createElement('h3');
+  milHeading.textContent = 'Cross Country — MIL Championships · 2026-10-24';
+  const milPill = createElement('span');
+  milPill.setAttribute('data-event-status', '');
+  milPill.textContent = 'Upcoming';
+  milMeet.append(milHeading);
+  milMeet.append(milPill);
+  main.append(milMeet);
   document.append(main);
   return document;
 }
@@ -175,7 +209,10 @@ function statusMap(document) {
     const key = tr.getAttribute('data-fixture-date') + '|' + cells[2].textContent;
     map[key] = cells[5].textContent;
   });
-  map.event = document.querySelector('[data-event-status]').textContent;
+  document.querySelectorAll('[data-event]').forEach((el) => {
+    map['event:' + el.getAttribute('data-event')] = el.querySelector('[data-event-status]').textContent;
+  });
+  map.event = map['event:mil-di-girls-volleyball-2026-10-17-g1'];
   return map;
 }
 
@@ -236,5 +273,14 @@ test('approved sheet scores overlay schedule rows, including aliases and seed ma
   assert.equal(status['2026-10-19|2nd – 3rd'], 'Score not reported yet');
   assert.equal(status['2026-10-19|1st – G1 Winner'], 'Score not reported yet');
   assert.equal(status['2026-10-05|Maui – Baldwin'], 'Score not reported yet');
+  assert.equal(status['2026-10-21|4th – 5th'], 'Score not reported yet');
+  assert.equal(status['2026-10-21|3rd – 6th'], 'Score not reported yet');
   assert.equal(status['2026-12-01|Baldwin – Lahainaluna'], 'Upcoming');
+  assert.equal(status['2026-10-30|Lahainaluna – Maui'], 'Final · Maui High 10 – Lahainaluna 13');
+  assert.equal(status['2026-10-31|King Kekaulike – Kūlanihākoʻi'], 'Final · Kūlanihākoʻi 7 – King Kekaulike 48');
+  assert.equal(status['2026-10-24|MIL Championships'], 'MIL XC: Seabury Hall boys champions (20 pts); individual winner Silas Miller-Yoder 17:09');
+  assert.equal(status['2026-10-31|HHSAA Championships'], 'HHSAA DII Boys XC: Seabury Hall 2nd (44 pts)');
+  assert.equal(status['2026-10-24|MIL Championships'].includes(' vs '), false);
+  assert.equal(status['event:maui-baldwin'], 'Final · Maui High 7 – Baldwin 20');
+  assert.equal(status['event:mil-xc'], 'MIL XC: Seabury Hall boys champions (20 pts); individual winner Silas Miller-Yoder 17:09');
 });

@@ -8,7 +8,10 @@ const csv = [
   'MYS-1,2026-10-20,Volleyball,Varsity,DI,Girls,King Kekaulike,3,Kamehameha Maui,1,final,,no,MaxPreps,https://www.maxpreps.com/hi/volleyball/match/example,,/games/example/,scraped,approved,,,,"Sets: 25-20, 21-25, 18-25, 21-25."',
   'MYS-2,2026-10-18,Football,Varsity,DI,,Baldwin,13,Lahainaluna,3,final,,no,KHON2,https://www.khon2.com/example,,,scraped,approved,,,',
   'MYS-3,2026-10-17,Volleyball,Varsity,,Girls,A,3,B,1,final,,no,MaxPreps,https://www.maxpreps.com/hidden,,,scraped,needs_research,,,"Sets: 25-10, 25-10, 25-10."',
-  'MYS-4,2026-09-18,Football,Varsity,,,Baldwin,27,Lahainaluna,19,final,,no,Maui News,https://www.mauinews.com/example,,/games/old/,manual,approved,,,,"Published score retained from the existing MYS verified result record."'
+  'MYS-4,2026-09-18,Football,Varsity,,,Baldwin,27,Lahainaluna,19,final,,no,Maui News,https://www.mauinews.com/example,,/games/old/,manual,approved,,,,"Published score retained from the existing MYS verified result record."',
+  'MYS-5,2026-10-31,Cross Country,Varsity,DII,Boys,,,Seabury Hall,44,final,,yes,HHSAA,https://example.com/xc,,,scraped,approved,,,,"HHSAA state XC, boys DII (meet result). Seabury Hall 2nd with 44 behind champion Hawaiʻi Prep 25."',
+  'MYS-6,2026-10-24,Cross Country,Varsity,,Boys,,,Seabury Hall,20,final,,yes,MIL,https://example.com/mil,,,scraped,approved,,,,"MIL Cross Country Championships, boys 5K. Team: 1. Seabury Hall 20. Individual champion Silas Miller-Yoder (Seabury Hall) 17:09."',
+  'MYS-7,2026-10-24,Cross Country,Varsity,,Girls,,,Hidden Home,10,final,,yes,MIL,https://example.com/hidden,,,scraped,needs_research,,,"MIL Cross Country Championships, girls 5K. Team: 1. Hidden Home 10."'
 ].join('\n');
 
 test('approved sheet rows keep notes and source name', async () => {
@@ -19,14 +22,21 @@ test('approved sheet rows keep notes and source name', async () => {
   vm.createContext(sandbox);
   vm.runInContext(fs.readFileSync('public/assets/js/scores-source.js', 'utf8'), sandbox);
   const games = Array.from(await sandbox.window.MYSScores.load());
-  assert.deepEqual(games.map((game) => game.id), ['MYS-1', 'MYS-2', 'MYS-4']);
-  assert.equal(games[0].notes, 'Sets: 25-20, 21-25, 18-25, 21-25.');
-  assert.equal(games[0].sourceName, 'MaxPreps');
-  assert.equal(games[0].href, 'https://www.maxpreps.com/hi/volleyball/match/example');
-  assert.equal(games[0].away, 'King Kekaulike');
-  assert.equal(games[0].homeScore, '1');
-  assert.equal(games[1].notes, '');
-  assert.equal(games[1].sourceName, 'KHON2');
-  assert.equal(games[2].notes, 'Published score retained from the existing MYS verified result record.');
-  assert.equal(games[2].sourceName, 'Maui News');
+  assert.deepEqual(games.map((game) => game.id), ['MYS-5', 'MYS-6', 'MYS-1', 'MYS-2', 'MYS-4']);
+  assert.equal(games[0].meet, true);
+  assert.equal(games[0].away, '');
+  assert.equal(games[0].meetLine, 'HHSAA DII Boys XC: Seabury Hall 2nd (44 pts)');
+  assert.equal(games[1].meetLine, 'MIL XC: Seabury Hall boys champions (20 pts); individual winner Silas Miller-Yoder 17:09');
+  assert.equal(games[1].meetLine.includes(' vs '), false);
+  assert.equal(games[2].meet, false);
+  assert.equal(games[2].meetLine, '');
+  assert.equal(games[2].notes, 'Sets: 25-20, 21-25, 18-25, 21-25.');
+  assert.equal(games[2].sourceName, 'MaxPreps');
+  assert.equal(games[2].href, 'https://www.maxpreps.com/hi/volleyball/match/example');
+  assert.equal(games[2].away, 'King Kekaulike');
+  assert.equal(games[2].homeScore, '1');
+  assert.equal(games[3].notes, '');
+  assert.equal(games[3].sourceName, 'KHON2');
+  assert.equal(games[4].notes, 'Published score retained from the existing MYS verified result record.');
+  assert.equal(games[4].sourceName, 'Maui News');
 });
