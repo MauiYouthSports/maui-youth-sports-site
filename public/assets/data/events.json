@@ -313,11 +313,13 @@
     "details": "DI Football: Baldwin – Maui, 2026-10-23 at 7:00 PM HST, King Kekaulike.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-10-23-baldwin-maui/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Maui High 31 – Baldwin 48"
   },
   {
     "slug": "mil-di-football-2026-10-24-ks-maui-kulanihakoi",
@@ -335,11 +337,13 @@
     "details": "DI Football: KS - Maui – Kūlanihākoʻi, 2026-10-24 at 6:00 PM HST, KS - Maui.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-10-24-ks-maui-kulanihakoi/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kūlanihākoʻi 0 – Kamehameha Maui 38"
   },
   {
     "slug": "mil-di-football-2026-10-30-lahainaluna-maui",
@@ -357,11 +361,13 @@
     "details": "DI Football: Lahainaluna – Maui, 2026-10-30 at 7:00 PM HST, Lahainaluna.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-10-30-lahainaluna-maui/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Maui High 10 – Lahainaluna 13"
   },
   {
     "slug": "mil-di-football-2026-10-31-king-kekaulike-kulanihakoi",
@@ -379,11 +385,13 @@
     "details": "DI Football: King Kekaulike – Kūlanihākoʻi, 2026-10-31 at 6:00 PM HST, King Kekaulike.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-10-31-king-kekaulike-kulanihakoi/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Kūlanihākoʻi 7 – King Kekaulike 48"
   },
   {
     "slug": "mil-di-football-2026-11-06-ks-maui-king-kekaulike",
@@ -639,11 +647,13 @@
     "details": "Cross Country: MIL Championships – MIL, 2026-10-24 at 8:00 AM HST, Baldwin.",
     "source": "https://www.milsports.org/schedule/742105/cross-country",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-cross-country-2026-10-24-mil-championships-mil/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "MIL XC: Seabury Hall boys champions (20 pts); individual winner Silas Miller-Yoder 17:09. MIL XC: Kamehameha Maui girls champions (36 pts); individual winner Keilana Maldonado 20:19"
   },
   {
     "slug": "mil-cross-country-2026-10-31-hhsaa-championships-hhsaa",
@@ -661,13 +671,15 @@
     "details": "Cross Country: HHSAA Championships – HHSAA, 2026-10-31 at 8:00 AM HST at Hawaii Preparatory Academy (Waimea).",
     "source": "https://hhsaa.org/sports/cross_country/tournament/2026",
     "verified": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-cross-country-2026-10-31-hhsaa-championships-hhsaa/",
     "supportingSources": [
       "https://www.milsports.org/schedule/742105/cross-country"
     ],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "HHSAA DII Boys XC: Seabury Hall 2nd (44 pts). HHSAA DI Boys XC: King Kekaulike 10th (239 pts). HHSAA DI Boys XC: Maui High 12th (314 pts). HHSAA DI Girls XC: Kamehameha Maui 9th (254 pts). HHSAA DI Girls XC: Maui High 13th (314 pts)"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-17-g1",
@@ -685,11 +697,13 @@
     "details": "DI Girls Volleyball: 4th – 5th, 2026-10-17 at 6:00 PM HST at Lahainaluna. Matchups are set as teams advance.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
-    "updated": "2026-10-27",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-17-g1/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Baldwin 1 – Lahainaluna 3"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-19-g3",
@@ -1342,7 +1356,7 @@
     "end": "2026-10-03",
     "url": "/events/maui-baldwin-football-rescheduled-october-3-2026/",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-information",
     "supportingSources": [],
     "kind": "game",
@@ -1356,7 +1370,9 @@
     "relatedEvents": [
       "mil-football-season-2026"
     ],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Maui High 7 – Baldwin 20"
   },
   {
     "slug": "mil-cross-country-meet-3-rescheduled-2026",
@@ -1493,10 +1509,12 @@
     "details": "DI Girls Volleyball: King Kekaulike – Maui, 2026-10-01 at 6:30 PM HST, King Kekaulike.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-01-king-kekaulike-maui/",
-    "supportingSources": []
+    "supportingSources": [],
+    "currentStatus": "final",
+    "resultSummary": "Final · Maui High 2 – King Kekaulike 3"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-01-ks-maui-lahainaluna",
@@ -1515,10 +1533,12 @@
     "details": "DI Girls Volleyball: KS Maui – Lahainaluna, 2026-10-01 at 6:30 PM HST, KS Maui.",
     "source": "https://www.milsports.org/schedule/744296/di-girls-volleyball",
     "verified": "2026-10-03",
-    "updated": "2026-10-03",
+    "updated": "2026-11-03",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-girls-volleyball-2026-10-01-ks-maui-lahainaluna/",
-    "supportingSources": []
+    "supportingSources": [],
+    "currentStatus": "final",
+    "resultSummary": "Final · Lahainaluna 0 – Kamehameha Maui 3"
   },
   {
     "slug": "mil-dii-girls-volleyball-2026-10-02-maui-prep-seabury",

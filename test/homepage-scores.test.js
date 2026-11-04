@@ -55,7 +55,8 @@ function liveGame(partial) {
     status: 'FINAL',
     href: 'https://example.test/score',
     urlOnMYS: '',
-    review_status: partial.review_status
+    review_status: partial.review_status,
+    meetLine: partial.meetLine || ''
   };
 }
 
@@ -108,6 +109,35 @@ async function bootHomepage({ live, sheet }) {
     }
   };
 }
+
+test('a meet result is not drawn as a head-to-head game', async () => {
+  const page = await bootHomepage({
+    live: {
+      generatedAt: new Date().toISOString(),
+      source: 'MYS Scores sheet (approved rows)',
+      rows: [liveGame({
+        id: 'MYS-0058',
+        dateISO: '2026-10-31',
+        sportGroup: 'Cross Country',
+        sport: 'Boys Cross Country · DII Varsity',
+        away: '',
+        awayScore: '',
+        home: 'Seabury Hall',
+        homeScore: '44',
+        meetLine: 'HHSAA DII Boys XC: Seabury Hall 2nd (44 pts)'
+      })]
+    },
+    sheet: null
+  });
+  const text = visibleText(page.target);
+  assert.match(text, /HHSAA DII Boys XC: Seabury Hall 2nd \(44 pts\)/);
+  assert.equal(text.includes(' vs '), false);
+  assert.equal(/\bW\/L\b/.test(text), false);
+  const card = page.target.children[0];
+  const lines = card.children.filter((child) => child.className === 'scoreline');
+  assert.equal(lines.length, 1);
+  assert.equal(lines[0].textContent.includes('Seabury Hall'), true);
+});
 
 test('live-scores rows render before the sheet is consulted', async () => {
   const page = await bootHomepage({
