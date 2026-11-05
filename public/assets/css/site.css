@@ -159,6 +159,21 @@
 #play-section{container-type:inline-size}#play:empty{min-height:calc((5 * (100cqw - 60px) / 6) + 48px)}@media(max-width:900px){#play:empty{min-height:calc((7 * (100cqw - 36px) / 4) + 72px)}}@media(max-width:600px){#play:empty{min-height:calc((9 * (100cqw - 18px) / 3) + 72px)}}
 #scores{min-height:150px}@media(max-width:850px){#scores{min-height:312px}}@media(max-width:520px){#scores{min-height:156px}}
 
+/* Compact header search. Pagefind's own interface is styled only after it loads. */
+.site-search{position:relative;display:flex;align-items:center;min-width:0;flex:0 1 9.5rem}
+.site-search-input,.site-search .pagefind-ui__search-input{width:100%;min-width:0;margin:0;background:#16313b;color:#fff;border:1px solid #6a858d;border-radius:9px;padding:8px 10px;font:inherit;font-size:14px;font-weight:700;line-height:1.2}
+.site-search-input::placeholder,.site-search .pagefind-ui__search-input::placeholder{color:#d5e2e6;font-weight:600}
+.site-search-input:focus,.site-search .pagefind-ui__search-input:focus{outline:2px solid #fff;outline-offset:2px}
+.site-search-ui{flex:1 1 auto;min-width:0}
+.site-search .pagefind-ui,.site-search .pagefind-ui__form{margin:0;width:100%}
+.site-search .pagefind-ui__search-clear{color:#fff}
+.site-search .pagefind-ui__drawer{position:absolute;z-index:40;top:calc(100% + 8px);right:0;width:min(24rem,calc(100vw - 28px));max-height:min(70vh,28rem);overflow:auto;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 25px #0003;text-align:left;padding:8px}
+.site-search .pagefind-ui__result{border-top:1px solid var(--line);padding:8px 4px}
+.site-search .pagefind-ui__result-link{color:#08777c;font-weight:800}
+.site-search .pagefind-ui__result-excerpt{color:#3a545c;font-size:14px;line-height:1.4}
+.site-search .pagefind-ui__message{color:#3a545c;font-size:14px;padding:6px 4px}
+@media(max-width:850px){.site-search{flex:1 1 auto;min-width:0}.site-search .pagefind-ui__drawer{left:0;right:0;width:auto}}
+
 /* Phone homepage: pull News into the first screen. Desktop spacing is unchanged. */
 @media(max-width:520px){
  main.wrap:has(> .home-title){padding-top:6px}
