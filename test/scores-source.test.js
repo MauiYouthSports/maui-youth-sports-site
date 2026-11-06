@@ -40,3 +40,22 @@ test('approved sheet rows keep notes and source name', async () => {
   assert.equal(games[4].notes, 'Published score retained from the existing MYS verified result record.');
   assert.equal(games[4].sourceName, 'Maui News');
 });
+
+test('meet labels use league and sport fields, not a later HHSAA mention', async () => {
+  const meetCsv = [
+    'id,date,sport,level,division,gender,away_team,away_score,home_team,home_score,status,venue,neutral_site,source_name,source_url,supporting_source_urls,mys_page,source_type,review_status,submitted_at,updated_at,last_checked,notes',
+    'MYS-0063,2026-10-27,Cheer,Varsity,,Girls,,,Baldwin,37.43,final,Baldwin High School,no,Maui News,https://example.com/cheer,,,manual,approved,,,,"MIL Cheerleading Championship (meet result, not head-to-head). Baldwin won with 37.43. Top three advanced to HHSAA state cheer."',
+    'MYS-0058,2026-10-31,Cross Country,Varsity,DII,Boys,,,Seabury Hall,44,final,,yes,HHSAA,https://example.com/xc,,,manual,approved,,,,"HHSAA state XC, boys DII (meet result). Seabury Hall 2nd with 44 behind champion Hawaiʻi Prep 25."',
+    'MYS-0056,2026-10-24,Cross Country,Varsity,,Boys,,,Seabury Hall,20,final,,yes,Maui News,https://example.com/mil,,,manual,approved,,,,"MIL Cross Country Championships, boys 5K. Team: 1. Seabury Hall 20. Individual champion Silas Miller-Yoder (Seabury Hall) 17:09."'
+  ].join('\n');
+  const sandbox = {
+    window: {},
+    fetch: async () => ({ ok: true, text: async () => meetCsv })
+  };
+  vm.createContext(sandbox);
+  vm.runInContext(fs.readFileSync('public/assets/js/scores-source.js', 'utf8'), sandbox);
+  const byId = Object.fromEntries((await sandbox.window.MYSScores.load()).map((game) => [game.id, game.meetLine]));
+  assert.equal(byId['MYS-0063'], 'MIL Cheerleading: Baldwin (37.43 pts)');
+  assert.equal(byId['MYS-0058'], 'HHSAA DII Boys XC: Seabury Hall 2nd (44 pts)');
+  assert.equal(byId['MYS-0056'], 'MIL XC: Seabury Hall boys champions (20 pts); individual winner Silas Miller-Yoder 17:09');
+});
