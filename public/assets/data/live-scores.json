@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T08:06:50.474Z",
+  "generatedAt": "2026-11-06T08:04:11.953Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
     {
@@ -239,6 +239,23 @@
       "sourceName": "HHSAA",
       "meet": false,
       "meetLine": ""
+    },
+    {
+      "id": "MYS-0063",
+      "dateISO": "2026-10-27",
+      "sportGroup": "Cheer",
+      "sport": "Girls Cheer · Varsity",
+      "away": "",
+      "awayScore": "",
+      "home": "Baldwin",
+      "homeScore": "37.43",
+      "status": "FINAL",
+      "href": "https://www.mauinews.com/sports/local-sports/2026/11/bears-take-over-baldwin-wins-mil-cheerleading-title/",
+      "urlOnMYS": "",
+      "notes": "MIL Cheerleading Championship (meet result, not head-to-head; home_score = winning team score). Baldwin won with 37.43; Maui High 2nd, Lahainaluna 3rd (scores not published); also competed: Kamehameha Maui, Kūlanihākoʻi, King Kekaulike. Top three advanced to HHSAA state cheer Nov 4 at Blaisdell. Source: Maui News (Courtney Howell, Nov 5). Lahainaluna school calendar also lists MIL Cheer Championship Oct 27. HHSAA state result: Moanalua won All-Girl (46.02), Sacred Hearts 2nd, Punahou 3rd; Baldwin, Lahainaluna and Maui High did not place top 3; no Maui placement or score published. Single source.",
+      "sourceName": "Maui News",
+      "meet": true,
+      "meetLine": "HHSAA Girls: Baldwin (37.43 pts)"
     },
     {
       "id": "MYS-0044",
