@@ -1,5 +1,5 @@
 /* Stats blurbs for the Scores + Stats page.
-   Scores Bot puts set scores and player lines in the sheet's notes field.
+   The scores sheet puts set scores and player lines in the notes field.
    Clean notes are shown as written. Review notes are not public copy, so only
    the sentences that already state set scores or player lines are shown. */
 (function (root, factory) {
@@ -9,8 +9,8 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
 
-  var INTERNAL = /\bpublished score retained\b|\blink mismatch\b|\bhome\/away\b|\bunverified\b|\bawaiting\b|\bgap fill\b|\bduplicate\b|\bbruce\b|\bcorrected\b|\bonly in scores page\b|\bverified:|\bdate inferred\b|\brechecked\b|\bnot confirmed\b|\bone source only\b|\bscore corrected\b|\bneeds_research\b|\bconflict\b|\bnot in prior\b/i;
-  var SKIP_SENTENCE = /\b(dropped set|different sets?|conflict|unverified|corrected|duplicate|mismatch|not published|not given|not available|no verified|awaiting|bruce)\b/i;
+  var INTERNAL = /\bpublished score retained\b|\blink mismatch\b|\bhome\/away\b|\bunverified\b|\bawaiting\b|\bgap fill\b|\bduplicate\b|\bbruce\b|\bcorrected\b|\bonly in scores page\b|\bverified:|\bdate inferred\b|\brechecked\b|\bnot confirmed\b|\bone source only\b|\bsingle source\b|\bscore corrected\b|\bneeds_research\b|\bconflict\b|\bnot in prior\b|\bnews bot\b|\bscores bot\b|\bteams tab\b|\bhome slot\b|\bhome_score\b|\bpermission pending\b|\brubio\b|\bgo-live\b/i;
+  var SKIP_SENTENCE = /\b(dropped set|different sets?|conflict|unverified|corrected|duplicate|mismatch|not published|not given|not available|no verified|awaiting|bruce|needs_research|news bot|scores bot|teams tab|home slot|permission pending|rubio|go-live|single source)\b/i;
   var NO_STATS = /\bset scores? not (published|given|available|reported)\b|\bno set scores\b|\bsets? not (published|given|available)\b|\bno verified set scores\b/i;
 
   function normalize(notes) {
