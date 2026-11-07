@@ -1,7 +1,24 @@
 {
-  "generatedAt": "2026-11-07T02:39:43.891Z",
+  "generatedAt": "2026-11-07T09:30:33.446Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
+    {
+      "id": "MYS-0073",
+      "dateISO": "2026-11-06",
+      "sportGroup": "Football",
+      "sport": "Boys Football · Varsity DI",
+      "away": "King Kekaulike",
+      "awayScore": "26",
+      "home": "Kamehameha Maui",
+      "homeScore": "13",
+      "status": "FINAL",
+      "href": "https://www.khon2.com/sports/hawaii-hs-football-week-14-scoreboard/",
+      "urlOnMYS": "",
+      "notes": "Homecoming game at Kamehameha Maui. King Kekaulike improves to 6-3; Kamehameha Maui falls to 7-2.",
+      "sourceName": "KHON2",
+      "meet": false,
+      "meetLine": ""
+    },
     {
       "id": "MYS-0070",
       "dateISO": "2026-11-05",
@@ -405,7 +422,7 @@
       "status": "FINAL",
       "href": "https://www.mauinews.com/sports/local-sports/2026/11/bears-take-over-baldwin-wins-mil-cheerleading-title/",
       "urlOnMYS": "",
-      "notes": "MIL Cheerleading Championship (meet result, not head-to-head; home_score = winning team score). Baldwin won with 37.43; Maui High 2nd, Lahainaluna 3rd (scores not published); also competed: Kamehameha Maui, Kūlanihākoʻi, King Kekaulike. Top three advanced to HHSAA state cheer Nov 4 at Blaisdell. Source: Maui News (Courtney Howell, Nov 5). Lahainaluna school calendar also lists MIL Cheer Championship Oct 27. HHSAA state result: Moanalua won All-Girl (46.02), Sacred Hearts 2nd, Punahou 3rd; Baldwin, Lahainaluna and Maui High did not place top 3; no Maui placement or score published. Single source.",
+      "notes": "MIL Cheerleading Championship (meet result, not head-to-head; home_score = winning team score). Baldwin won with 37.43; Maui High 2nd, Lahainaluna 3rd (scores not published); also competed: Kamehameha Maui, Kūlanihākoʻi, King Kekaulike. Top three advanced to HHSAA state cheer Nov 4 at Blaisdell, where Moanalua won All-Girl (46.02); Baldwin placed 8th, Maui High 10th and Lahainaluna 12th.",
       "sourceName": "Maui News",
       "meet": true,
       "meetLine": "MIL Cheerleading: Baldwin (37.43 pts)"
