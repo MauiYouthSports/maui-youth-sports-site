@@ -77,6 +77,17 @@ test('a frozen snapshot is not shown when the sheet is missing or empty', () => 
   assert.deepEqual(ids(api.chooseHomepage([], snapshot, { today: TODAY })), []);
 });
 
+test('November results replace the Oct 31 homepage cards', () => {
+  const api = loadHomeScores();
+  const rows = [
+    game({ id: 'MYS-0055', dateISO: '2026-10-31', sportGroup: 'Football', away: 'Kūlanihākoʻi', awayScore: '7', home: 'King Kekaulike', homeScore: '48' }),
+    game({ id: 'MYS-0064', dateISO: '2026-11-04', sportGroup: 'Cheer', away: '', awayScore: '', home: 'Baldwin', homeScore: '35.4' }),
+    game({ id: 'MYS-0070', dateISO: '2026-11-05', sportGroup: 'Bowling', away: '', awayScore: '', home: 'Kamehameha Maui', homeScore: '4239' }),
+    game({ id: 'MYS-0073', dateISO: '2026-11-06', sportGroup: 'Football', away: 'King Kekaulike', awayScore: '26', home: 'Kamehameha Maui', homeScore: '13' })
+  ];
+  assert.deepEqual(ids(api.chooseHomepage(rows, [], { today: '2026-11-07' })), ['MYS-0073', 'MYS-0070', 'MYS-0064']);
+});
+
 test('weeks-old games still show when they are truly the newest approved rows', () => {
   const api = loadHomeScores();
   const onlyOld = [
