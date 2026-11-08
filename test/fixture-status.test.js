@@ -231,7 +231,7 @@ async function render() {
   return statusMap(document);
 }
 
-test('known venues replace TBD and the November 7 football site stays TBD', () => {
+test('known venues replace TBD, including the November 7 football site', () => {
   const schedules = fs.readFileSync('public/schedules/index.html', 'utf8');
   const volleyball = fs.readFileSync('public/sports/volleyball/index.html', 'utf8');
   const crossCountry = fs.readFileSync('public/sports/cross-country/index.html', 'utf8');
@@ -245,14 +245,14 @@ test('known venues replace TBD and the November 7 football site stays TBD', () =
   assert.ok(volleyball.includes(playInVenue));
   assert.ok(schedules.includes(hhsaaVenue));
   assert.ok(crossCountry.includes(hhsaaVenue));
-  assert.ok(schedules.includes('data-fixture-date="2026-11-07"') && /data-fixture-date="2026-11-07">[\s\S]*?<td>TBD<\/td>/.test(schedules));
+  assert.ok(schedules.includes('data-fixture-date="2026-11-07"') && /data-fixture-date="2026-11-07">[\s\S]*?<td>Sue D\. Cooley Stadium<\/td>/.test(schedules));
   assert.ok(playIn.includes('<dd>Lahainaluna</dd>'));
   assert.equal(playIn.includes('location to be announced'), false);
   assert.ok(hhsaa.includes('<dd>Hawaii Preparatory Academy (Waimea)</dd>'));
   assert.equal(hhsaa.includes('location to be announced'), false);
   assert.ok(today.includes('2026-10-17 at 6:00 PM HST at Lahainaluna'));
   assert.ok(today.includes('2026-10-31 at 8:00 AM HST at Hawaii Preparatory Academy (Waimea)'));
-  assert.ok(today.includes('2026-11-07 at 7:00 PM HST, location to be announced'));
+  assert.ok(today.includes('2026-11-07 at 7:00 PM HST, Sue D. Cooley Stadium, 980 Lahainaluna Rd, Lahaina'));
   assert.ok(events.includes('"slug": "mil-di-girls-volleyball-2026-10-17-g1"'));
   assert.ok(/"slug": "mil-di-girls-volleyball-2026-10-17-g1"[\s\S]{0,800}"location": "Lahainaluna"/.test(events));
   assert.ok(/"slug": "mil-cross-country-2026-10-31-hhsaa-championships-hhsaa"[\s\S]{0,800}"location": "Hawaii Preparatory Academy \(Waimea\)"/.test(events));
