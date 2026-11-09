@@ -3,6 +3,23 @@
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
     {
+      "id": "MYS-0074",
+      "dateISO": "2026-11-07",
+      "sportGroup": "Football",
+      "sport": "Boys Football · Varsity DI",
+      "away": "Baldwin",
+      "awayScore": "7",
+      "home": "Lahainaluna",
+      "homeScore": "6",
+      "status": "FINAL",
+      "href": "https://www.staradvertiser.com/2026/11/09/sports/scoreboard-november-9-2026/",
+      "urlOnMYS": "",
+      "notes": "MIL Division I football at Sue D. Cooley Stadium in Lahaina.",
+      "sourceName": "Star-Advertiser",
+      "meet": false,
+      "meetLine": ""
+    },
+    {
       "id": "MYS-0073",
       "dateISO": "2026-11-06",
       "sportGroup": "Football",
