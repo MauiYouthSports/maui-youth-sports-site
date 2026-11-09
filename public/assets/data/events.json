@@ -433,11 +433,13 @@
     "details": "DI Football: Baldwin – Lahainaluna, 2026-11-07 at 7:00 PM HST, Sue D. Cooley Stadium, 980 Lahainaluna Rd, Lahaina.",
     "source": "https://milsports.org/schedule/744298/di-football",
     "verified": "2026-11-07",
-    "updated": "2026-11-07",
+    "updated": "2026-11-09",
     "verificationState": "verified-published-schedule",
     "url": "/events/mil-di-football-2026-11-07-baldwin-lahainaluna/",
     "supportingSources": [],
-    "listingCategory": "competition"
+    "listingCategory": "competition",
+    "currentStatus": "final",
+    "resultSummary": "Final · Baldwin 7 – Lahainaluna 6"
   },
   {
     "slug": "mil-di-girls-volleyball-2026-10-06-baldwin-ks-maui",
