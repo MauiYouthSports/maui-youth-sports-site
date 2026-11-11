@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "pagefind --site public"
+    "build": "node scripts/build-seo.mjs && node scripts/build-sitemap.mjs && pagefind --site public"
   },
   "devDependencies": {
     "pagefind": "^1.4.0"

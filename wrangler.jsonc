@@ -1,13 +1,15 @@
-// Mirrors the live Cloudflare settings for "maui-youth-sports" (read 2026-10-13).
-// The live Worker has NO script code, NO bindings, NO env vars or secrets, NO cron.
-// Custom domains keep mauiyouthsports.com and www on this Worker at deploy time.
+// Custom domains mauiyouthsports.com and www are served from the assets binding.
+// Requests on any *.workers.dev host are redirected to the same path on the apex site.
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "maui-youth-sports",
   "compatibility_date": "2026-10-12",
   "workers_dev": true,
+  "main": "src/index.js",
   "assets": {
     "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true,
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
@@ -17,7 +19,4 @@
   ],
   // Required by the PR build command `npx wrangler preview`. Assets stay at the top level.
   "previews": {}
-  // Later, when /api/submit is added: "main": "src/index.js", plus
-  // "assets": { ..., "binding": "ASSETS", "run_worker_first": ["/api/*"] }
-  // and the Formspree endpoint as a var/secret (set with `wrangler secret put`, never committed).
 }

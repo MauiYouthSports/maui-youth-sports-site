@@ -8,3 +8,12 @@
 .scores-page .score-stats-label{display:block;margin-bottom:2px;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#3a545c}
 .scores-page .has-stats .game-card-actions{margin-top:8px}
 @media(max-width:600px){.scores-page .score-stats{font-size:13px;line-height:1.4;margin-top:8px}}
+.score-cta{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;margin:8px 0 28px}
+.score-cta h2{margin:0 0 8px;font-size:clamp(22px,3vw,28px)}
+.score-cta .formcard{margin:14px 0 0;max-width:none}
+.score-cta .field-help{display:block;margin-top:4px;font-weight:500;color:#3a545c;line-height:1.4}
+.score-cta a.submit{display:inline-block;font-weight:800;text-decoration:none}
+.score-cta-repeat{padding:16px 18px}
+.score-cta-repeat h2{font-size:20px}
+#score-turnstile:empty{display:none}
+@media(max-width:700px){.score-cta{padding:16px}.score-cta .submit,.score-cta .submitbig{width:100%}}
