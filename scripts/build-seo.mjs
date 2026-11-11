@@ -58,6 +58,11 @@ function hubExists(slug) {
   return existsSync(join(PUBLIC, 'sports', slug, 'index.html'));
 }
 function checkedMarkup(date) {
+  const month = /^(\d{4})-(\d{2})$/.exec(date || '');
+  if (month) {
+    const label = `Last checked ${MONTHS[Number(month[2]) - 1].slice(0, 3)} ${month[1]}`;
+    return `<p class="hub-checked" data-checked="${date}">${esc(label)}</p>`;
+  }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return '<p class="hub-checked" data-checked="" hidden></p>';
   const [y, m, d] = date.split('-').map(Number);
   const label = `Last checked ${MONTHS[m - 1]} ${d}, ${y}`;
@@ -86,10 +91,33 @@ function programs(html) {
   }
   return items;
 }
+function listedPlaces(html) {
+  const items = [];
+  const seen = new Set();
+  for (const row of html.matchAll(/<tr\b([^>]*)>/g)) {
+    const attrs = row[1];
+    const name = decode((attrs.match(/data-list-name="([^"]*)"/) || [])[1] || '');
+    if (!name || seen.has(name)) continue;
+    seen.add(name);
+    const url = (attrs.match(/data-list-url="([^"]*)"/) || [])[1] || '';
+    const item = { '@type': 'ListItem', name };
+    if (url) item.url = url.startsWith('http') ? url : `https://mauiyouthsports.com${url}`;
+    items.push(item);
+  }
+  return items;
+}
 function withItemList(html, slug) {
   const items = programs(html);
+  const seen = new Set(items.map((item) => item.name));
+  for (const place of listedPlaces(html)) {
+    if (seen.has(place.name)) continue;
+    seen.add(place.name);
+    items.push(place);
+  }
+  items.forEach((item, index) => { item.position = index + 1; });
   const h1 = (html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1];
   const name = h1 ? decode(h1) : slug;
+  const checked = (html.match(/data-checked="([^"]*)"/) || [])[1] || '';
   const data = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -97,6 +125,7 @@ function withItemList(html, slug) {
     url: `https://mauiyouthsports.com/sports/${slug}/`,
     mainEntity: { '@type': 'ItemList', itemListElement: items }
   };
+  if (/^\d{4}-\d{2}(-\d{2})?$/.test(checked)) data.dateModified = checked;
   const tag = `<script type="application/ld+json">${JSON.stringify(data)}</script>`;
   let replaced = false;
   const next = html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g, (whole, json) => {
@@ -175,7 +204,8 @@ for (const slug of readdirSync(join(PUBLIC, 'sports'))) {
   html = fillHighlights(html, slug, stories);
   html = ensureSlots(html);
   for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) JSON.parse(match[1]);
-  if (html.includes('"@type":"FAQPage"') || html.includes('"@type": "FAQPage"')) throw new Error('FAQPage emitted on ' + slug);
+  const hasFaqSchema = html.includes('"@type":"FAQPage"') || html.includes('"@type": "FAQPage"');
+  if (hasFaqSchema && !html.includes('data-faq')) throw new Error('FAQPage emitted on ' + slug);
   writeFileSync(file, html);
 }
 

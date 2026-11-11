@@ -1,6 +1,10 @@
 /* Emits FAQPage JSON-LD only when a hub has visible FAQ questions. */
 (function () {
   'use strict';
+  var already = [].some.call(document.scripts, function (script) {
+    return /"@type"\s*:\s*"FAQPage"/.test(script.textContent || '');
+  });
+  if (already) return;
   var root = document.querySelector('[data-faq]');
   if (!root || root.hidden) return;
   var questions = [].slice.call(root.querySelectorAll('[data-faq-q]')).filter(function (el) {
