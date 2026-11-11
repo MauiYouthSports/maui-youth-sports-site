@@ -6,3 +6,14 @@
 @media(max-width:650px){.directory-filters{grid-template-columns:1fr}.sport-text-tile{min-height:0;font-size:17px}.new-sport-heading{padding:26px 20px}.p-club h3{font-size:22px}}
 
 .sport-about .sport-tagline{font-size:1.15rem;font-weight:650;line-height:1.55;color:inherit;margin-bottom:1rem}
+.hub-copy{max-width:820px}
+.hub-copy h1{font-size:clamp(32px,5vw,48px);line-height:1.15;margin:8px 0 8px}
+.hub-copy h2{font-size:26px;margin:28px 0 10px}
+.hub-copy h3{font-size:20px;margin:18px 0 8px}
+.hub-copy p,.hub-copy li{font-size:17px;line-height:1.65}
+.hub-copy ul,.hub-copy ol{margin:8px 0 16px;padding-left:1.25em}
+.hub-copy li{margin:6px 0}
+.hub-copy a{color:#08777c;font-weight:700}
+.hub-checked{margin:0 0 8px;color:#3a545c;font-weight:700}
+.hub-copy .fixture-scroll{margin:12px 0 18px}
+@media(max-width:700px){.hub-copy h2{font-size:22px}.hub-copy p,.hub-copy li{font-size:16px}}
