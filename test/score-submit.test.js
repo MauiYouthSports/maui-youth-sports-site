@@ -52,22 +52,27 @@ test('score form rejects a future date, a bad sport, and a filled honeypot witho
   assert.equal(called, false);
 });
 
-test('score form emails Formspree and does not publish', async () => {
-  const { handleScore } = await load();
-  let posted;
-  const response = await handleScore(request(sample()), {}, async (url, init) => {
-    posted = { url: String(url), body: init.body };
-    return new Response(JSON.stringify({ ok: true }), { status: 200, headers: { 'content-type': 'application/json' } });
-  });
+function mailEnv(sent) {
+  return {
+    SCORE_EMAIL: {
+      testMode: true,
+      send: async (raw) => { sent.push(raw); }
+    }
+  };
+}
+
+test('score form emails the verified Gmail address and does not publish', async () => {
+  const { handleScore, MAIL_TO } = await load();
+  const sent = [];
+  const response = await handleScore(request(sample()), mailEnv(sent));
   const out = await response.json();
   assert.equal(out.ok, true);
   assert.match(out.message, /Mahalo/);
-  assert.equal(posted.url, 'https://formspree.io/f/xnpjbwjz');
-  const sent = Object.fromEntries(posted.body.entries());
-  assert.equal(sent.subject, 'MYS Score: Football Baldwin vs Lahainaluna');
-  assert.equal(sent.review_status, 'pending');
-  assert.equal(sent.highlights, 'TEST');
-  assert.equal(sent.mys_form, 'submission');
+  assert.equal(sent.length, 1);
+  assert.match(sent[0], new RegExp(`^To: ${MAIL_TO}`, 'm'));
+  assert.match(sent[0], /^Subject: MYS Score: Football Baldwin vs Lahainaluna/m);
+  assert.match(sent[0], /Highlights: TEST/);
+  assert.equal(sent[0].includes('formspree'), false);
 });
 
 test('turnstile siteverify runs only when a secret is configured', async () => {
@@ -80,14 +85,17 @@ test('turnstile siteverify runs only when a secret is configured', async () => {
     }
     return new Response(JSON.stringify({ ok: true }), { status: 200 });
   };
-  const open = await handleScore(request(sample()), {}, fetchImpl);
+  const sent = [];
+  const open = await handleScore(request(sample()), { ...mailEnv(sent) }, fetchImpl);
   assert.equal((await open.json()).ok, true);
-  assert.deepEqual(calls, ['https://formspree.io/f/xnpjbwjz']);
+  assert.equal(sent.length, 1);
+  assert.deepEqual(calls, []);
   calls.length = 0;
-  const blocked = await handleScore(request(sample({ 'cf-turnstile-response': 'token' })), { TURNSTILE_SECRET: 'secret' }, fetchImpl);
+  sent.length = 0;
+  const blocked = await handleScore(request(sample({ 'cf-turnstile-response': 'token' })), { ...mailEnv(sent), TURNSTILE_SECRET: 'secret' }, fetchImpl);
   assert.equal(blocked.status, 403);
+  assert.equal(sent.length, 0);
   assert.equal(calls.some((url) => url.includes('siteverify')), true);
-  assert.equal(calls.some((url) => url.includes('formspree')), false);
 });
 
 test('workers.dev redirects and the scores page does not print the public email', async () => {

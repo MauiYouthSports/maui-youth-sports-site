@@ -1,5 +1,6 @@
-const FORMSPREE = 'https://formspree.io/f/xnpjbwjz';
 const SUBJECT_PREFIX = 'MYS Score';
+const MAIL_FROM = 'scores@mauiyouthsports.com';
+const MAIL_TO = 'mauiyouthsports@gmail.com';
 const HOSTS = new Set(['mauiyouthsports.com', 'www.mauiyouthsports.com']);
 const SPORTS = [
   'Baseball', 'Basketball', 'Bowling', 'Paddling', 'Cheerleading', 'Cross Country', 'Dance',
@@ -129,33 +130,59 @@ export async function handleScore(request, env, fetchImpl = fetch) {
   const turnstile = await checkTurnstile(request, env, raw['cf-turnstile-response'] || '', fetchImpl);
   if (!turnstile.ok) return reply(403, { ok: false, error: 'Please confirm you are a person and try again.' });
   const fields = checked.fields;
-  const body = new FormData();
-  body.set('type', 'score');
-  body.set('submission_category', 'score');
-  body.set('mys_form', 'submission');
-  body.set('review_status', 'pending');
-  body.set('subject', checked.subject);
-  body.set('sport', fields.sport);
-  body.set('home_team', fields.home);
-  body.set('away_team', fields.away);
-  body.set('final_score', fields.score);
-  body.set('event_date', fields.date);
-  body.set('division', fields.division);
-  body.set('highlights', fields.highlights);
-  body.set('name', fields.name);
-  body.set('email', fields.email);
-  let sent;
+  const message = scoreMime(fields, checked.subject);
   try {
-    sent = await fetchImpl(FORMSPREE, { method: 'POST', headers: { Accept: 'application/json' }, body });
+    await deliverScore(env, message);
   } catch {
-    return reply(502, { ok: false, error: 'Your score didn’t send. Everything you typed is still here, so you can try again.' });
-  }
-  const out = await sent.json().catch(() => null);
-  if (!sent.ok || !out || out.ok !== true) {
     return reply(502, { ok: false, error: 'Your score didn’t send. Everything you typed is still here, so you can try again.' });
   }
   if (wantsJson) return json(200, { ok: true, message: "Mahalo! We'll check it and post it soon." });
   return html(200, "Mahalo! We'll check it and post it soon.");
 }
 
-export { SPORTS, SUBJECT_PREFIX };
+function headerValue(value) {
+  const text = String(value).replace(/[\r\n]+/g, ' ').trim();
+  if (/^[\t\x20-\x7E]*$/.test(text)) return text;
+  const bytes = new TextEncoder().encode(text);
+  let binary = '';
+  for (const byte of bytes) binary += String.fromCharCode(byte);
+  return `=?UTF-8?B?${btoa(binary)}?=`;
+}
+
+export function scoreMime(fields, subject) {
+  const lines = [
+    `From: Maui Youth Sports <${MAIL_FROM}>`,
+    `To: ${MAIL_TO}`,
+    `Reply-To: ${headerValue(fields.email)}`,
+    `Subject: ${headerValue(subject)}`,
+    'MIME-Version: 1.0',
+    'Content-Type: text/plain; charset=UTF-8',
+    'Content-Transfer-Encoding: 8bit',
+    '',
+    'A score was submitted for review. Nothing is published until it is checked.',
+    '',
+    `Sport: ${fields.sport}`,
+    `Home: ${fields.home}`,
+    `Away: ${fields.away}`,
+    `Final score: ${fields.score}`,
+    `Date: ${fields.date}`,
+    `Level: ${fields.division || ''}`,
+    `Highlights: ${fields.highlights || ''}`,
+    `Name: ${fields.name}`,
+    `Email: ${fields.email}`
+  ];
+  return lines.join('\r\n');
+}
+
+async function deliverScore(env, raw) {
+  const binding = env && env.SCORE_EMAIL;
+  if (!binding || typeof binding.send !== 'function') throw new Error('mail is not configured');
+  if (binding.testMode) {
+    await binding.send(raw);
+    return;
+  }
+  const { EmailMessage } = await import('cloudflare:email');
+  await binding.send(new EmailMessage(MAIL_FROM, MAIL_TO, raw));
+}
+
+export { SPORTS, SUBJECT_PREFIX, MAIL_FROM, MAIL_TO };

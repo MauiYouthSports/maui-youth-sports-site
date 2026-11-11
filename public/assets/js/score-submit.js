@@ -5,14 +5,21 @@
   var status = document.getElementById('scoreSubmitStatus');
   var button = document.getElementById('scoreSubmitButton');
   var widgetId = null;
-  var sitekey = form.getAttribute('data-turnstile-sitekey') || '';
-  if (sitekey) {
+  var sitekey = (form.getAttribute('data-turnstile-sitekey') || '').trim();
+  var slot = document.getElementById('score-turnstile');
+  if (!sitekey) {
+    if (slot) slot.remove();
+  } else {
+    if (!slot) {
+      slot = document.createElement('div');
+      slot.id = 'score-turnstile';
+      form.insertBefore(slot, document.getElementById('scoreSubmitButton'));
+    }
     var script = document.createElement('script');
     script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
     script.async = true;
     script.onload = function () {
-      var slot = document.getElementById('score-turnstile');
-      if (!slot || !window.turnstile) return;
+      if (!window.turnstile) return;
       widgetId = window.turnstile.render(slot, { sitekey: sitekey, action: 'score' });
     };
     document.head.appendChild(script);

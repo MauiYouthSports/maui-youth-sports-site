@@ -17,6 +17,9 @@
     {"pattern": "mauiyouthsports.com", "custom_domain": true},
     {"pattern": "www.mauiyouthsports.com", "custom_domain": true}
   ],
+  "send_email": [
+    { "name": "SCORE_EMAIL", "destination_address": "mauiyouthsports@gmail.com" }
+  ],
   // Required by the PR build command `npx wrangler preview`. Assets stay at the top level.
   "previews": {}
 }
