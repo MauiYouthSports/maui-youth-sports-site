@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T02:42:44.400Z",
+  "generatedAt": "2026-11-14T02:41:02.676Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
     {
@@ -473,7 +473,7 @@
       "status": "FINAL",
       "href": "https://api.v2.ballfrog.com/api/v1/teams/1169/events?school_uuid=6297a277-fd6c-4372-af5b-abbf264bec65&limit=100",
       "urlOnMYS": "",
-      "notes": "FINAL: Kamehameha Maui 38, Kūlanihākoʻi 0 (KSM Senior Night, 6 PM kickoff). KSM athletics event 175535 result 'W 38-0'; summary: Warriors go to 6-1 with their third win over the Manta Rays of Kūlanihākoʻi on Senior Night. Live updates earlier: 1st 4:26 KSM 7-0; 2nd 10:06 KSM 10-0. Single source (school site) so far.",
+      "notes": "FINAL: Kamehameha Maui 38, Kūlanihākoʻi 0 (KSM Senior Night, 6 PM kickoff). Warriors go to 6-1 with their third win over the Manta Rays of Kūlanihākoʻi on Senior Night. Live updates earlier: 1st 4:26 KSM 7-0; 2nd 10:06 KSM 10-0.",
       "sourceName": "Kamehameha Maui Athletics",
       "meet": false,
       "meetLine": ""
