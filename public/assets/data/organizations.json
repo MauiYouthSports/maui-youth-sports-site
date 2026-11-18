@@ -246,6 +246,28 @@
   },
   {
     "sport": "rugby",
+    "slug": "maui-nui-rugby-club",
+    "name": "Maui Nui Rugby Club (MNRC)",
+    "island": "Maui",
+    "area": "Maui",
+    "ages": "",
+    "description": "Maui Nui Rugby Club (MNRC) is one of two major rugby clubs on Maui and offers rugby programs throughout the island. Rugby is for both girls and boys and can be played in a flag, touch, or tackle format. The club website has season information, registration links, and interest forms.",
+    "website": "https://mauinuirugby.org",
+    "where": "Maui",
+    "season": "",
+    "registration": "Register for the upcoming season or fill out the interest form on the club website, or email the club.",
+    "contact": "Angel Akana",
+    "phone": "",
+    "email": "angel.maui.rugby@gmail.com",
+    "extra": "",
+    "status": "Youth program",
+    "sources": [
+      "https://mauinuirugby.org"
+    ],
+    "href": "/sports-directory/rugby/maui-nui-rugby-club/"
+  },
+  {
+    "sport": "rugby",
     "slug": "kahului-rugby-warriors",
     "name": "Kahului Rugby Warriors",
     "island": "Maui",
@@ -271,20 +293,20 @@
     "slug": "na-pueo-rugby",
     "name": "Na Pueo Rugby",
     "island": "Maui",
-    "area": "Maui",
+    "area": "Upcountry",
     "ages": "",
-    "description": "A Maui club in Hawaiʻi Youth Rugby. Contact the club about teams and how to join.",
-    "website": "https://sites.google.com/view/hawaiiyouthrugby/home",
-    "where": "Maui",
+    "description": "Na Pueo Rugby is Maui Nui Rugby Club’s Upcountry team. Families can fill out the interest form on the club website or email the team.",
+    "website": "https://mauinuirugby.org",
+    "where": "Upcountry",
     "season": "",
-    "registration": "Contact the program to sign up. They can tell you about age groups, openings, fees and practice times.",
-    "contact": "Angel Akana · HYR-listed contact",
+    "registration": "Fill out the interest form at mauinuirugby.org or email napueo@mauinuirugby.org.",
+    "contact": "",
     "phone": "",
-    "email": "angel.maui.rugby@gmail.com",
+    "email": "napueo@mauinuirugby.org",
     "extra": "",
-    "status": "Youth rugby affiliate",
+    "status": "Upcountry team",
     "sources": [
-      "https://sites.google.com/view/hawaiiyouthrugby/home"
+      "https://mauinuirugby.org"
     ],
     "href": "/sports-directory/rugby/na-pueo-rugby/"
   },
