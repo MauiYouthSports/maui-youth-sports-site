@@ -1,7 +1,24 @@
 {
-  "generatedAt": "2026-11-22T09:22:30.773Z",
+  "generatedAt": "2026-11-23T20:38:48.365Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
+    {
+      "id": "MYS-0101",
+      "dateISO": "2026-11-21",
+      "sportGroup": "Basketball",
+      "sport": "Boys Basketball · Varsity",
+      "away": "Lahainaluna",
+      "awayScore": "54",
+      "home": "Seabury Hall",
+      "homeScore": "49",
+      "status": "FINAL",
+      "href": "https://www.maxpreps.com/news/9kO4w5-WqEOLKimIkhKxOw/basketball-recap-lahainaluna-rolls-to-its-third-straight-win--how-to-watch.htm",
+      "urlOnMYS": "",
+      "notes": "Boys varsity preseason game, Saturday at Seabury Hall. Lahainaluna moves to 3-0; Seabury Hall's first loss (2-1).",
+      "sourceName": "MaxPreps",
+      "meet": false,
+      "meetLine": ""
+    },
     {
       "id": "MYS-0102",
       "dateISO": "2026-11-21",
