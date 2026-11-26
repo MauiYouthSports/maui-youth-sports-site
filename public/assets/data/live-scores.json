@@ -1,7 +1,24 @@
 {
-  "generatedAt": "2026-11-23T20:38:48.365Z",
+  "generatedAt": "2026-11-26T17:25:54.983Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
+    {
+      "id": "MYS-0106",
+      "dateISO": "2026-11-24",
+      "sportGroup": "Basketball",
+      "sport": "Boys Basketball · Varsity",
+      "away": "Lahainaluna",
+      "awayScore": "64",
+      "home": "King Kekaulike",
+      "homeScore": "55",
+      "status": "FINAL",
+      "href": "https://www.maxpreps.com/news/QS6RCuLJjUCNh9f1NrlBag/basketball-recap-lahainaluna-extends-winning-streak-to-four--how-to-watch.htm",
+      "urlOnMYS": "",
+      "notes": "MIL opener. Lahainaluna improves to 4–0; King Kekaulike falls to 1–2.",
+      "sourceName": "MaxPreps",
+      "meet": false,
+      "meetLine": ""
+    },
     {
       "id": "MYS-0101",
       "dateISO": "2026-11-21",
