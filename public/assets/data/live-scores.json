@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T17:05:04.178Z",
+  "generatedAt": "2026-11-28T09:48:02.041Z",
   "source": "MYS Scores sheet (approved rows)",
   "rows": [
     {
@@ -33,6 +33,23 @@
       "urlOnMYS": "",
       "notes": "MIL opener. Lahainaluna improves to 4–0; King Kekaulike falls to 1–2.",
       "sourceName": "MaxPreps",
+      "meet": false,
+      "meetLine": ""
+    },
+    {
+      "id": "MYS-0108",
+      "dateISO": "2026-11-24",
+      "sportGroup": "Basketball",
+      "sport": "Boys Basketball · Varsity",
+      "away": "Maui High",
+      "awayScore": "25",
+      "home": "Baldwin",
+      "homeScore": "67",
+      "status": "FINAL",
+      "href": "https://www.si.com/high-school/stats/hawaii/basketball/games/7040664-maui-vs-baldwin",
+      "urlOnMYS": "",
+      "notes": "MIL opener. Baldwin starts 1-0; Maui High falls to 0-1.",
+      "sourceName": "High School On SI",
       "meet": false,
       "meetLine": ""
     },
